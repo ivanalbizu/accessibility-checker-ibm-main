@@ -1,0 +1,1194 @@
+{
+    "results": [
+        {
+            "ruleId": "element_attribute_deprecated",
+            "value": [
+                "RECOMMENDATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/meta[2]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_elem_attr",
+            "message": "The HTML attribute(s) \"http-equiv\" is deprecated for the <meta> element in HTML 5",
+            "messageArgs": [
+                "http-equiv",
+                "meta"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 1927,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<meta content=\"ie=edge\" http-equiv=\"x-ua-compatible\">",
+            "category": "Accessibility",
+            "level": "recommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_attribute_deprecated.html#%7B%22message%22%3A%22The%20HTML%20attribute(s)%20%5C%22http-equiv%5C%22%20is%20deprecated%20for%20the%20%3Cmeta%3E%20element%20in%20HTML%205%22%2C%22snippet%22%3A%22%3Cmeta%20content%3D%5C%22ie%3Dedge%5C%22%20http-equiv%3D%5C%22x-ua-compatible%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_elem_attr%22%2C%22ruleId%22%3A%22element_attribute_deprecated%22%2C%22msgArgs%22%3A%5B%22http-equiv%22%2C%22meta%22%5D%7D"
+        },
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/style[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 7,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 1927,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<style id=\"gatsby-global-css\" data-href=\"/able/styles.88a2f5040b399982b842.css\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Cstyle%20id%3D%5C%22gatsby-global-css%5C%22%20data-href%3D%5C%22%2Fable%2Fstyles.88a2f5040b399982b842.css%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_highcontrast_visible",
+            "value": [
+                "VIOLATION",
+                "MANUAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/style[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Manual_1",
+            "message": "Confirm Windows high contrast mode is supported when using CSS to include, position or alter non-decorative content",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 1927,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<style id=\"gatsby-global-css\" data-href=\"/able/styles.88a2f5040b399982b842.css\">",
+            "category": "Accessibility",
+            "level": "manual",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_highcontrast_visible.html#%7B%22message%22%3A%22Confirm%20Windows%20high%20contrast%20mode%20is%20supported%20when%20using%20CSS%20to%20include%2C%20position%20or%20alter%20non-decorative%20content%22%2C%22snippet%22%3A%22%3Cstyle%20id%3D%5C%22gatsby-global-css%5C%22%20data-href%3D%5C%22%2Fable%2Fstyles.88a2f5040b399982b842.css%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22MANUAL%22%5D%2C%22reasonId%22%3A%22Manual_1%22%2C%22ruleId%22%3A%22style_highcontrast_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_viewport_resizable",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/style[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 4,
+            "reasonId": "Potential_1",
+            "message": "Verify that text sized using viewport units can be resized up to 200%",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 1927,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<style id=\"gatsby-global-css\" data-href=\"/able/styles.88a2f5040b399982b842.css\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_viewport_resizable.html#%7B%22message%22%3A%22Verify%20that%20text%20sized%20using%20viewport%20units%20can%20be%20resized%20up%20to%20200%25%22%2C%22snippet%22%3A%22%3Cstyle%20id%3D%5C%22gatsby-global-css%5C%22%20data-href%3D%5C%22%2Fable%2Fstyles.88a2f5040b399982b842.css%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_viewport_resizable%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/button[1]",
+                "aria": "/document[1]/banner[1]/button[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 1927,
+                "height": 48,
+                "width": 48
+            },
+            "snippet": "<button type=\"button\" title=\"Site\" class=\"bx--header__action--menu Header-module--header-button--1dIka bx--header__action bx--header__menu-trigger bx--header__menu-toggle bx--header__menu-toggle__hidden\" aria-label=\"Site\" aria-haspopup=\"true\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Cbutton%20type%3D%5C%22button%5C%22%20title%3D%5C%22Site%5C%22%20class%3D%5C%22bx--header__action--menu%20Header-module--header-button--1dIka%20bx--header__action%20bx--header__menu-trigger%20bx--header__menu-toggle%20bx--header__menu-toggle__hidden%5C%22%20aria-label%3D%5C%22Site%5C%22%20aria-haspopup%3D%5C%22true%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/button[1]",
+                "aria": "/document[1]/banner[1]/button[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 1927,
+                "height": 48,
+                "width": 48
+            },
+            "snippet": "<button type=\"button\" title=\"Site\" class=\"bx--header__action--menu Header-module--header-button--1dIka bx--header__action bx--header__menu-trigger bx--header__menu-toggle bx--header__menu-toggle__hidden\" aria-label=\"Site\" aria-haspopup=\"true\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20type%3D%5C%22button%5C%22%20title%3D%5C%22Site%5C%22%20class%3D%5C%22bx--header__action--menu%20Header-module--header-button--1dIka%20bx--header__action%20bx--header__menu-trigger%20bx--header__menu-toggle%20bx--header__menu-toggle__hidden%5C%22%20aria-label%3D%5C%22Site%5C%22%20aria-haspopup%3D%5C%22true%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/banner[1]/search[1]/button[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 704,
+                "top": 1927,
+                "height": 47,
+                "width": 48
+            },
+            "snippet": "<button aria-label=\"Open Search\" type=\"button\" class=\"GlobalSearch-module--searchButton--2z85b\" tabindex=\"0\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Open%20Search%5C%22%20type%3D%5C%22button%5C%22%20class%3D%5C%22GlobalSearch-module--searchButton--2z85b%5C%22%20tabindex%3D%5C%220%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/banner[1]/search[1]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 704,
+                "top": 1927,
+                "height": 47,
+                "width": 48
+            },
+            "snippet": "<button aria-label=\"Open Search\" type=\"button\" class=\"GlobalSearch-module--searchButton--2z85b\" tabindex=\"0\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Open%20Search%5C%22%20type%3D%5C%22button%5C%22%20class%3D%5C%22GlobalSearch-module--searchButton--2z85b%5C%22%20tabindex%3D%5C%220%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/banner[1]/search[1]/combobox[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_placeholder_only",
+            "message": "The ‘placeholder’ is the only visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 752,
+                "top": 1927,
+                "height": 48,
+                "width": 0
+            },
+            "snippet": "<input aria-label=\"Search\" aria-expanded=\"false\" aria-haspopup=\"listbox\" role=\"combobox\" value=\"\" placeholder=\"Search\" id=\"search-input\" class=\"GlobalSearch-module--input--M-FFD GlobalSearch-module--hidden--1dm5F\" aria-activedescendant=\"\" aria-controls=\"\" aria-autocomplete=\"list\" tabindex=\"-1\" autocomplete=\"off\" type=\"text\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20%E2%80%98placeholder%E2%80%99%20is%20the%20only%20visible%20label%22%2C%22snippet%22%3A%22%3Cinput%20aria-label%3D%5C%22Search%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-haspopup%3D%5C%22listbox%5C%22%20role%3D%5C%22combobox%5C%22%20value%3D%5C%22%5C%22%20placeholder%3D%5C%22Search%5C%22%20id%3D%5C%22search-input%5C%22%20class%3D%5C%22GlobalSearch-module--input--M-FFD%20GlobalSearch-module--hidden--1dm5F%5C%22%20aria-activedescendant%3D%5C%22%5C%22%20aria-controls%3D%5C%22%5C%22%20aria-autocomplete%3D%5C%22list%5C%22%20tabindex%3D%5C%22-1%5C%22%20autocomplete%3D%5C%22off%5C%22%20type%3D%5C%22text%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_placeholder_only%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "widget_tabbable_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/banner[1]/search[1]/combobox[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_tabbable",
+            "message": "Component with \"combobox\" role does not have a tabbable element",
+            "messageArgs": [
+                "combobox"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 752,
+                "top": 1927,
+                "height": 48,
+                "width": 0
+            },
+            "snippet": "<input aria-label=\"Search\" aria-expanded=\"false\" aria-haspopup=\"listbox\" role=\"combobox\" value=\"\" placeholder=\"Search\" id=\"search-input\" class=\"GlobalSearch-module--input--M-FFD GlobalSearch-module--hidden--1dm5F\" aria-activedescendant=\"\" aria-controls=\"\" aria-autocomplete=\"list\" tabindex=\"-1\" autocomplete=\"off\" type=\"text\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/widget_tabbable_exists.html#%7B%22message%22%3A%22Component%20with%20%5C%22combobox%5C%22%20role%20does%20not%20have%20a%20tabbable%20element%22%2C%22snippet%22%3A%22%3Cinput%20aria-label%3D%5C%22Search%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-haspopup%3D%5C%22listbox%5C%22%20role%3D%5C%22combobox%5C%22%20value%3D%5C%22%5C%22%20placeholder%3D%5C%22Search%5C%22%20id%3D%5C%22search-input%5C%22%20class%3D%5C%22GlobalSearch-module--input--M-FFD%20GlobalSearch-module--hidden--1dm5F%5C%22%20aria-activedescendant%3D%5C%22%5C%22%20aria-controls%3D%5C%22%5C%22%20aria-autocomplete%3D%5C%22list%5C%22%20tabindex%3D%5C%22-1%5C%22%20autocomplete%3D%5C%22off%5C%22%20type%3D%5C%22text%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22fail_no_tabbable%22%2C%22ruleId%22%3A%22widget_tabbable_exists%22%2C%22msgArgs%22%3A%5B%22combobox%22%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/button[2]",
+                "aria": "/document[1]/banner[1]/search[1]/button[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 752,
+                "top": 1927,
+                "height": 47,
+                "width": 48
+            },
+            "snippet": "<button aria-label=\"Close search\" type=\"button\" class=\"GlobalSearch-module--searchButton--2z85b GlobalSearch-module--search-button--close--1Lslo GlobalSearch-module--hidden--1dm5F\" tabindex=\"-1\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Close%20search%5C%22%20type%3D%5C%22button%5C%22%20class%3D%5C%22GlobalSearch-module--searchButton--2z85b%20GlobalSearch-module--search-button--close--1Lslo%20GlobalSearch-module--hidden--1dm5F%5C%22%20tabindex%3D%5C%22-1%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "widget_tabbable_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/button[2]",
+                "aria": "/document[1]/banner[1]/search[1]/button[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_tabbable",
+            "message": "Component with \"button\" role does not have a tabbable element",
+            "messageArgs": [
+                "button"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 752,
+                "top": 1927,
+                "height": 47,
+                "width": 48
+            },
+            "snippet": "<button aria-label=\"Close search\" type=\"button\" class=\"GlobalSearch-module--searchButton--2z85b GlobalSearch-module--search-button--close--1Lslo GlobalSearch-module--hidden--1dm5F\" tabindex=\"-1\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/widget_tabbable_exists.html#%7B%22message%22%3A%22Component%20with%20%5C%22button%5C%22%20role%20does%20not%20have%20a%20tabbable%20element%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Close%20search%5C%22%20type%3D%5C%22button%5C%22%20class%3D%5C%22GlobalSearch-module--searchButton--2z85b%20GlobalSearch-module--search-button--close--1Lslo%20GlobalSearch-module--hidden--1dm5F%5C%22%20tabindex%3D%5C%22-1%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22fail_no_tabbable%22%2C%22ruleId%22%3A%22widget_tabbable_exists%22%2C%22msgArgs%22%3A%5B%22button%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/button[1]",
+                "aria": "/document[1]/banner[1]/button[2]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 752,
+                "top": 1927,
+                "height": 48,
+                "width": 48
+            },
+            "snippet": "<button type=\"button\" class=\"Header-module--header-button--1dIka Header-module--switcher-button--oivC8 bx--header__action\" aria-label=\"Switch IBM product\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Cbutton%20type%3D%5C%22button%5C%22%20class%3D%5C%22Header-module--header-button--1dIka%20Header-module--switcher-button--oivC8%20bx--header__action%5C%22%20aria-label%3D%5C%22Switch%20IBM%20product%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/button[1]",
+                "aria": "/document[1]/banner[1]/button[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 752,
+                "top": 1927,
+                "height": 48,
+                "width": 48
+            },
+            "snippet": "<button type=\"button\" class=\"Header-module--header-button--1dIka Header-module--switcher-button--oivC8 bx--header__action\" aria-label=\"Switch IBM product\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20type%3D%5C%22button%5C%22%20class%3D%5C%22Header-module--header-button--1dIka%20Header-module--switcher-button--oivC8%20bx--header__action%5C%22%20aria-label%3D%5C%22Switch%20IBM%20product%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[7]/div[1]/p[1]",
+                "aria": "/document[1]/main[1]/paragraph[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'bite-sized'",
+            "messageArgs": [
+                "bite-sized"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 1261,
+                "height": 84,
+                "width": 576
+            },
+            "snippet": "<p class=\"Markdown-module--paragraph--1xZR9 Markdown-module--paragraph--responsive--103Tj\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'bite-sized'%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22Markdown-module--paragraph--1xZR9%20Markdown-module--paragraph--responsive--103Tj%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22bite-sized%22%5D%7D"
+        },
+        {
+            "ruleId": "media_keyboard_controllable",
+            "value": [
+                "VIOLATION",
+                "MANUAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/video[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Manual_1",
+            "message": "Verify media using <audio> and/or <video> elements have keyboard accessible controls",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 1377,
+                "height": 272,
+                "width": 544
+            },
+            "snippet": "<video aria-label=\"A quickstart demo on what’s included in the Sketch kit.\" controls=\"\" src=\"/able/videos/IBM_Accessibility_Sketch_kit_demo.mp4\" type=\"video/mp4\" class=\"Video-module--video--3gxn0\">",
+            "category": "Accessibility",
+            "level": "manual",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/media_keyboard_controllable.html#%7B%22message%22%3A%22Verify%20media%20using%20%3Caudio%3E%20and%2For%20%3Cvideo%3E%20elements%20have%20keyboard%20accessible%20controls%22%2C%22snippet%22%3A%22%3Cvideo%20aria-label%3D%5C%22A%20quickstart%20demo%20on%20what%E2%80%99s%20included%20in%20the%20Sketch%20kit.%5C%22%20controls%3D%5C%22%5C%22%20src%3D%5C%22%2Fable%2Fvideos%2FIBM_Accessibility_Sketch_kit_demo.mp4%5C%22%20type%3D%5C%22video%2Fmp4%5C%22%20class%3D%5C%22Video-module--video--3gxn0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22MANUAL%22%5D%2C%22reasonId%22%3A%22Manual_1%22%2C%22ruleId%22%3A%22media_keyboard_controllable%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/video[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 43,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 1377,
+                "height": 272,
+                "width": 544
+            },
+            "snippet": "<video aria-label=\"A quickstart demo on what’s included in the Sketch kit.\" controls=\"\" src=\"/able/videos/IBM_Accessibility_Sketch_kit_demo.mp4\" type=\"video/mp4\" class=\"Video-module--video--3gxn0\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cvideo%20aria-label%3D%5C%22A%20quickstart%20demo%20on%20what%E2%80%99s%20included%20in%20the%20Sketch%20kit.%5C%22%20controls%3D%5C%22%5C%22%20src%3D%5C%22%2Fable%2Fvideos%2FIBM_Accessibility_Sketch_kit_demo.mp4%5C%22%20type%3D%5C%22video%2Fmp4%5C%22%20class%3D%5C%22Video-module--video--3gxn0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 17,
+                "top": 1728,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://www.sketch.com/s/f0a04c0d-fb62-4d71-92c6-07c402f8cae7\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.sketch.com%2Fs%2Ff0a04c0d-fb62-4d71-92c6-07c402f8cae7%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[10]/div[2]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 401,
+                "top": 1728,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://www.figma.com/community/file/1118184491812988116\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1118184491812988116%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 17,
+                "top": 2238,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://chrome.google.com/webstore/detail/ibm-equal-access-accessib/lkcagbfjnkomcinoddgooolagloogehp\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fibm-equal-access-accessib%2Flkcagbfjnkomcinoddgooolagloogehp%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[16]/div[2]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 401,
+                "top": 2238,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://addons.mozilla.org/en-US/firefox/addon/accessibility-checker/\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Faddons.mozilla.org%2Fen-US%2Ffirefox%2Faddon%2Faccessibility-checker%2F%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[16]/div[3]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 17,
+                "top": 2430,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://microsoftedge.microsoft.com/addons/detail/ibm-equal-access-accessib/ompccpejakabkmfepbijnagedbdfldka\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fdetail%2Fibm-equal-access-accessib%2Fompccpejakabkmfepbijnagedbdfldka%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[7]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 17,
+                "top": 2740,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://www.npmjs.com/package/karma-accessibility-checker\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fkarma-accessibility-checker%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[19]/div[2]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 401,
+                "top": 2740,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://www.npmjs.com/package/accessibility-checker\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Faccessibility-checker%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[19]/div[3]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[9]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 17,
+                "top": 2932,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://www.npmjs.com/package/cypress-accessibility-checker\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fcypress-accessibility-checker%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[19]/div[4]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 401,
+                "top": 2932,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://central.sonatype.com/artifact/com.ibm.able/accessibility-checker\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fcentral.sonatype.com%2Fartifact%2Fcom.ibm.able%2Faccessibility-checker%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[11]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 17,
+                "top": 3242,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://github.com/IBMa/equal-access\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fgithub.com%2FIBMa%2Fequal-access%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "media_keyboard_controllable",
+            "value": [
+                "VIOLATION",
+                "MANUAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[26]/div[1]/div[1]/video[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Manual_1",
+            "message": "Verify media using <audio> and/or <video> elements have keyboard accessible controls",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 3551,
+                "height": 272,
+                "width": 544
+            },
+            "snippet": "<video aria-label=\"A basic introduction to the Equal Access Checker.\" controls=\"\" src=\"/able/videos/IBM_Accessibility_checker_vid_1_compressed.mp4\" type=\"video/mp4\" class=\"Video-module--video--3gxn0\">",
+            "category": "Accessibility",
+            "level": "manual",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/media_keyboard_controllable.html#%7B%22message%22%3A%22Verify%20media%20using%20%3Caudio%3E%20and%2For%20%3Cvideo%3E%20elements%20have%20keyboard%20accessible%20controls%22%2C%22snippet%22%3A%22%3Cvideo%20aria-label%3D%5C%22A%20basic%20introduction%20to%20the%20Equal%20Access%20Checker.%5C%22%20controls%3D%5C%22%5C%22%20src%3D%5C%22%2Fable%2Fvideos%2FIBM_Accessibility_checker_vid_1_compressed.mp4%5C%22%20type%3D%5C%22video%2Fmp4%5C%22%20class%3D%5C%22Video-module--video--3gxn0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22MANUAL%22%5D%2C%22reasonId%22%3A%22Manual_1%22%2C%22ruleId%22%3A%22media_keyboard_controllable%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[26]/div[1]/div[1]/video[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 42,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 3551,
+                "height": 272,
+                "width": 544
+            },
+            "snippet": "<video aria-label=\"A basic introduction to the Equal Access Checker.\" controls=\"\" src=\"/able/videos/IBM_Accessibility_checker_vid_1_compressed.mp4\" type=\"video/mp4\" class=\"Video-module--video--3gxn0\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cvideo%20aria-label%3D%5C%22A%20basic%20introduction%20to%20the%20Equal%20Access%20Checker.%5C%22%20controls%3D%5C%22%5C%22%20src%3D%5C%22%2Fable%2Fvideos%2FIBM_Accessibility_checker_vid_1_compressed.mp4%5C%22%20type%3D%5C%22video%2Fmp4%5C%22%20class%3D%5C%22Video-module--video--3gxn0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "media_keyboard_controllable",
+            "value": [
+                "VIOLATION",
+                "MANUAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[28]/div[1]/div[1]/video[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Manual_1",
+            "message": "Verify media using <audio> and/or <video> elements have keyboard accessible controls",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 3902,
+                "height": 272,
+                "width": 544
+            },
+            "snippet": "<video aria-label=\"A demo of the ‘Focus view’ for unit testing.\" controls=\"\" src=\"/able/videos/IBM_Accessibility_checker_vid_2.mp4\" type=\"video/mp4\" class=\"Video-module--video--3gxn0\">",
+            "category": "Accessibility",
+            "level": "manual",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/media_keyboard_controllable.html#%7B%22message%22%3A%22Verify%20media%20using%20%3Caudio%3E%20and%2For%20%3Cvideo%3E%20elements%20have%20keyboard%20accessible%20controls%22%2C%22snippet%22%3A%22%3Cvideo%20aria-label%3D%5C%22A%20demo%20of%20the%20%E2%80%98Focus%20view%E2%80%99%20for%20unit%20testing.%5C%22%20controls%3D%5C%22%5C%22%20src%3D%5C%22%2Fable%2Fvideos%2FIBM_Accessibility_checker_vid_2.mp4%5C%22%20type%3D%5C%22video%2Fmp4%5C%22%20class%3D%5C%22Video-module--video--3gxn0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22MANUAL%22%5D%2C%22reasonId%22%3A%22Manual_1%22%2C%22ruleId%22%3A%22media_keyboard_controllable%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[28]/div[1]/div[1]/video[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 43,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 3902,
+                "height": 272,
+                "width": 544
+            },
+            "snippet": "<video aria-label=\"A demo of the ‘Focus view’ for unit testing.\" controls=\"\" src=\"/able/videos/IBM_Accessibility_checker_vid_2.mp4\" type=\"video/mp4\" class=\"Video-module--video--3gxn0\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cvideo%20aria-label%3D%5C%22A%20demo%20of%20the%20%E2%80%98Focus%20view%E2%80%99%20for%20unit%20testing.%5C%22%20controls%3D%5C%22%5C%22%20src%3D%5C%22%2Fable%2Fvideos%2FIBM_Accessibility_checker_vid_2.mp4%5C%22%20type%3D%5C%22video%2Fmp4%5C%22%20class%3D%5C%22Video-module--video--3gxn0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "media_keyboard_controllable",
+            "value": [
+                "VIOLATION",
+                "MANUAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[30]/div[1]/div[1]/video[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Manual_1",
+            "message": "Verify media using <audio> and/or <video> elements have keyboard accessible controls",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 4254,
+                "height": 272,
+                "width": 544
+            },
+            "snippet": "<video aria-label=\"A demo of how to create reports.\" controls=\"\" src=\"/able/videos/IBM_Accessibility_checker_vid_3_compressed.mp4\" type=\"video/mp4\" class=\"Video-module--video--3gxn0\">",
+            "category": "Accessibility",
+            "level": "manual",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/media_keyboard_controllable.html#%7B%22message%22%3A%22Verify%20media%20using%20%3Caudio%3E%20and%2For%20%3Cvideo%3E%20elements%20have%20keyboard%20accessible%20controls%22%2C%22snippet%22%3A%22%3Cvideo%20aria-label%3D%5C%22A%20demo%20of%20how%20to%20create%20reports.%5C%22%20controls%3D%5C%22%5C%22%20src%3D%5C%22%2Fable%2Fvideos%2FIBM_Accessibility_checker_vid_3_compressed.mp4%5C%22%20type%3D%5C%22video%2Fmp4%5C%22%20class%3D%5C%22Video-module--video--3gxn0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22MANUAL%22%5D%2C%22reasonId%22%3A%22Manual_1%22%2C%22ruleId%22%3A%22media_keyboard_controllable%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[30]/div[1]/div[1]/video[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 46,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 4254,
+                "height": 272,
+                "width": 544
+            },
+            "snippet": "<video aria-label=\"A demo of how to create reports.\" controls=\"\" src=\"/able/videos/IBM_Accessibility_checker_vid_3_compressed.mp4\" type=\"video/mp4\" class=\"Video-module--video--3gxn0\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cvideo%20aria-label%3D%5C%22A%20demo%20of%20how%20to%20create%20reports.%5C%22%20controls%3D%5C%22%5C%22%20src%3D%5C%22%2Fable%2Fvideos%2FIBM_Accessibility_checker_vid_3_compressed.mp4%5C%22%20type%3D%5C%22video%2Fmp4%5C%22%20class%3D%5C%22Video-module--video--3gxn0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[36]/div[1]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[16]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 17,
+                "top": 5365,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://www.ibm.com/able/product_accessibility\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.ibm.com%2Fable%2Fproduct_accessibility%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_target_warning",
+            "value": [
+                "RECOMMENDATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[36]/div[2]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[17]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_warn",
+            "message": "Inform the user when their input action will open a new window",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 401,
+                "top": 5365,
+                "height": 192,
+                "width": 383
+            },
+            "snippet": "<a rel=\"noopener noreferrer\" target=\"_blank\" class=\"bx--tile bx--tile--clickable\" href=\"https://able.ibm.com/acs/\">",
+            "category": "Accessibility",
+            "level": "potentialrecommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_target_warning.html#%7B%22message%22%3A%22Inform%20the%20user%20when%20their%20input%20action%20will%20open%20a%20new%20window%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%20noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20class%3D%5C%22bx--tile%20bx--tile--clickable%5C%22%20href%3D%5C%22https%3A%2F%2Fable.ibm.com%2Facs%2F%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_warn%22%2C%22ruleId%22%3A%22a_target_warning%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_complementary_label_visible",
+            "value": [
+                "RECOMMENDATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[3]",
+                "aria": "/document[1]/main[1]/complementary[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Element with \"complementary\" role does not have a visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 5716,
+                "height": 0,
+                "width": 800
+            },
+            "snippet": "<div aria-label=\"Back to Top\" role=\"complementary\" id=\"nav_back\">",
+            "category": "Accessibility",
+            "level": "recommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_complementary_label_visible.html#%7B%22message%22%3A%22Element%20with%20%5C%22complementary%5C%22%20role%20does%20not%20have%20a%20visible%20label%22%2C%22snippet%22%3A%22%3Cdiv%20aria-label%3D%5C%22Back%20to%20Top%5C%22%20role%3D%5C%22complementary%5C%22%20id%3D%5C%22nav_back%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[3]/button[1]",
+                "aria": "/document[1]/main[1]/complementary[1]/button[1]"
+            },
+            "ruleTime": 43,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 720,
+                "top": 2431,
+                "height": 48,
+                "width": 48
+            },
+            "snippet": "<button aria-labelledby=\"nav_back\" type=\"button\" class=\"BackToTopBtn-module--button--3N38o\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20aria-labelledby%3D%5C%22nav_back%5C%22%20type%3D%5C%22button%5C%22%20class%3D%5C%22BackToTopBtn-module--button--3N38o%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[3]/button[1]",
+                "aria": "/document[1]/main[1]/complementary[1]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <button> has no associated label",
+            "messageArgs": [
+                "button"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 720,
+                "top": 2431,
+                "height": 48,
+                "width": 48
+            },
+            "snippet": "<button aria-labelledby=\"nav_back\" type=\"button\" class=\"BackToTopBtn-module--button--3N38o\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cbutton%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cbutton%20aria-labelledby%3D%5C%22nav_back%5C%22%20type%3D%5C%22button%5C%22%20class%3D%5C%22BackToTopBtn-module--button--3N38o%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22button%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_child_valid",
+            "value": [
+                "RECOMMENDATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/footer[1]/div[1]/div[1]/div[1]/div[3]/ul[1]",
+                "aria": "/document[1]/main[1]/contentinfo[1]/list[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_no_child",
+            "message": "The element with role \"list\" does not own any child element with any of the following role(s): \"listitem\"",
+            "messageArgs": [
+                "list",
+                "listitem"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 224,
+                "top": 5749,
+                "height": 40,
+                "width": 160
+            },
+            "snippet": "<ul class=\"Footer-module--nav--24UNx\">",
+            "category": "Accessibility",
+            "level": "recommendation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_child_valid.html#%7B%22message%22%3A%22The%20element%20with%20role%20%5C%22list%5C%22%20does%20not%20own%20any%20child%20element%20with%20any%20of%20the%20following%20role(s)%3A%20%5C%22listitem%5C%22%22%2C%22snippet%22%3A%22%3Cul%20class%3D%5C%22Footer-module--nav--24UNx%5C%22%3E%22%2C%22value%22%3A%5B%22RECOMMENDATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_no_child%22%2C%22ruleId%22%3A%22aria_child_valid%22%2C%22msgArgs%22%3A%5B%22list%22%2C%22listitem%22%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/footer[1]/div[1]/div[1]/div[2]/div[1]/svg[1]",
+                "aria": "/document[1]/main[1]/contentinfo[1]/graphics-document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 32,
+                "top": 6018,
+                "height": 32,
+                "width": 81
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"32\" width=\"81\" class=\"Footer-module--logo--3X5sq\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20height%3D%5C%2232%5C%22%20width%3D%5C%2281%5C%22%20class%3D%5C%22Footer-module--logo--3X5sq%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        }
+    ],
+    "numExecuted": 2600,
+    "ruleTime": 3525,
+    "nls": {
+        "element_attribute_deprecated": {
+            "0": "Avoid use of obsolete features if possible",
+            "fail_elem_attr": "The HTML attribute(s) \"{0}\" is deprecated for the <{1}> element in HTML 5"
+        },
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        },
+        "style_highcontrast_visible": {
+            "0": "Windows high contrast mode must be supported when using CSS to include, position or alter non-decorative content",
+            "Manual_1": "Confirm Windows high contrast mode is supported when using CSS to include, position or alter non-decorative content"
+        },
+        "style_viewport_resizable": {
+            "0": "Text must scale up to 200% without loss of content or functionality",
+            "Potential_1": "Verify that text sized using viewport units can be resized up to 200%"
+        },
+        "element_tabbable_unobscured": {
+            "0": "When an element receives focus, it is not entirely covered by other content",
+            "potential_obscured": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus"
+        },
+        "style_focus_visible": {
+            "0": "The keyboard focus indicator should be visible when default border or outline is modified by CSS",
+            "potential_focus_not_visible": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'"
+        },
+        "widget_tabbable_exists": {
+            "0": "Component must have at least one tabbable element",
+            "fail_no_tabbable": "Component with \"{0}\" role does not have a tabbable element"
+        },
+        "input_label_exists": {
+            "0": "Each form control must have an associated label",
+            "Fail_1": "Form control element <{0}> has no associated label"
+        },
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_no_label": "The input element does not have an associated visible label",
+            "potential_placeholder_only": "The ‘placeholder’ is the only visible label"
+        },
+        "aria_child_valid": {
+            "0": "An element with an ARIA role must own a required child",
+            "Fail_no_child": "The element with role \"{0}\" does not own any child element with any of the following role(s): \"{1}\""
+        },
+        "svg_graphics_labelled": {
+            "0": "A non-decorative SVG element must have an accessible name",
+            "fail_acc_name": "The SVG element has no accessible name"
+        },
+        "text_sensory_misuse": {
+            "0": "Instructions should be meaningful without relying solely on shape, size, or location words",
+            "potential_other": "Confirm the user instruction is still understandable without the word(s) '{0}'"
+        },
+        "media_keyboard_controllable": {
+            "0": "Media using <audio> and/or <video> elements must have keyboard accessible controls",
+            "Manual_1": "Verify media using <audio> and/or <video> elements have keyboard accessible controls"
+        },
+        "a_target_warning": {
+            "0": "Users should be warned in advance if their input action will open a new window",
+            "potential_warn": "Inform the user when their input action will open a new window"
+        },
+        "aria_complementary_label_visible": {
+            "0": "Each element with \"complementary\" role should have a visible label that describes its purpose",
+            "Fail_1": "Element with \"complementary\" role does not have a visible label"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 28,
+            "elementsViolation": 2,
+            "elementsViolationReview": 13,
+            "violation": 2,
+            "potentialviolation": 18,
+            "recommendation": 3,
+            "potentialrecommendation": 12,
+            "manual": 5,
+            "pass": 2560
+        },
+        "scanTime": 8856,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation",
+            "recommendation",
+            "potentialrecommendation",
+            "manual"
+        ],
+        "startScan": 1734268290330,
+        "URL": "https://www.ibm.com/able/toolkit/tools/#develop"
+    },
+    "scanID": "0f924303-125e-4d8c-ad99-2ac09508e693",
+    "toolID": "accessibility-checker-v3.1.79",
+    "label": "www.ibm.com"
+}

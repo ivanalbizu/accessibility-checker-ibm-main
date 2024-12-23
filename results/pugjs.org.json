@@ -1,0 +1,2730 @@
+{
+    "results": [
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[5]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link color=\"#5bbad5\" href=\"/images/safari-pinned-tab.svg\" rel=\"mask-icon\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Clink%20color%3D%5C%22%235bbad5%5C%22%20href%3D%5C%22%2Fimages%2Fsafari-pinned-tab.svg%5C%22%20rel%3D%5C%22mask-icon%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_complementary_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]",
+                "aria": "/document[1]/complementary[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_1",
+            "message": "Element with \"complementary\" role does not have a label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 752,
+                "top": 0,
+                "height": 600,
+                "width": 800
+            },
+            "snippet": "<aside class=\"menu outside\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_complementary_labelled.html#%7B%22message%22%3A%22Element%20with%20%5C%22complementary%5C%22%20role%20does%20not%20have%20a%20label%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22menu%20outside%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "img_alt_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/a[1]/img[1]",
+                "aria": "/document[1]/complementary[1]/img[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_alt",
+            "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 752,
+                "top": 562,
+                "height": 28,
+                "width": 48
+            },
+            "snippet": "<img src=\"/images/menu-tab.svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20src%3D%5C%22%2Fimages%2Fmenu-tab.svg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_navigation_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"navigation\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 800,
+                "top": 0,
+                "height": 600,
+                "width": 722
+            },
+            "snippet": "<nav class=\"nav nav-pills nav-stacked\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22nav%20nav-pills%20nav-stacked%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[1]/a[2]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[1]/link[2]"
+            },
+            "ruleTime": 8,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 80,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"../api/express.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22..%2Fapi%2Fexpress.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[1]/a[3]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[1]/link[3]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 120,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"../api/reference.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22..%2Fapi%2Freference.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[1]/a[4]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[1]/link[4]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 160,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"../api/migration-v2.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22..%2Fapi%2Fmigration-v2.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[1]/a[5]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[1]/link[5]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 200,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"../api/migration-v3.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22..%2Fapi%2Fmigration-v3.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[1]/a[6]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[1]/link[6]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 240,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"https://github.com/pugjs/babel-plugin-transform-react-pug\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fgithub.com%2Fpugjs%2Fbabel-plugin-transform-react-pug%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[1]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 320,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"attributes.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22attributes.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[2]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[2]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 360,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"case.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22case.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[3]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[3]"
+            },
+            "ruleTime": 6,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 400,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"code.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22code.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[4]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[4]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 440,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"comments.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22comments.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[5]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[5]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 480,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"conditionals.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22conditionals.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[6]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[6]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 520,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"doctype.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22doctype.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[7]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[7]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 560,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"filters.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22filters.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[8]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[8]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 600,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"includes.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22includes.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[9]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[9]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 640,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"inheritance.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22inheritance.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[10]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[10]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 680,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"interpolation.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22interpolation.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[11]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[11]"
+            },
+            "ruleTime": 8,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 720,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"iteration.html\" class=\"nav-link active\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22iteration.html%5C%22%20class%3D%5C%22nav-link%20active%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[12]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[12]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 760,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"mixins.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22mixins.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[13]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[13]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 800,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"plain-text.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22plain-text.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[2]/a[14]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[2]/link[14]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 840,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"tags.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22tags.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[3]/a[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[3]/link[1]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 920,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"../support/community.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22..%2Fsupport%2Fcommunity.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/ul[3]/a[2]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/list[3]/link[2]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 816,
+                "top": 960,
+                "height": 40,
+                "width": 690
+            },
+            "snippet": "<a href=\"../support/enterprise.html\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22..%2Fsupport%2Fenterprise.html%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[1]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1048,
+                "height": 24,
+                "width": 658
+            },
+            "snippet": "<a href=\"https://www.coinnewsspan.com/\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.coinnewsspan.com%2F%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 3.84 with its background is less than the WCAG AA minimum requirements for text of size 16px and weight of 400",
+            "messageArgs": [
+                "3.84",
+                16,
+                400,
+                "#828282",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1048,
+                "height": 24,
+                "width": 658
+            },
+            "snippet": "<a href=\"https://www.coinnewsspan.com/\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%203.84%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2016px%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.coinnewsspan.com%2F%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%223.84%22%2C16%2C400%2C%22%23828282%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[2]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[2]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1088,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/0/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F0%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_text_purpose",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[2]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "Hyperlink has no link text, label or image with a text alternative",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1088,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/0/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_text_purpose.html#%7B%22message%22%3A%22Hyperlink%20has%20no%20link%20text%2C%20label%20or%20image%20with%20a%20text%20alternative%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F0%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22a_text_purpose%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "img_alt_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[2]/img[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[2]/img[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_alt",
+            "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1088,
+                "height": 64,
+                "width": 192
+            },
+            "snippet": "<img height=\"64\" src=\"https://opencollective.com/pug/sponsor/0/avatar.svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20height%3D%5C%2264%5C%22%20src%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F0%2Favatar.svg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[3]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[3]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1168,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/1/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F1%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_text_purpose",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[3]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "Hyperlink has no link text, label or image with a text alternative",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1168,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/1/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_text_purpose.html#%7B%22message%22%3A%22Hyperlink%20has%20no%20link%20text%2C%20label%20or%20image%20with%20a%20text%20alternative%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F1%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22a_text_purpose%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "img_alt_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[3]/img[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[3]/img[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_alt",
+            "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1168,
+                "height": 64,
+                "width": 192
+            },
+            "snippet": "<img height=\"64\" src=\"https://opencollective.com/pug/sponsor/1/avatar.svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20height%3D%5C%2264%5C%22%20src%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F1%2Favatar.svg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[4]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[4]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1248,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/2/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F2%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_text_purpose",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[4]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "Hyperlink has no link text, label or image with a text alternative",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1248,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/2/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_text_purpose.html#%7B%22message%22%3A%22Hyperlink%20has%20no%20link%20text%2C%20label%20or%20image%20with%20a%20text%20alternative%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F2%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22a_text_purpose%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "img_alt_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[4]/img[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[4]/img[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_alt",
+            "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1248,
+                "height": 64,
+                "width": 192
+            },
+            "snippet": "<img height=\"64\" src=\"https://opencollective.com/pug/sponsor/2/avatar.svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20height%3D%5C%2264%5C%22%20src%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F2%2Favatar.svg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[5]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[5]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1328,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/3/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F3%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_text_purpose",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[5]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "Hyperlink has no link text, label or image with a text alternative",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1328,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/3/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_text_purpose.html#%7B%22message%22%3A%22Hyperlink%20has%20no%20link%20text%2C%20label%20or%20image%20with%20a%20text%20alternative%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F3%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22a_text_purpose%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "img_alt_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[5]/img[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[5]/img[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_alt",
+            "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1328,
+                "height": 64,
+                "width": 192
+            },
+            "snippet": "<img height=\"64\" src=\"https://opencollective.com/pug/sponsor/3/avatar.svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20height%3D%5C%2264%5C%22%20src%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F3%2Favatar.svg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[6]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[6]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1408,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/4/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F4%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "a_text_purpose",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[6]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "Hyperlink has no link text, label or image with a text alternative",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1408,
+                "height": 64,
+                "width": 658
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://opencollective.com/pug/sponsor/4/website\" class=\"sponsor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/a_text_purpose.html#%7B%22message%22%3A%22Hyperlink%20has%20no%20link%20text%2C%20label%20or%20image%20with%20a%20text%20alternative%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F4%2Fwebsite%5C%22%20class%3D%5C%22sponsor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22a_text_purpose%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "img_alt_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/aside[1]/nav[1]/div[2]/a[6]/img[1]",
+                "aria": "/document[1]/complementary[1]/navigation[1]/link[6]/img[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_alt",
+            "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 832,
+                "top": 1408,
+                "height": 64,
+                "width": 192
+            },
+            "snippet": "<img height=\"64\" src=\"https://opencollective.com/pug/sponsor/4/avatar.svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20height%3D%5C%2264%5C%22%20src%3D%5C%22https%3A%2F%2Fopencollective.com%2Fpug%2Fsponsor%2F4%2Favatar.svg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[1]",
+                "aria": "/document[1]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_0",
+            "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "navigation",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 54,
+                "width": 800
+            },
+            "snippet": "<nav class=\"navbar navbar-full navbar-dark bg-primary\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22navbar%20navbar-full%20navbar-dark%20bg-primary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_0%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_navigation_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[1]",
+                "aria": "/document[1]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"navigation\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 54,
+                "width": 800
+            },
+            "snippet": "<nav class=\"navbar navbar-full navbar-dark bg-primary\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22navbar%20navbar-full%20navbar-dark%20bg-primary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[1]/div[1]/a[1]",
+                "aria": "/document[1]/navigation[1]/link[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_visible",
+            "message": "Confirm the element should be tabbable and if so, it becomes visible when it has keyboard focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 55,
+                "top": -3,
+                "height": 53,
+                "width": 60
+            },
+            "snippet": "<a href=\"/\" class=\"navbar-brand\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_visible.html#%7B%22message%22%3A%22Confirm%20the%20element%20should%20be%20tabbable%20and%20if%20so%2C%20it%20becomes%20visible%20when%20it%20has%20keyboard%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2F%5C%22%20class%3D%5C%22navbar-brand%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_visible%22%2C%22ruleId%22%3A%22element_tabbable_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[1]/div[1]/ul[1]/li[2]/a[1]",
+                "aria": "/document[1]/navigation[1]/list[1]/listitem[2]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 2.32 with its background is less than the WCAG AA minimum requirements for text of size 16px and weight of 400",
+            "messageArgs": [
+                "2.32",
+                16,
+                400,
+                "#d4b2aa",
+                "#a86454",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 698,
+                "top": 8,
+                "height": 38,
+                "width": 48
+            },
+            "snippet": "<a href=\"https://github.com/pugjs/pug\" class=\"nav-link\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%202.32%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2016px%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fgithub.com%2Fpugjs%2Fpug%5C%22%20class%3D%5C%22nav-link%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%222.32%22%2C16%2C400%2C%22%23d4b2aa%22%2C%22%23a86454%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/h1[1]",
+                "aria": "/document[1]/article[1]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 70,
+                "top": 74,
+                "height": 44,
+                "width": 660
+            },
+            "snippet": "<h1>",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch1%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/h2[1]/a[1]",
+                "aria": "/document[1]/article[1]/heading[2]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 156,
+                "top": 179,
+                "height": 31,
+                "width": 18
+            },
+            "snippet": "<a aria-hidden=\"true\" href=\"#each\" class=\"header-anchor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20aria-hidden%3D%5C%22true%5C%22%20href%3D%5C%22%23each%5C%22%20class%3D%5C%22header-anchor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_hidden_nontabbable",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/h2[1]/a[1]",
+                "aria": "/document[1]/article[1]/heading[2]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'",
+            "messageArgs": [
+                "a"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 156,
+                "top": 179,
+                "height": 31,
+                "width": 18
+            },
+            "snippet": "<a aria-hidden=\"true\" href=\"#each\" class=\"header-anchor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_hidden_nontabbable.html#%7B%22message%22%3A%22Element%20%5C%22a%5C%22%20should%20not%20be%20focusable%20within%20the%20subtree%20of%20an%20element%20with%20an%20'aria-hidden'%20attribute%20with%20value%20'true'%22%2C%22snippet%22%3A%22%3Ca%20aria-hidden%3D%5C%22true%5C%22%20href%3D%5C%22%23each%5C%22%20class%3D%5C%22header-anchor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_hidden_nontabbable%22%2C%22msgArgs%22%3A%5B%22a%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/h2[1]/a[1]",
+                "aria": "/document[1]/article[1]/heading[2]/link[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 156,
+                "top": 179,
+                "height": 31,
+                "width": 18
+            },
+            "snippet": "<a aria-hidden=\"true\" href=\"#each\" class=\"header-anchor\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20aria-hidden%3D%5C%22true%5C%22%20href%3D%5C%22%23each%5C%22%20class%3D%5C%22header-anchor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 151,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[2]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 151,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 151,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 255,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[4]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 255,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 255,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 511,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[6]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 511,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 511,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 615,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[8]"
+            },
+            "ruleTime": 6,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 615,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 615,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 823,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[10]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 823,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 823,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[12]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 927,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[12]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 927,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[12]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 927,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[14]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1159,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[14]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1159,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[14]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1159,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[16]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1287,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[16]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1287,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[16]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1287,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/p[6]",
+                "aria": "/document[1]/article[1]/paragraph[6]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'above' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "above"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 70,
+                "top": 1522,
+                "height": 49,
+                "width": 660
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'above'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22above%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[18]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1471,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[18]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1471,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[18]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1471,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[20]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1647,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[20]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1647,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[20]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1647,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/h2[2]/a[1]",
+                "aria": "/document[1]/article[1]/heading[3]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 171,
+                "top": 1928,
+                "height": 31,
+                "width": 18
+            },
+            "snippet": "<a aria-hidden=\"true\" href=\"#while\" class=\"header-anchor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20aria-hidden%3D%5C%22true%5C%22%20href%3D%5C%22%23while%5C%22%20class%3D%5C%22header-anchor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_hidden_nontabbable",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/h2[2]/a[1]",
+                "aria": "/document[1]/article[1]/heading[3]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'",
+            "messageArgs": [
+                "a"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 171,
+                "top": 1928,
+                "height": 31,
+                "width": 18
+            },
+            "snippet": "<a aria-hidden=\"true\" href=\"#while\" class=\"header-anchor\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_hidden_nontabbable.html#%7B%22message%22%3A%22Element%20%5C%22a%5C%22%20should%20not%20be%20focusable%20within%20the%20subtree%20of%20an%20element%20with%20an%20'aria-hidden'%20attribute%20with%20value%20'true'%22%2C%22snippet%22%3A%22%3Ca%20aria-hidden%3D%5C%22true%5C%22%20href%3D%5C%22%23while%5C%22%20class%3D%5C%22header-anchor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_hidden_nontabbable%22%2C%22msgArgs%22%3A%5B%22a%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/h2[2]/a[1]",
+                "aria": "/document[1]/article[1]/heading[3]/link[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 171,
+                "top": 1928,
+                "height": 31,
+                "width": 18
+            },
+            "snippet": "<a aria-hidden=\"true\" href=\"#while\" class=\"header-anchor\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20aria-hidden%3D%5C%22true%5C%22%20href%3D%5C%22%23while%5C%22%20class%3D%5C%22header-anchor%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[22]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1900,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[22]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1900,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[22]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 1900,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[24]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 2028,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[24]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 2028,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/textarea[1]",
+                "aria": "/document[1]/article[1]/textbox[24]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <textarea> has no associated label",
+            "messageArgs": [
+                "textarea"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 62,
+                "top": 2028,
+                "height": 140,
+                "width": 1000
+            },
+            "snippet": "<textarea style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\" tabindex=\"0\" spellcheck=\"false\" autocapitalize=\"off\" autocorrect=\"off\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Ctextarea%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Ctextarea%20style%3D%5C%22position%3A%20absolute%3B%20bottom%3A%20-1em%3B%20padding%3A%200px%3B%20width%3A%201000px%3B%20height%3A%201em%3B%20outline%3A%20none%3B%5C%22%20tabindex%3D%5C%220%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocapitalize%3D%5C%22off%5C%22%20autocorrect%3D%5C%22off%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22textarea%22%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[7]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]",
+                "aria": "/document[1]/article[1]/form[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Get an update when we release new features' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Get an update when we release new features"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 189,
+                "top": 2392,
+                "height": 27,
+                "width": 423
+            },
+            "snippet": "<div class=\"bodyText\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'Get%20an%20update%20when%20we%20release%20new%20features'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22bodyText%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22Get%20an%20update%20when%20we%20release%20new%20features%22%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[7]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/article[1]/form[1]/paragraph[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Get an update when we release new features' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Get an update when we release new features"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 189,
+                "top": 2392,
+                "height": 27,
+                "width": 423
+            },
+            "snippet": "<p style=\"text-align: center;\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'Get%20an%20update%20when%20we%20release%20new%20features'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cp%20style%3D%5C%22text-align%3A%20center%3B%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22Get%20an%20update%20when%20we%20release%20new%20features%22%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[7]/div[1]/div[1]/form[1]/div[2]/div[2]/div[3]/input[1]",
+                "aria": "/document[1]/article[1]/form[1]/button[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 491,
+                "top": 2668,
+                "height": 44,
+                "width": 121
+            },
+            "snippet": "<input tabindex=\"502\" value=\"Sign Up\" type=\"submit\" class=\"submit\" name=\"submit\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20tabindex%3D%5C%22502%5C%22%20value%3D%5C%22Sign%20Up%5C%22%20type%3D%5C%22submit%5C%22%20class%3D%5C%22submit%5C%22%20name%3D%5C%22submit%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[7]/div[1]/div[1]/form[1]/div[2]/div[2]/div[3]/input[1]",
+                "aria": "/document[1]/article[1]/form[1]/button[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 491,
+                "top": 2668,
+                "height": 44,
+                "width": 121
+            },
+            "snippet": "<input tabindex=\"502\" value=\"Sign Up\" type=\"submit\" class=\"submit\" name=\"submit\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cinput%20tabindex%3D%5C%22502%5C%22%20value%3D%5C%22Sign%20Up%5C%22%20type%3D%5C%22submit%5C%22%20class%3D%5C%22submit%5C%22%20name%3D%5C%22submit%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/article[1]/div[7]/div[1]/div[1]/form[1]/div[2]/div[2]/div[4]/p[1]/a[1]",
+                "aria": "/document[1]/article[1]/form[1]/paragraph[2]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 2.78 with its background is less than the WCAG AA minimum requirements for text of size 12px and weight of 400",
+            "messageArgs": [
+                "2.78",
+                12,
+                400,
+                "#26a5e0",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 411,
+                "top": 2729,
+                "height": 14,
+                "width": 71
+            },
+            "snippet": "<a rel=\"nofollow\" target=\"_blank\" href=\"https://www.aweber.com/permission.htm\" title=\"Privacy Policy\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%202.78%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2012px%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22nofollow%5C%22%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.aweber.com%2Fpermission.htm%5C%22%20title%3D%5C%22Privacy%20Policy%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%222.78%22%2C12%2C400%2C%22%2326a5e0%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        }
+    ],
+    "numExecuted": 4084,
+    "ruleTime": 700,
+    "nls": {
+        "aria_content_in_landmark": {
+            "0": "All content must reside within an element with a landmark role",
+            "Fail_1": "Content is not within a landmark element"
+        },
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        },
+        "aria_complementary_labelled": {
+            "0": "Each element with \"complementary\" role must have a label that describes its purpose",
+            "Fail_1": "Element with \"complementary\" role does not have a label"
+        },
+        "img_alt_valid": {
+            "0": "Images must have accessible names unless they are decorative or redundant",
+            "fail_no_alt": "The image has neither an accessible name nor is marked as decorative or redundant"
+        },
+        "aria_navigation_label_unique": {
+            "0": "Each element with \"navigation\" role must have a unique label that describes its purpose",
+            "Fail_1": "Multiple elements with \"navigation\" role do not have unique labels"
+        },
+        "text_contrast_sufficient": {
+            "0": "The contrast ratio of text with its background must meet WCAG AA requirements",
+            "fail_contrast": "Text contrast of {0} with its background is less than the WCAG AA minimum requirements for text of size {1}px and weight of {2}"
+        },
+        "element_tabbable_unobscured": {
+            "0": "When an element receives focus, it is not entirely covered by other content",
+            "potential_obscured": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus"
+        },
+        "element_tabbable_visible": {
+            "0": "A tabbable element should be visible on the screen when it has keyboard focus",
+            "potential_visible": "Confirm the element should be tabbable and if so, it becomes visible when it has keyboard focus"
+        },
+        "style_focus_visible": {
+            "0": "The keyboard focus indicator should be visible when default border or outline is modified by CSS",
+            "potential_focus_not_visible": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'"
+        },
+        "a_text_purpose": {
+            "0": "Hyperlinks must have an accessible name for their purpose",
+            "fail_acc_name": "Hyperlink has no link text, label or image with a text alternative"
+        },
+        "aria_landmark_name_unique": {
+            "0": "Each landmark should have a unique 'aria-labelledby' or 'aria-label' or be nested in a different parent region",
+            "Fail_0": "Multiple elements with \"{0}\" landmarks within the same parent region are not distinguished from one another because they have the same \"{1}\" label"
+        },
+        "aria_hidden_nontabbable": {
+            "0": "A hidden element should not contain any tabbable elements",
+            "Fail_1": "Element \"{0}\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'"
+        },
+        "input_label_exists": {
+            "0": "Each form control must have an associated label",
+            "Fail_1": "Form control element <{0}> has no associated label"
+        },
+        "text_sensory_misuse": {
+            "0": "Instructions should be meaningful without relying solely on shape, size, or location words",
+            "potential_position": "Confirm the word(s) '{0}' of the user instruction is used to indicate a logical rather than visual position"
+        },
+        "text_block_heading": {
+            "0": "Heading text should use a heading element or role",
+            "potential_heading": "Confirm this text '{0}' is used as a heading and if so, modify to use a heading element or role"
+        },
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_no_label": "The input element does not have an associated visible label"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 64,
+            "elementsViolation": 32,
+            "elementsViolationReview": 60,
+            "violation": 47,
+            "potentialviolation": 48,
+            "recommendation": 24,
+            "potentialrecommendation": 18,
+            "manual": 1,
+            "pass": 3946
+        },
+        "scanTime": 2759,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1734207346119,
+        "URL": "https://pugjs.org/language/iteration.html"
+    },
+    "scanID": "e6a9f981-dfb8-444c-b028-8f5ebb03201f",
+    "toolID": "accessibility-checker-v3.1.79",
+    "label": "pugjs.org"
+}

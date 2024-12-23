@@ -1,0 +1,1531 @@
+{
+    "results": [
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 30,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link href=\"/WAI/assets/css/style.css?1734024574773289251\" rel=\"stylesheet\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Clink%20href%3D%5C%22%2FWAI%2Fassets%2Fcss%2Fstyle.css%3F1734024574773289251%5C%22%20rel%3D%5C%22stylesheet%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/header[1]/div[1]/a[1]",
+                "aria": "/document[1]/banner[1]/link[1]"
+            },
+            "ruleTime": 17,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 8,
+                "top": 43,
+                "height": 48,
+                "width": 92
+            },
+            "snippet": "<a href=\"https://www.w3.org/\" class=\"home w3c\" lang=\"en\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.w3.org%2F%5C%22%20class%3D%5C%22home%20w3c%5C%22%20lang%3D%5C%22en%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "form_submit_button_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/header[1]/div[2]/nav[1]/ul[1]/li[3]/form[1]",
+                "aria": "/document[1]/banner[1]/navigation[1]/list[1]/listitem[3]/search[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Potential_1",
+            "message": "Verify the <form> element has a submit button or an image button",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 614,
+                "top": 111,
+                "height": 41,
+                "width": 179
+            },
+            "snippet": "<form role=\"search\" action=\"/WAI/search/\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/form_submit_button_exists.html#%7B%22message%22%3A%22Verify%20the%20%3Cform%3E%20element%20has%20a%20submit%20button%20or%20an%20image%20button%22%2C%22snippet%22%3A%22%3Cform%20role%3D%5C%22search%5C%22%20action%3D%5C%22%2FWAI%2Fsearch%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22form_submit_button_exists%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/header[1]/div[2]/nav[1]/ul[1]/li[3]/form[1]/div[1]/label[1]/input[1]",
+                "aria": "/document[1]/banner[1]/navigation[1]/list[1]/listitem[3]/search[1]/searchbox[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_placeholder_only",
+            "message": "The ‘placeholder’ is the only visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 615,
+                "top": 112,
+                "height": 39,
+                "width": 136
+            },
+            "snippet": "<input aria-label=\"Search\" placeholder=\"Search\" name=\"q\" type=\"search\" id=\"header-search\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20%E2%80%98placeholder%E2%80%99%20is%20the%20only%20visible%20label%22%2C%22snippet%22%3A%22%3Cinput%20aria-label%3D%5C%22Search%5C%22%20placeholder%3D%5C%22Search%5C%22%20name%3D%5C%22q%5C%22%20type%3D%5C%22search%5C%22%20id%3D%5C%22header-search%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_placeholder_only%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/header[1]/div[2]/nav[1]/ul[1]/li[3]/form[1]/div[1]/button[1]",
+                "aria": "/document[1]/banner[1]/navigation[1]/list[1]/listitem[3]/search[1]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 751,
+                "top": 112,
+                "height": 39,
+                "width": 41
+            },
+            "snippet": "<button class=\"button button-icon button-nobg button-noborder\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20class%3D%5C%22button%20button-icon%20button-nobg%20button-noborder%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[2]/ul[1]/li[1]/a[1]",
+                "aria": "/document[1]/navigation[2]/list[1]/listitem[1]/link[1]"
+            },
+            "ruleTime": 23,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 154,
+                "height": 44,
+                "width": 134
+            },
+            "snippet": "<a href=\"/WAI/fundamentals/\" lang=\"en\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2FWAI%2Ffundamentals%2F%5C%22%20lang%3D%5C%22en%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[2]/ul[1]/li[2]/a[1]",
+                "aria": "/document[1]/navigation[2]/list[1]/listitem[2]/link[1]"
+            },
+            "ruleTime": 10,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 134,
+                "top": 154,
+                "height": 44,
+                "width": 134
+            },
+            "snippet": "<a href=\"/WAI/planning/\" lang=\"en\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2FWAI%2Fplanning%2F%5C%22%20lang%3D%5C%22en%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[2]/ul[1]/li[3]/a[1]",
+                "aria": "/document[1]/navigation[2]/list[1]/listitem[3]/link[1]"
+            },
+            "ruleTime": 12,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 267,
+                "top": 154,
+                "height": 44,
+                "width": 134
+            },
+            "snippet": "<a href=\"/WAI/design-develop/\" lang=\"en\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2FWAI%2Fdesign-develop%2F%5C%22%20lang%3D%5C%22en%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[2]/ul[1]/li[4]/a[1]",
+                "aria": "/document[1]/navigation[2]/list[1]/listitem[4]/link[1]"
+            },
+            "ruleTime": 11,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 400,
+                "top": 154,
+                "height": 44,
+                "width": 134
+            },
+            "snippet": "<a href=\"/WAI/test-evaluate/\" lang=\"en\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2FWAI%2Ftest-evaluate%2F%5C%22%20lang%3D%5C%22en%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[2]/ul[1]/li[5]/a[1]",
+                "aria": "/document[1]/navigation[2]/list[1]/listitem[5]/link[1]"
+            },
+            "ruleTime": 13,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 534,
+                "top": 154,
+                "height": 44,
+                "width": 134
+            },
+            "snippet": "<a href=\"/WAI/teach-advocate/\" lang=\"en\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2FWAI%2Fteach-advocate%2F%5C%22%20lang%3D%5C%22en%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[2]/ul[1]/li[6]/a[1]",
+                "aria": "/document[1]/navigation[2]/list[1]/listitem[6]/link[1]"
+            },
+            "ruleTime": 12,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 667,
+                "top": 154,
+                "height": 44,
+                "width": 134
+            },
+            "snippet": "<a href=\"/WAI/standards-guidelines/\" lang=\"en\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2FWAI%2Fstandards-guidelines%2F%5C%22%20lang%3D%5C%22en%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_complementary_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[1]",
+                "aria": "/document[1]/main[1]/complementary[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"complementary\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 310,
+                "height": 106,
+                "width": 768
+            },
+            "snippet": "<aside class=\"box\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_complementary_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22complementary%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22box%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_complementary_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[1]",
+                "aria": "/document[1]/main[1]/complementary[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Element with \"complementary\" role does not have a label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 310,
+                "height": 106,
+                "width": 768
+            },
+            "snippet": "<aside class=\"box\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_complementary_labelled.html#%7B%22message%22%3A%22Element%20with%20%5C%22complementary%5C%22%20role%20does%20not%20have%20a%20label%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22box%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[1]",
+                "aria": "/document[1]/main[1]/complementary[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_0",
+            "message": "Multiple elements with \"complementary\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "complementary",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 310,
+                "height": 106,
+                "width": 768
+            },
+            "snippet": "<aside class=\"box\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22complementary%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22box%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_0%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22complementary%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_complementary_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[2]",
+                "aria": "/document[1]/main[1]/complementary[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"complementary\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 553,
+                "height": 194,
+                "width": 768
+            },
+            "snippet": "<aside class=\"box box-example\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_complementary_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22complementary%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22box%20box-example%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_complementary_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[2]",
+                "aria": "/document[1]/main[1]/complementary[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Element with \"complementary\" role does not have a label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 553,
+                "height": 194,
+                "width": 768
+            },
+            "snippet": "<aside class=\"box box-example\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_complementary_labelled.html#%7B%22message%22%3A%22Element%20with%20%5C%22complementary%5C%22%20role%20does%20not%20have%20a%20label%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22box%20box-example%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[2]",
+                "aria": "/document[1]/main[1]/complementary[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_0",
+            "message": "Multiple elements with \"complementary\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "complementary",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 553,
+                "height": 194,
+                "width": 768
+            },
+            "snippet": "<aside class=\"box box-example\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22complementary%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22box%20box-example%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_0%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22complementary%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "text_quoted_correctly",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[3]",
+                "aria": "/document[1]/main[1]/paragraph[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "If the following text is a quotation, mark it as a <q> or <blockquote> element: \"+ Section title, button collapsed\"",
+            "messageArgs": [
+                "\"+ Section title, button collapsed\""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 1499,
+                "height": 120,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_quoted_correctly.html#%7B%22message%22%3A%22If%20the%20following%20text%20is%20a%20quotation%2C%20mark%20it%20as%20a%20%3Cq%3E%20or%20%3Cblockquote%3E%20element%3A%20%5C%22%2B%20Section%20title%2C%20button%20collapsed%5C%22%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22text_quoted_correctly%22%2C%22msgArgs%22%3A%5B%22%5C%22%2B%20Section%20title%2C%20button%20collapsed%5C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[4]",
+                "aria": "/document[1]/main[1]/paragraph[4]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 1635,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_quoted_correctly",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[7]",
+                "aria": "/document[1]/main[1]/paragraph[7]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "If the following text is a quotation, mark it as a <q> or <blockquote> element: \"Easy Checks - A First Review of Web Accessibility\"",
+            "messageArgs": [
+                "\"Easy Checks - A First Review of Web Accessibility\""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 2465,
+                "height": 72,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_quoted_correctly.html#%7B%22message%22%3A%22If%20the%20following%20text%20is%20a%20quotation%2C%20mark%20it%20as%20a%20%3Cq%3E%20or%20%3Cblockquote%3E%20element%3A%20%5C%22Easy%20Checks%20-%20A%20First%20Review%20of%20Web%20Accessibility%5C%22%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22text_quoted_correctly%22%2C%22msgArgs%22%3A%5B%22%5C%22Easy%20Checks%20-%20A%20First%20Review%20of%20Web%20Accessibility%5C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[7]",
+                "aria": "/document[1]/main[1]/paragraph[7]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 2465,
+                "height": 72,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[14]",
+                "aria": "/document[1]/main[1]/paragraph[14]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 4523,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[15]",
+                "aria": "/document[1]/main[1]/paragraph[15]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'right, above' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "right, above"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 4992,
+                "height": 96,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'right%2C%20above'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22right%2C%20above%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[15]",
+                "aria": "/document[1]/main[1]/paragraph[15]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'bigger'",
+            "messageArgs": [
+                "bigger"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 4992,
+                "height": 96,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'bigger'%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22bigger%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[17]",
+                "aria": "/document[1]/main[1]/paragraph[17]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 5722,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p class=\"listintro\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22listintro%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_quoted_correctly",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[24]",
+                "aria": "/document[1]/main[1]/paragraph[24]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "If the following text is a quotation, mark it as a <q> or <blockquote> element: \"color contrast\", \"luminance con ... tio\", \"luminance contrast ratio\"",
+            "messageArgs": [
+                "\"color contrast\", \"luminance con ... tio\", \"luminance contrast ratio\""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 7770,
+                "height": 96,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_quoted_correctly.html#%7B%22message%22%3A%22If%20the%20following%20text%20is%20a%20quotation%2C%20mark%20it%20as%20a%20%3Cq%3E%20or%20%3Cblockquote%3E%20element%3A%20%5C%22color%20contrast%5C%22%2C%20%5C%22luminance%20con%20...%20tio%5C%22%2C%20%5C%22luminance%20contrast%20ratio%5C%22%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22text_quoted_correctly%22%2C%22msgArgs%22%3A%5B%22%5C%22color%20contrast%5C%22%2C%20%5C%22luminance%20con%20...%20tio%5C%22%2C%20%5C%22luminance%20contrast%20ratio%5C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[25]",
+                "aria": "/document[1]/main[1]/paragraph[25]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'normal-size'",
+            "messageArgs": [
+                "normal-size"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 7951,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'normal-size'%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22normal-size%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[27]",
+                "aria": "/document[1]/main[1]/paragraph[27]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'Below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "Below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 8484,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'Below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22Below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[30]",
+                "aria": "/document[1]/main[1]/paragraph[30]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'size'",
+            "messageArgs": [
+                "size"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 8961,
+                "height": 24,
+                "width": 768
+            },
+            "snippet": "<p class=\"listintro\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'size'%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22listintro%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22size%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[31]",
+                "aria": "/document[1]/main[1]/paragraph[31]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'size'",
+            "messageArgs": [
+                "size"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 9097,
+                "height": 72,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'size'%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22size%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[32]",
+                "aria": "/document[1]/main[1]/paragraph[32]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 9521,
+                "height": 72,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[32]",
+                "aria": "/document[1]/main[1]/paragraph[32]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'size'",
+            "messageArgs": [
+                "size"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 9521,
+                "height": 72,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'size'%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22size%22%5D%7D"
+        },
+        {
+            "ruleId": "text_quoted_correctly",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/ul[10]/li[5]",
+                "aria": "/document[1]/main[1]/list[11]/listitem[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "If the following text is a quotation, mark it as a <q> or <blockquote> element: \"blocks of text\"",
+            "messageArgs": [
+                "\"blocks of text\""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 56,
+                "top": 10280,
+                "height": 96,
+                "width": 728
+            },
+            "snippet": "<li>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_quoted_correctly.html#%7B%22message%22%3A%22If%20the%20following%20text%20is%20a%20quotation%2C%20mark%20it%20as%20a%20%3Cq%3E%20or%20%3Cblockquote%3E%20element%3A%20%5C%22blocks%20of%20text%5C%22%22%2C%22snippet%22%3A%22%3Cli%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22text_quoted_correctly%22%2C%22msgArgs%22%3A%5B%22%5C%22blocks%20of%20text%5C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[33]",
+                "aria": "/document[1]/main[1]/paragraph[33]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below, above' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below, above"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 10461,
+                "height": 96,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below%2C%20above'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%2C%20above%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[33]",
+                "aria": "/document[1]/main[1]/paragraph[33]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'size'",
+            "messageArgs": [
+                "size"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 10461,
+                "height": 96,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'size'%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22size%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[34]",
+                "aria": "/document[1]/main[1]/paragraph[34]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 10573,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[36]",
+                "aria": "/document[1]/main[1]/paragraph[36]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 11122,
+                "height": 72,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_quoted_correctly",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/ul[11]/li[1]/ul[1]/li[2]",
+                "aria": "/document[1]/main[1]/list[12]/listitem[1]/list[1]/listitem[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "If the following text is a quotation, mark it as a <q> or <blockquote> element: \"Full Keyboard Access\", \"All Controls\"",
+            "messageArgs": [
+                "\"Full Keyboard Access\", \"All Controls\""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 96,
+                "top": 11819,
+                "height": 48,
+                "width": 688
+            },
+            "snippet": "<li>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_quoted_correctly.html#%7B%22message%22%3A%22If%20the%20following%20text%20is%20a%20quotation%2C%20mark%20it%20as%20a%20%3Cq%3E%20or%20%3Cblockquote%3E%20element%3A%20%5C%22Full%20Keyboard%20Access%5C%22%2C%20%5C%22All%20Controls%5C%22%22%2C%22snippet%22%3A%22%3Cli%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22text_quoted_correctly%22%2C%22msgArgs%22%3A%5B%22%5C%22Full%20Keyboard%20Access%5C%22%2C%20%5C%22All%20Controls%5C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[40]",
+                "aria": "/document[1]/main[1]/paragraph[40]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'small'",
+            "messageArgs": [
+                "small"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 13107,
+                "height": 156,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'small'%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22small%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[49]",
+                "aria": "/document[1]/main[1]/paragraph[49]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'above' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "above"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 16373,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'above'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22above%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[62]",
+                "aria": "/document[1]/main[1]/paragraph[62]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'size'",
+            "messageArgs": [
+                "size"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 18213,
+                "height": 144,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'size'%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22size%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[63]",
+                "aria": "/document[1]/main[1]/paragraph[63]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 18373,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[64]",
+                "aria": "/document[1]/main[1]/paragraph[64]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 18496,
+                "height": 96,
+                "width": 768
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/p[66]",
+                "aria": "/document[1]/main[1]/paragraph[66]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'below' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "below"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 16,
+                "top": 18829,
+                "height": 48,
+                "width": 768
+            },
+            "snippet": "<p class=\"listintro\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'below'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22listintro%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22below%22%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[3]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/complementary[3]/link[1]"
+            },
+            "ruleTime": 12,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 33,
+                "top": 20551,
+                "height": 39,
+                "width": 234
+            },
+            "snippet": "<a class=\"button\" href=\"mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22button%5C%22%20href%3D%5C%22mailto%3Awai%40w3.org%3Fbody%3D%255Binclude%2520a%2520relevant%2520email%2520Subject%255D%250A%250A%255Bput%2520comment%2520here...%255D%250A%250AI%2520give%2520permission%2520to%2520share%2520this%2520to%2520a%2520publicly-archived%2520e-mail%2520list.%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[3]/div[1]/div[1]/a[2]",
+                "aria": "/document[1]/main[1]/complementary[3]/link[2]"
+            },
+            "ruleTime": 8,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 283,
+                "top": 20551,
+                "height": 39,
+                "width": 234
+            },
+            "snippet": "<a class=\"button\" href=\"\nhttps://github.com/w3c/wai-website/edit/main/pages/test-evaluate/easy-checks/archive/index.md\n\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22button%5C%22%20href%3D%5C%22%5Cnhttps%3A%2F%2Fgithub.com%2Fw3c%2Fwai-website%2Fedit%2Fmain%2Fpages%2Ftest-evaluate%2Feasy-checks%2Farchive%2Findex.md%5Cn%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/aside[3]/div[1]/div[1]/a[3]",
+                "aria": "/document[1]/main[1]/complementary[3]/link[3]"
+            },
+            "ruleTime": 16,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 533,
+                "top": 20551,
+                "height": 39,
+                "width": 234
+            },
+            "snippet": "<a class=\"button\" href=\"https://github.com/w3c/wai-website/issues/new?template=content-issue.yml&wai-resource-id=wai-easy-checks&wai-url=https://www.w3.org/WAI/test-evaluate/preliminary/\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22button%5C%22%20href%3D%5C%22https%3A%2F%2Fgithub.com%2Fw3c%2Fwai-website%2Fissues%2Fnew%3Ftemplate%3Dcontent-issue.yml%26wai-resource-id%3Dwai-easy-checks%26wai-url%3Dhttps%3A%2F%2Fwww.w3.org%2FWAI%2Ftest-evaluate%2Fpreliminary%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/main[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/link[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #fafafc. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                13,
+                700,
+                "#fafafc",
+                "#fafafc",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 680,
+                "top": 556,
+                "height": 19,
+                "width": 91
+            },
+            "snippet": "<span>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23fafafc.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C13%2C700%2C%22%23fafafc%22%2C%22%23fafafc%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "aria_contentinfo_single",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]",
+                "aria": "/document[1]/contentinfo[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"contentinfo\" role found on the page",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 20638,
+                "height": 392,
+                "width": 800
+            },
+            "snippet": "<footer aria-label=\"Page\" class=\"page-footer default-grid\" id=\"wai-site-footer\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_contentinfo_single.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22contentinfo%5C%22%20role%20found%20on%20the%20page%22%2C%22snippet%22%3A%22%3Cfooter%20aria-label%3D%5C%22Page%5C%22%20class%3D%5C%22page-footer%20default-grid%5C%22%20id%3D%5C%22wai-site-footer%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_contentinfo_single%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_contentinfo_single",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[2]",
+                "aria": "/document[1]/contentinfo[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"contentinfo\" role found on the page",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 21030,
+                "height": 418,
+                "width": 800
+            },
+            "snippet": "<footer aria-label=\"Site\" class=\"site-footer grid-4q\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_contentinfo_single.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22contentinfo%5C%22%20role%20found%20on%20the%20page%22%2C%22snippet%22%3A%22%3Cfooter%20aria-label%3D%5C%22Site%5C%22%20class%3D%5C%22site-footer%20grid-4q%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_contentinfo_single%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[2]/div[1]/div[2]/ul[1]/li[5]/a[1]",
+                "aria": "/document[1]/contentinfo[2]/list[1]/listitem[5]/link[1]"
+            },
+            "ruleTime": 8,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 459,
+                "top": 21146,
+                "height": 37,
+                "width": 143
+            },
+            "snippet": "<a class=\"button\" href=\"https://www.w3.org/WAI/news/subscribe/\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22button%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.w3.org%2FWAI%2Fnews%2Fsubscribe%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        }
+    ],
+    "numExecuted": 4946,
+    "ruleTime": 4596,
+    "nls": {
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        },
+        "text_quoted_correctly": {
+            "0": "Quotations should be marked with <q> or <blockquote> elements",
+            "Potential_1": "If the following text is a quotation, mark it as a <q> or <blockquote> element: {0}"
+        },
+        "aria_landmark_name_unique": {
+            "0": "Each landmark should have a unique 'aria-labelledby' or 'aria-label' or be nested in a different parent region",
+            "Fail_0": "Multiple elements with \"{0}\" landmarks within the same parent region are not distinguished from one another because they have the same \"{1}\" label"
+        },
+        "style_focus_visible": {
+            "0": "The keyboard focus indicator should be visible when default border or outline is modified by CSS",
+            "potential_focus_not_visible": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'"
+        },
+        "text_contrast_sufficient": {
+            "0": "The contrast ratio of text with its background must meet WCAG AA requirements",
+            "potential_same_color": "The foreground text and its background color are both detected as {3}. Verify the text meets the WCAG AA requirements for minimum contrast"
+        },
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_placeholder_only": "The ‘placeholder’ is the only visible label",
+            "potential_no_label": "The input element does not have an associated visible label"
+        },
+        "form_submit_button_exists": {
+            "0": "A <form> element should have a submit button or an image button",
+            "Potential_1": "Verify the <form> element has a submit button or an image button"
+        },
+        "aria_complementary_label_unique": {
+            "0": "Each element with \"complementary\" role must have a unique label that describes its purpose",
+            "Fail_1": "Multiple elements with \"complementary\" role do not have unique labels"
+        },
+        "aria_complementary_labelled": {
+            "0": "Each element with \"complementary\" role must have a label that describes its purpose",
+            "Fail_1": "Element with \"complementary\" role does not have a label"
+        },
+        "text_sensory_misuse": {
+            "0": "Instructions should be meaningful without relying solely on shape, size, or location words",
+            "potential_position": "Confirm the word(s) '{0}' of the user instruction is used to indicate a logical rather than visual position",
+            "potential_other": "Confirm the user instruction is still understandable without the word(s) '{0}'"
+        },
+        "aria_contentinfo_single": {
+            "0": "A page, document, or application should only have one element with \"contentinfo\" role",
+            "Fail_1": "Multiple elements with \"contentinfo\" role found on the page"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 56,
+            "elementsViolation": 4,
+            "elementsViolationReview": 43,
+            "violation": 8,
+            "potentialviolation": 43,
+            "recommendation": 13,
+            "potentialrecommendation": 0,
+            "manual": 1,
+            "pass": 4881
+        },
+        "scanTime": 10478,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1734204161631,
+        "URL": "https://www.w3.org/WAI/test-evaluate/preliminary/"
+    },
+    "scanID": "512c5c5a-f022-4c35-bcc8-558aa7c522ea",
+    "toolID": "accessibility-checker-v3.1.79",
+    "label": "www.w3.org"
+}

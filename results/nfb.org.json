@@ -1,0 +1,3059 @@
+{
+    "results": [
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[6]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link href=\"/sites/nfb.org/files/css/optimized/css_cFgy-R71OyR3v0cArdj8jzB3N6ZQsHuf18uMOxJ4HZ4.KaLr4gvZLoQflX9QyASZQIEf_oeNv2Wm_3FlpUIKOVk.css?snzyl8\" media=\"all\" rel=\"stylesheet\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Clink%20href%3D%5C%22%2Fsites%2Fnfb.org%2Ffiles%2Fcss%2Foptimized%2Fcss_cFgy-R71OyR3v0cArdj8jzB3N6ZQsHuf18uMOxJ4HZ4.KaLr4gvZLoQflX9QyASZQIEf_oeNv2Wm_3FlpUIKOVk.css%3Fsnzyl8%5C%22%20media%3D%5C%22all%5C%22%20rel%3D%5C%22stylesheet%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/a[1]",
+                "aria": "/document[1]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 1,
+                "width": 1
+            },
+            "snippet": "<a class=\"visually-hidden focusable skip-link\" href=\"#main-content\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22visually-hidden%20focusable%20skip-link%5C%22%20href%3D%5C%22%23main-content%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/a[1]",
+                "aria": "/document[1]/link[1]"
+            },
+            "ruleTime": 22,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 1,
+                "width": 1
+            },
+            "snippet": "<a class=\"visually-hidden focusable skip-link\" href=\"#main-content\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22visually-hidden%20focusable%20skip-link%5C%22%20href%3D%5C%22%23main-content%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]",
+                "aria": "/document[1]/banner[2]"
+            },
+            "ruleTime": 4,
+            "reasonId": "Fail_0",
+            "message": "Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "banner",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 315,
+                "width": 800
+            },
+            "snippet": "<header class=\"site-header\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cheader%20class%3D%5C%22site-header%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_0%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22banner%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/banner[2]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "The 'id' \"block-headernavigation-menu\" specified for the ARIA property 'aria-labelledby' value is not valid",
+            "messageArgs": [
+                "block-headernavigation-menu",
+                "aria-labelledby",
+                "nav"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 645,
+                "top": 17,
+                "height": 37,
+                "width": 101
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--header\" id=\"block-headernavigation\" aria-labelledby=\"block-headernavigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_id_unique.html#%7B%22message%22%3A%22The%20'id'%20%5C%22block-headernavigation-menu%5C%22%20specified%20for%20the%20ARIA%20property%20'aria-labelledby'%20value%20is%20not%20valid%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--header%5C%22%20id%3D%5C%22block-headernavigation%5C%22%20aria-labelledby%3D%5C%22block-headernavigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_id_unique%22%2C%22msgArgs%22%3A%5B%22block-headernavigation-menu%22%2C%22aria-labelledby%22%2C%22nav%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/banner[2]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_0",
+            "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "navigation",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 645,
+                "top": 17,
+                "height": 37,
+                "width": 101
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--header\" id=\"block-headernavigation\" aria-labelledby=\"block-headernavigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--header%5C%22%20id%3D%5C%22block-headernavigation%5C%22%20aria-labelledby%3D%5C%22block-headernavigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_0%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_navigation_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/banner[2]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"navigation\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 645,
+                "top": 17,
+                "height": 37,
+                "width": 101
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--header\" id=\"block-headernavigation\" aria-labelledby=\"block-headernavigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--header%5C%22%20id%3D%5C%22block-headernavigation%5C%22%20aria-labelledby%3D%5C%22block-headernavigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/nav[1]",
+                "aria": "/document[1]/banner[2]/navigation[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "The 'id' \"block-headersecondarynavigation-menu\" specified for the ARIA property 'aria-labelledby' value is not valid",
+            "messageArgs": [
+                "block-headersecondarynavigation-menu",
+                "aria-labelledby",
+                "nav"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 351,
+                "top": 79,
+                "height": 39,
+                "width": 395
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--header-secondary\" id=\"block-headersecondarynavigation\" aria-labelledby=\"block-headersecondarynavigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_id_unique.html#%7B%22message%22%3A%22The%20'id'%20%5C%22block-headersecondarynavigation-menu%5C%22%20specified%20for%20the%20ARIA%20property%20'aria-labelledby'%20value%20is%20not%20valid%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--header-secondary%5C%22%20id%3D%5C%22block-headersecondarynavigation%5C%22%20aria-labelledby%3D%5C%22block-headersecondarynavigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_id_unique%22%2C%22msgArgs%22%3A%5B%22block-headersecondarynavigation-menu%22%2C%22aria-labelledby%22%2C%22nav%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/nav[1]",
+                "aria": "/document[1]/banner[2]/navigation[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_0",
+            "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "navigation",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 351,
+                "top": 79,
+                "height": 39,
+                "width": 395
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--header-secondary\" id=\"block-headersecondarynavigation\" aria-labelledby=\"block-headersecondarynavigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--header-secondary%5C%22%20id%3D%5C%22block-headersecondarynavigation%5C%22%20aria-labelledby%3D%5C%22block-headersecondarynavigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_0%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_navigation_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/nav[1]",
+                "aria": "/document[1]/banner[2]/navigation[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"navigation\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 351,
+                "top": 79,
+                "height": 39,
+                "width": 395
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--header-secondary\" id=\"block-headersecondarynavigation\" aria-labelledby=\"block-headersecondarynavigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--header-secondary%5C%22%20id%3D%5C%22block-headersecondarynavigation%5C%22%20aria-labelledby%3D%5C%22block-headersecondarynavigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "element_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]",
+                "aria": "/document[1]/banner[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_2",
+            "message": "The <div> element has the id \"block-searchapipagesearchblockform--2\" that is already in use",
+            "messageArgs": [
+                "div",
+                "block-searchapipagesearchblockform--2"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 510,
+                "top": 133,
+                "height": 70,
+                "width": 235
+            },
+            "snippet": "<div id=\"block-searchapipagesearchblockform--2\" data-drupal-selector=\"search-api-page-block-form-search-2\" class=\"search-api-page-block-form-search search-api-page-block-form search-form search-block-form container-inline block block-search-api-page block-search-api-page-form-block\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Cdiv%3E%20element%20has%20the%20id%20%5C%22block-searchapipagesearchblockform--2%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Cdiv%20id%3D%5C%22block-searchapipagesearchblockform--2%5C%22%20data-drupal-selector%3D%5C%22search-api-page-block-form-search-2%5C%22%20class%3D%5C%22search-api-page-block-form-search%20search-api-page-block-form%20search-form%20search-block-form%20container-inline%20block%20block-search-api-page%20block-search-api-page-form-block%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22div%22%2C%22block-searchapipagesearchblockform--2%22%5D%7D"
+        },
+        {
+            "ruleId": "element_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/form[1]",
+                "aria": "/document[1]/banner[2]/form[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_2",
+            "message": "The <form> element has the id \"search-api-page-block-form-search--2\" that is already in use",
+            "messageArgs": [
+                "form",
+                "search-api-page-block-form-search--2"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 510,
+                "top": 133,
+                "height": 70,
+                "width": 235
+            },
+            "snippet": "<form accept-charset=\"UTF-8\" id=\"search-api-page-block-form-search--2\" method=\"get\" action=\"/search\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Cform%3E%20element%20has%20the%20id%20%5C%22search-api-page-block-form-search--2%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Cform%20accept-charset%3D%5C%22UTF-8%5C%22%20id%3D%5C%22search-api-page-block-form-search--2%5C%22%20method%3D%5C%22get%5C%22%20action%3D%5C%22%2Fsearch%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22form%22%2C%22search-api-page-block-form-search--2%22%5D%7D"
+        },
+        {
+            "ruleId": "label_ref_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/form[1]/div[1]/label[1]",
+                "aria": "/document[1]/banner[2]/form[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "fail_invalid",
+            "message": "The value \"edit-keys--2\" of the 'for' attribute is not the 'id' of a valid element",
+            "messageArgs": [
+                "edit-keys--2"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 509,
+                "top": 150,
+                "height": 1,
+                "width": 1
+            },
+            "snippet": "<label class=\"control-label sr-only\" for=\"edit-keys--2\" data-element-type=\"search\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/label_ref_valid.html#%7B%22message%22%3A%22The%20value%20%5C%22edit-keys--2%5C%22%20of%20the%20'for'%20attribute%20is%20not%20the%20'id'%20of%20a%20valid%20element%22%2C%22snippet%22%3A%22%3Clabel%20class%3D%5C%22control-label%20sr-only%5C%22%20for%3D%5C%22edit-keys--2%5C%22%20data-element-type%3D%5C%22search%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_invalid%22%2C%22ruleId%22%3A%22label_ref_valid%22%2C%22msgArgs%22%3A%5B%22edit-keys--2%22%5D%7D"
+        },
+        {
+            "ruleId": "element_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/form[1]/div[1]/input[1]",
+                "aria": "/document[1]/banner[2]/form[1]/searchbox[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_2",
+            "message": "The <input> element has the id \"edit-keys--2\" that is already in use",
+            "messageArgs": [
+                "input",
+                "edit-keys--2"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 510,
+                "top": 151,
+                "height": 34,
+                "width": 166
+            },
+            "snippet": "<input class=\"form-search form-control\" maxlength=\"128\" size=\"15\" value=\"\" name=\"keys\" id=\"edit-keys--2\" type=\"search\" data-drupal-selector=\"edit-keys\" title=\"Enter the terms you wish to search for.\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Cinput%3E%20element%20has%20the%20id%20%5C%22edit-keys--2%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Cinput%20class%3D%5C%22form-search%20form-control%5C%22%20maxlength%3D%5C%22128%5C%22%20size%3D%5C%2215%5C%22%20value%3D%5C%22%5C%22%20name%3D%5C%22keys%5C%22%20id%3D%5C%22edit-keys--2%5C%22%20type%3D%5C%22search%5C%22%20data-drupal-selector%3D%5C%22edit-keys%5C%22%20title%3D%5C%22Enter%20the%20terms%20you%20wish%20to%20search%20for.%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22input%22%2C%22edit-keys--2%22%5D%7D"
+        },
+        {
+            "ruleId": "element_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/form[1]/div[2]",
+                "aria": "/document[1]/banner[2]/form[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_2",
+            "message": "The <div> element has the id \"edit-actions--2\" that is already in use",
+            "messageArgs": [
+                "div",
+                "edit-actions--2"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 680,
+                "top": 174,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<div id=\"edit-actions--2\" class=\"form-actions js-form-wrapper form-wrapper\" data-drupal-selector=\"edit-actions\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Cdiv%3E%20element%20has%20the%20id%20%5C%22edit-actions--2%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Cdiv%20id%3D%5C%22edit-actions--2%5C%22%20class%3D%5C%22form-actions%20js-form-wrapper%20form-wrapper%5C%22%20data-drupal-selector%3D%5C%22edit-actions%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22div%22%2C%22edit-actions--2%22%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/form[1]/div[2]/button[1]",
+                "aria": "/document[1]/banner[2]/form[1]/button[2]"
+            },
+            "ruleTime": 67,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 718,
+                "top": 131,
+                "height": 41,
+                "width": 27
+            },
+            "snippet": "<button aria-label=\"Search\" class=\"form-submit--trigger\" type=\"button\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Search%5C%22%20class%3D%5C%22form-submit--trigger%5C%22%20type%3D%5C%22button%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/form[1]/div[2]/button[1]",
+                "aria": "/document[1]/banner[2]/form[1]/button[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 718,
+                "top": 131,
+                "height": 41,
+                "width": 27
+            },
+            "snippet": "<button aria-label=\"Search\" class=\"form-submit--trigger\" type=\"button\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Search%5C%22%20class%3D%5C%22form-submit--trigger%5C%22%20type%3D%5C%22button%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_keyboard_handler_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/nav[1]/ul[1]",
+                "aria": "/document[1]/banner[2]/navigation[3]/menubar[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_no_keyboard_access",
+            "message": "Verify the <ul> element with \"menubar\" role has keyboard access",
+            "messageArgs": [
+                "ul",
+                "menubar"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 233,
+                "height": 82,
+                "width": 720
+            },
+            "snippet": "<ul role=\"menubar\" id=\"primary-nav-menubar\" class=\"menu menu--parent menu--main menu--level-0\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_keyboard_handler_exists.html#%7B%22message%22%3A%22Verify%20the%20%3Cul%3E%20element%20with%20%5C%22menubar%5C%22%20role%20has%20keyboard%20access%22%2C%22snippet%22%3A%22%3Cul%20role%3D%5C%22menubar%5C%22%20id%3D%5C%22primary-nav-menubar%5C%22%20class%3D%5C%22menu%20menu--parent%20menu--main%20menu--level-0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_keyboard_access%22%2C%22ruleId%22%3A%22aria_keyboard_handler_exists%22%2C%22msgArgs%22%3A%5B%22ul%22%2C%22menubar%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_child_tabbable",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/nav[1]/ul[1]",
+                "aria": "/document[1]/banner[2]/navigation[3]/menubar[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "fail_missing_child",
+            "message": "None of the descendent elements with \"menuitem\" role is tabbable",
+            "messageArgs": [
+                "li",
+                "menuitem"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 233,
+                "height": 82,
+                "width": 720
+            },
+            "snippet": "<ul role=\"menubar\" id=\"primary-nav-menubar\" class=\"menu menu--parent menu--main menu--level-0\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_child_tabbable.html#%7B%22message%22%3A%22None%20of%20the%20descendent%20elements%20with%20%5C%22menuitem%5C%22%20role%20is%20tabbable%22%2C%22snippet%22%3A%22%3Cul%20role%3D%5C%22menubar%5C%22%20id%3D%5C%22primary-nav-menubar%5C%22%20class%3D%5C%22menu%20menu--parent%20menu--main%20menu--level-0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_missing_child%22%2C%22ruleId%22%3A%22aria_child_tabbable%22%2C%22msgArgs%22%3A%5B%22li%22%2C%22menuitem%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/generic[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_invalid_implicit_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with implicit ARIA role \"generic\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "generic"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 345,
+                "height": 276,
+                "width": 800
+            },
+            "snippet": "<div aria-label=\"Slideshow\" class=\"component-carousel-section-wrapper\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20implicit%20ARIA%20role%20%5C%22generic%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20aria-label%3D%5C%22Slideshow%5C%22%20class%3D%5C%22component-carousel-section-wrapper%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_implicit_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22generic%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/main[1]/article[1]/generic[1]/button[1]"
+            },
+            "ruleTime": 6,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 345,
+                "height": 276,
+                "width": 50
+            },
+            "snippet": "<button style=\"\" type=\"button\" aria-label=\"Previous\" class=\"slick-prev slick-arrow\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22%5C%22%20type%3D%5C%22button%5C%22%20aria-label%3D%5C%22Previous%5C%22%20class%3D%5C%22slick-prev%20slick-arrow%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/main[1]/article[1]/generic[1]/button[1]"
+            },
+            "ruleTime": 46,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 345,
+                "height": 276,
+                "width": 50
+            },
+            "snippet": "<button style=\"\" type=\"button\" aria-label=\"Previous\" class=\"slick-prev slick-arrow\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22%5C%22%20type%3D%5C%22button%5C%22%20aria-label%3D%5C%22Previous%5C%22%20class%3D%5C%22slick-prev%20slick-arrow%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/main[1]/article[1]/generic[1]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 345,
+                "height": 276,
+                "width": 50
+            },
+            "snippet": "<button style=\"\" type=\"button\" aria-label=\"Previous\" class=\"slick-prev slick-arrow\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22%5C%22%20type%3D%5C%22button%5C%22%20aria-label%3D%5C%22Previous%5C%22%20class%3D%5C%22slick-prev%20slick-arrow%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/generic[1]/generic[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_invalid_role",
+            "message": "The tabbable element's role 'generic' is not a widget role",
+            "messageArgs": [
+                "generic"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 345,
+                "height": 276,
+                "width": 800
+            },
+            "snippet": "<div style=\"width: 800px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;\" tabindex=\"0\" aria-hidden=\"false\" data-slick-index=\"0\" class=\"component-carousel__slider__item slick-slide slick-current slick-active\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_role_valid.html#%7B%22message%22%3A%22The%20tabbable%20element's%20role%20'generic'%20is%20not%20a%20widget%20role%22%2C%22snippet%22%3A%22%3Cdiv%20style%3D%5C%22width%3A%20800px%3B%20position%3A%20relative%3B%20left%3A%200px%3B%20top%3A%200px%3B%20z-index%3A%20999%3B%20opacity%3A%201%3B%5C%22%20tabindex%3D%5C%220%5C%22%20aria-hidden%3D%5C%22false%5C%22%20data-slick-index%3D%5C%220%5C%22%20class%3D%5C%22component-carousel__slider__item%20slick-slide%20slick-current%20slick-active%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_invalid_role%22%2C%22ruleId%22%3A%22element_tabbable_role_valid%22%2C%22msgArgs%22%3A%5B%22generic%22%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/generic[1]/generic[1]"
+            },
+            "ruleTime": 47,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 345,
+                "height": 276,
+                "width": 800
+            },
+            "snippet": "<div style=\"width: 800px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;\" tabindex=\"0\" aria-hidden=\"false\" data-slick-index=\"0\" class=\"component-carousel__slider__item slick-slide slick-current slick-active\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cdiv%20style%3D%5C%22width%3A%20800px%3B%20position%3A%20relative%3B%20left%3A%200px%3B%20top%3A%200px%3B%20z-index%3A%20999%3B%20opacity%3A%201%3B%5C%22%20tabindex%3D%5C%220%5C%22%20aria-hidden%3D%5C%22false%5C%22%20data-slick-index%3D%5C%220%5C%22%20class%3D%5C%22component-carousel__slider__item%20slick-slide%20slick-current%20slick-active%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[2]",
+                "aria": "/document[1]/main[1]/article[1]/generic[1]/button[2]"
+            },
+            "ruleTime": 68,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 750,
+                "top": 345,
+                "height": 276,
+                "width": 50
+            },
+            "snippet": "<button style=\"\" type=\"button\" aria-label=\"Next\" class=\"slick-next slick-arrow\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22%5C%22%20type%3D%5C%22button%5C%22%20aria-label%3D%5C%22Next%5C%22%20class%3D%5C%22slick-next%20slick-arrow%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[2]",
+                "aria": "/document[1]/main[1]/article[1]/generic[1]/button[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 750,
+                "top": 345,
+                "height": 276,
+                "width": 50
+            },
+            "snippet": "<button style=\"\" type=\"button\" aria-label=\"Next\" class=\"slick-next slick-arrow\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22%5C%22%20type%3D%5C%22button%5C%22%20aria-label%3D%5C%22Next%5C%22%20class%3D%5C%22slick-next%20slick-arrow%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]/font[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                52,
+                500,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 92,
+                "top": 808,
+                "height": 62,
+                "width": 618
+            },
+            "snippet": "<font color=\"#0064b5\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cfont%20color%3D%5C%22%230064b5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C52%2C500%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                26,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 878,
+                "height": 255,
+                "width": 720
+            },
+            "snippet": "<p class=\"large-text text-align-center\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22large-text%20text-align-center%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C26%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]/strong[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[2]/strong[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #f2f2f2. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                36,
+                700,
+                "#f2f2f2",
+                "#f2f2f2",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 200,
+                "top": 1390,
+                "height": 44,
+                "width": 402
+            },
+            "snippet": "<span style=\"color:#01893e;\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23f2f2f2.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20style%3D%5C%22color%3A%2301893e%3B%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C36%2C700%2C%22%23f2f2f2%22%2C%22%23f2f2f2%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[2]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #f2f2f2. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                400,
+                "#f2f2f2",
+                "#f2f2f2",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 83,
+                "top": 1454,
+                "height": 73,
+                "width": 636
+            },
+            "snippet": "<span style=\"font-size:24px;\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23f2f2f2.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20style%3D%5C%22font-size%3A24px%3B%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C400%2C%22%23f2f2f2%22%2C%22%23f2f2f2%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[3]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Featured Programs' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Featured Programs"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 1616,
+                "height": 38,
+                "width": 720
+            },
+            "snippet": "<div class=\"field field--name-field-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'Featured%20Programs'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22Featured%20Programs%22%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[3]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                34,
+                500,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 1616,
+                "height": 38,
+                "width": 720
+            },
+            "snippet": "<div class=\"field field--name-field-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C34%2C500%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[1]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_graphic_background",
+            "message": "Verify the contrast ratio of the text against the lightest and the darkest colors of the background meets the WCAG AA minimum requirements for text of size undefinedpx and weight of 400",
+            "messageArgs": [
+                "1.00",
+                null,
+                400
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": -9959,
+                "top": 1679,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Verify%20the%20contrast%20ratio%20of%20the%20text%20against%20the%20lightest%20and%20the%20darkest%20colors%20of%20the%20background%20meets%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%20undefinedpx%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_graphic_background%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2Cnull%2C400%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h4[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[1]/heading[1]/link[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 1697,
+                "height": 29,
+                "width": 401
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 1734,
+                "height": 54,
+                "width": 495
+            },
+            "snippet": "<div class=\"featured-teaser__body\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22featured-teaser__body%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[1]/link[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 1788,
+                "height": 27,
+                "width": 495
+            },
+            "snippet": "<div class=\"field field--name-field-teaser-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-teaser-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[2]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_graphic_background",
+            "message": "Verify the contrast ratio of the text against the lightest and the darkest colors of the background meets the WCAG AA minimum requirements for text of size undefinedpx and weight of 400",
+            "messageArgs": [
+                "1.00",
+                null,
+                400
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": -9959,
+                "top": 1903,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Verify%20the%20contrast%20ratio%20of%20the%20text%20against%20the%20lightest%20and%20the%20darkest%20colors%20of%20the%20background%20meets%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%20undefinedpx%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_graphic_background%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2Cnull%2C400%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/h4[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[2]/heading[1]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 1921,
+                "height": 29,
+                "width": 223
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[2]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 1958,
+                "height": 54,
+                "width": 495
+            },
+            "snippet": "<div class=\"featured-teaser__body\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22featured-teaser__body%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_other",
+            "message": "Confirm the user instruction is still understandable without the word(s) 'largest'",
+            "messageArgs": [
+                "largest"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 1958,
+                "height": 54,
+                "width": 495
+            },
+            "snippet": "<div class=\"featured-teaser__body\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20user%20instruction%20is%20still%20understandable%20without%20the%20word(s)%20'largest'%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22featured-teaser__body%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_other%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22largest%22%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[2]/link[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2012,
+                "height": 27,
+                "width": 495
+            },
+            "snippet": "<div class=\"field field--name-field-teaser-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-teaser-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[3]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_graphic_background",
+            "message": "Verify the contrast ratio of the text against the lightest and the darkest colors of the background meets the WCAG AA minimum requirements for text of size undefinedpx and weight of 400",
+            "messageArgs": [
+                "1.00",
+                null,
+                400
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": -9959,
+                "top": 2127,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Verify%20the%20contrast%20ratio%20of%20the%20text%20against%20the%20lightest%20and%20the%20darkest%20colors%20of%20the%20background%20meets%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%20undefinedpx%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_graphic_background%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2Cnull%2C400%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/h4[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[3]/heading[1]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2145,
+                "height": 29,
+                "width": 223
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[3]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2182,
+                "height": 54,
+                "width": 495
+            },
+            "snippet": "<div class=\"featured-teaser__body\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22featured-teaser__body%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_sensory_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[3]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_position",
+            "message": "Confirm the word(s) 'corner' of the user instruction is used to indicate a logical rather than visual position",
+            "messageArgs": [
+                "corner"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2182,
+                "height": 54,
+                "width": 495
+            },
+            "snippet": "<div class=\"featured-teaser__body\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_sensory_misuse.html#%7B%22message%22%3A%22Confirm%20the%20word(s)%20'corner'%20of%20the%20user%20instruction%20is%20used%20to%20indicate%20a%20logical%20rather%20than%20visual%20position%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22featured-teaser__body%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_position%22%2C%22ruleId%22%3A%22text_sensory_misuse%22%2C%22msgArgs%22%3A%5B%22corner%22%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/a[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[3]/link[2]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2236,
+                "height": 27,
+                "width": 495
+            },
+            "snippet": "<div class=\"field field--name-field-teaser-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-teaser-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[4]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'American Education Week' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "American Education Week"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 2411,
+                "height": 38,
+                "width": 720
+            },
+            "snippet": "<div class=\"field field--name-field-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'American%20Education%20Week'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22American%20Education%20Week%22%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[4]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                34,
+                500,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 2411,
+                "height": 38,
+                "width": 720
+            },
+            "snippet": "<div class=\"field field--name-field-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C34%2C500%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[4]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_graphic_background",
+            "message": "Verify the contrast ratio of the text against the lightest and the darkest colors of the background meets the WCAG AA minimum requirements for text of size undefinedpx and weight of 400",
+            "messageArgs": [
+                "1.00",
+                null,
+                400
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": -9959,
+                "top": 2475,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Verify%20the%20contrast%20ratio%20of%20the%20text%20against%20the%20lightest%20and%20the%20darkest%20colors%20of%20the%20background%20meets%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%20undefinedpx%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_graphic_background%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2Cnull%2C400%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h4[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[4]/heading[1]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2493,
+                "height": 29,
+                "width": 284
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[4]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2529,
+                "height": 81,
+                "width": 495
+            },
+            "snippet": "<div class=\"featured-teaser__body\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22featured-teaser__body%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[4]/link[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2610,
+                "height": 27,
+                "width": 495
+            },
+            "snippet": "<div class=\"field field--name-field-teaser-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-teaser-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[5]/link[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_graphic_background",
+            "message": "Verify the contrast ratio of the text against the lightest and the darkest colors of the background meets the WCAG AA minimum requirements for text of size undefinedpx and weight of 400",
+            "messageArgs": [
+                "1.00",
+                null,
+                400
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": -9959,
+                "top": 2699,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Verify%20the%20contrast%20ratio%20of%20the%20text%20against%20the%20lightest%20and%20the%20darkest%20colors%20of%20the%20background%20meets%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%20undefinedpx%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_graphic_background%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2Cnull%2C400%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/h4[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[5]/heading[1]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2717,
+                "height": 29,
+                "width": 320
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[5]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2753,
+                "height": 81,
+                "width": 495
+            },
+            "snippet": "<div class=\"featured-teaser__body\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22featured-teaser__body%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[5]/link[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2834,
+                "height": 27,
+                "width": 495
+            },
+            "snippet": "<div class=\"field field--name-field-teaser-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-teaser-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[6]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_graphic_background",
+            "message": "Verify the contrast ratio of the text against the lightest and the darkest colors of the background meets the WCAG AA minimum requirements for text of size undefinedpx and weight of 400",
+            "messageArgs": [
+                "1.00",
+                null,
+                400
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": -9959,
+                "top": 2923,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Verify%20the%20contrast%20ratio%20of%20the%20text%20against%20the%20lightest%20and%20the%20darkest%20colors%20of%20the%20background%20meets%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%20undefinedpx%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_graphic_background%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2Cnull%2C400%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/h4[1]/a[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[6]/heading[1]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2941,
+                "height": 29,
+                "width": 197
+            },
+            "snippet": "<span class=\"field field--name-title field--type-string field--label-hidden\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20class%3D%5C%22field%20field--name-title%20field--type-string%20field--label-hidden%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 2977,
+                "height": 54,
+                "width": 495
+            },
+            "snippet": "<div class=\"featured-teaser__body\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22featured-teaser__body%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/a[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/article[6]/link[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 243,
+                "top": 3031,
+                "height": 27,
+                "width": 495
+            },
+            "snippet": "<div class=\"field field--name-field-teaser-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-teaser-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Blind Voter Survey' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Blind Voter Survey"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 3207,
+                "height": 38,
+                "width": 720
+            },
+            "snippet": "<div class=\"field field--name-field-text-2 field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'Blind%20Voter%20Survey'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text-2%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22Blind%20Voter%20Survey%22%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[5]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                34,
+                500,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 3207,
+                "height": 38,
+                "width": 720
+            },
+            "snippet": "<div class=\"field field--name-field-text-2 field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text-2%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C34%2C500%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/a[1]/div[2]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/link[2]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                22,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 64,
+                "top": 3815,
+                "height": 132,
+                "width": 429
+            },
+            "snippet": "<div class=\"field field--name-field-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C22%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/a[1]/div[2]/div[2]",
+                "aria": "/document[1]/main[1]/article[1]/link[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Complete the Blind Voter Survey' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Complete the Blind Voter Survey"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 64,
+                "top": 3962,
+                "height": 27,
+                "width": 429
+            },
+            "snippet": "<div class=\"component-cta-caption__link-text\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'Complete%20the%20Blind%20Voter%20Survey'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22component-cta-caption__link-text%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22Complete%20the%20Blind%20Voter%20Survey%22%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/a[1]/div[2]/div[2]",
+                "aria": "/document[1]/main[1]/article[1]/link[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                22,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 64,
+                "top": 3962,
+                "height": 27,
+                "width": 429
+            },
+            "snippet": "<div class=\"component-cta-caption__link-text\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22component-cta-caption__link-text%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C22%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Rideshare Rally Round-Up' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Rideshare Rally Round-Up"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 4152,
+                "height": 38,
+                "width": 720
+            },
+            "snippet": "<div class=\"field field--name-field-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'Rideshare%20Rally%20Round-Up'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22Rideshare%20Rally%20Round-Up%22%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[6]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                34,
+                500,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 4152,
+                "height": 38,
+                "width": 720
+            },
+            "snippet": "<div class=\"field field--name-field-text field--type-string field--label-hidden field__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22field%20field--name-field-text%20field--type-string%20field--label-hidden%20field__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C34%2C500%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h4[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[7]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 4495,
+                "height": 18,
+                "width": 259
+            },
+            "snippet": "<span style=\"color:#005aa3;\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20style%3D%5C%22color%3A%23005aa3%3B%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[3]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 4517,
+                "height": 65,
+                "width": 294
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[3]/link[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 4551,
+                "height": 30,
+                "width": 281
+            },
+            "snippet": "<a target=\"_blank\" href=\"https://www.youtube.com/live/xphq_PFDdEE?feature=shared&t=461\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Ca%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.youtube.com%2Flive%2Fxphq_PFDdEE%3Ffeature%3Dshared%26t%3D461%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/h4[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[8]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 4994,
+                "height": 18,
+                "width": 139
+            },
+            "snippet": "<span style=\"color:#005aa3;\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20style%3D%5C%22color%3A%23005aa3%3B%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 5016,
+                "height": 65,
+                "width": 294
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/p[1]/a[1]/em[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[4]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 389,
+                "top": 5033,
+                "height": 14,
+                "width": 28
+            },
+            "snippet": "<em>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cem%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/p[1]/a[2]/em[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[4]/link[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 421,
+                "top": 5033,
+                "height": 14,
+                "width": 55
+            },
+            "snippet": "<em>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cem%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/p[1]/a[3]/em[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[4]/link[3]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 5033,
+                "height": 30,
+                "width": 286
+            },
+            "snippet": "<em>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cem%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/h4[1]/span[1]",
+                "aria": "/document[1]/main[1]/article[1]/heading[9]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                24,
+                700,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 5498,
+                "height": 18,
+                "width": 237
+            },
+            "snippet": "<span style=\"color:#005aa3;\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cspan%20style%3D%5C%22color%3A%23005aa3%3B%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C24%2C700%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[5]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 5520,
+                "height": 81,
+                "width": 294
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/div[3]/main[1]/div[4]/div[1]/article[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[5]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_same_color",
+            "message": "The foreground text and its background color are both detected as #ffffff. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "messageArgs": [
+                "1.00",
+                18,
+                400,
+                "#ffffff",
+                "#ffffff",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 253,
+                "top": 5570,
+                "height": 30,
+                "width": 282
+            },
+            "snippet": "<a href=\"https://nfb.org/blog/rideshare-advocacy-unlawful-implementation-self-identification\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22The%20foreground%20text%20and%20its%20background%20color%20are%20both%20detected%20as%20%23ffffff.%20Verify%20the%20text%20meets%20the%20WCAG%20AA%20requirements%20for%20minimum%20contrast%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fnfb.org%2Fblog%2Frideshare-advocacy-unlawful-implementation-self-identification%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_same_color%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.00%22%2C18%2C400%2C%22%23ffffff%22%2C%22%23ffffff%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/contentinfo[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'National Federation of the Blind' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "National Federation of the Blind"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 130,
+                "top": 5919,
+                "height": 0,
+                "width": 540
+            },
+            "snippet": "<div class=\"tex2jax_process\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'National%20Federation%20of%20the%20Blind'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22tex2jax_process%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22National%20Federation%20of%20the%20Blind%22%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/contentinfo[1]/paragraph[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'National Federation of the Blind National Federation of the Blind' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "National Federation of the Blind National Federation of the Blind"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 130,
+                "top": 5919,
+                "height": 76,
+                "width": 324
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'National%20Federation%20of%20the%20Blind%20National%20Federation%20of%20the%20Blind'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22National%20Federation%20of%20the%20Blind%20National%20Federation%20of%20the%20Blind%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/contentinfo[1]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "The 'id' \"block-site-footer-navigation-menu\" specified for the ARIA property 'aria-labelledby' value is not valid",
+            "messageArgs": [
+                "block-site-footer-navigation-menu",
+                "aria-labelledby",
+                "nav"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 6229,
+                "height": 0,
+                "width": 720
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--main\" id=\"block-site-footer-navigation\" aria-labelledby=\"block-site-footer-navigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_id_unique.html#%7B%22message%22%3A%22The%20'id'%20%5C%22block-site-footer-navigation-menu%5C%22%20specified%20for%20the%20ARIA%20property%20'aria-labelledby'%20value%20is%20not%20valid%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--main%5C%22%20id%3D%5C%22block-site-footer-navigation%5C%22%20aria-labelledby%3D%5C%22block-site-footer-navigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_id_unique%22%2C%22msgArgs%22%3A%5B%22block-site-footer-navigation-menu%22%2C%22aria-labelledby%22%2C%22nav%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/contentinfo[1]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_0",
+            "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "navigation",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 6229,
+                "height": 0,
+                "width": 720
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--main\" id=\"block-site-footer-navigation\" aria-labelledby=\"block-site-footer-navigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--main%5C%22%20id%3D%5C%22block-site-footer-navigation%5C%22%20aria-labelledby%3D%5C%22block-site-footer-navigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_0%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_navigation_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/contentinfo[1]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"navigation\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 6229,
+                "height": 0,
+                "width": 720
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--main\" id=\"block-site-footer-navigation\" aria-labelledby=\"block-site-footer-navigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--main%5C%22%20id%3D%5C%22block-site-footer-navigation%5C%22%20aria-labelledby%3D%5C%22block-site-footer-navigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/contentinfo[1]/navigation[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "The 'id' \"block-footer-bottom-navigation-menu\" specified for the ARIA property 'aria-labelledby' value is not valid",
+            "messageArgs": [
+                "block-footer-bottom-navigation-menu",
+                "aria-labelledby",
+                "nav"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 7272,
+                "height": 27,
+                "width": 720
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--footer-bottom-navigation\" id=\"block-footer-bottom-navigation\" aria-labelledby=\"block-footer-bottom-navigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_id_unique.html#%7B%22message%22%3A%22The%20'id'%20%5C%22block-footer-bottom-navigation-menu%5C%22%20specified%20for%20the%20ARIA%20property%20'aria-labelledby'%20value%20is%20not%20valid%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--footer-bottom-navigation%5C%22%20id%3D%5C%22block-footer-bottom-navigation%5C%22%20aria-labelledby%3D%5C%22block-footer-bottom-navigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_id_unique%22%2C%22msgArgs%22%3A%5B%22block-footer-bottom-navigation-menu%22%2C%22aria-labelledby%22%2C%22nav%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/contentinfo[1]/navigation[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_0",
+            "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "navigation",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 7272,
+                "height": 27,
+                "width": 720
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--footer-bottom-navigation\" id=\"block-footer-bottom-navigation\" aria-labelledby=\"block-footer-bottom-navigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--footer-bottom-navigation%5C%22%20id%3D%5C%22block-footer-bottom-navigation%5C%22%20aria-labelledby%3D%5C%22block-footer-bottom-navigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_0%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_navigation_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+                "aria": "/document[1]/contentinfo[1]/navigation[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"navigation\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 7272,
+                "height": 27,
+                "width": 720
+            },
+            "snippet": "<nav class=\"block block-menu navigation menu--footer-bottom-navigation\" id=\"block-footer-bottom-navigation\" aria-labelledby=\"block-footer-bottom-navigation-menu\" role=\"navigation\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22block%20block-menu%20navigation%20menu--footer-bottom-navigation%5C%22%20id%3D%5C%22block-footer-bottom-navigation%5C%22%20aria-labelledby%3D%5C%22block-footer-bottom-navigation-menu%5C%22%20role%3D%5C%22navigation%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "frame_src_valid",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/iframe[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Potential_1",
+            "message": "Verify <frame> content is accessible",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 1,
+                "width": 800
+            },
+            "snippet": "<iframe style=\"position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;\" width=\"1\" height=\"1\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/frame_src_valid.html#%7B%22message%22%3A%22Verify%20%3Cframe%3E%20content%20is%20accessible%22%2C%22snippet%22%3A%22%3Ciframe%20style%3D%5C%22position%3A%20absolute%3B%20top%3A%200px%3B%20left%3A%200px%3B%20border%3A%20none%3B%20visibility%3A%20hidden%3B%5C%22%20width%3D%5C%221%5C%22%20height%3D%5C%221%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22frame_src_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "frame_title_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/iframe[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Inline frame does not have a 'title' attribute",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 1,
+                "width": 800
+            },
+            "snippet": "<iframe style=\"position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;\" width=\"1\" height=\"1\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/frame_title_exists.html#%7B%22message%22%3A%22Inline%20frame%20does%20not%20have%20a%20'title'%20attribute%22%2C%22snippet%22%3A%22%3Ciframe%20style%3D%5C%22position%3A%20absolute%3B%20top%3A%200px%3B%20left%3A%200px%3B%20border%3A%20none%3B%20visibility%3A%20hidden%3B%5C%22%20width%3D%5C%221%5C%22%20height%3D%5C%221%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22frame_title_exists%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/iframe[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 43,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 1,
+                "width": 800
+            },
+            "snippet": "<iframe style=\"position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;\" width=\"1\" height=\"1\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ciframe%20style%3D%5C%22position%3A%20absolute%3B%20top%3A%200px%3B%20left%3A%200px%3B%20border%3A%20none%3B%20visibility%3A%20hidden%3B%5C%22%20width%3D%5C%221%5C%22%20height%3D%5C%221%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "target_spacing_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/iframe[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "violation_spacing",
+            "message": "Undersized target \"iframe\" does not have sufficient spacing of 12 CSS pixels from another target \"a\"",
+            "messageArgs": [
+                "iframe",
+                "a"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 1,
+                "width": 800
+            },
+            "snippet": "<iframe style=\"position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;\" width=\"1\" height=\"1\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/target_spacing_sufficient.html#%7B%22message%22%3A%22Undersized%20target%20%5C%22iframe%5C%22%20does%20not%20have%20sufficient%20spacing%20of%2012%20CSS%20pixels%20from%20another%20target%20%5C%22a%5C%22%22%2C%22snippet%22%3A%22%3Ciframe%20style%3D%5C%22position%3A%20absolute%3B%20top%3A%200px%3B%20left%3A%200px%3B%20border%3A%20none%3B%20visibility%3A%20hidden%3B%5C%22%20width%3D%5C%221%5C%22%20height%3D%5C%221%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22violation_spacing%22%2C%22ruleId%22%3A%22target_spacing_sufficient%22%2C%22msgArgs%22%3A%5B%22iframe%22%2C%22a%22%5D%7D"
+        },
+        {
+            "ruleId": "html_lang_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/iframe[1]/html[1]",
+                "aria": "/document[1]/document[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_3",
+            "message": "Page detected as HTML, but does not have a 'lang' attribute",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 8,
+                "width": 800
+            },
+            "snippet": "<html>",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/html_lang_exists.html#%7B%22message%22%3A%22Page%20detected%20as%20HTML%2C%20but%20does%20not%20have%20a%20'lang'%20attribute%22%2C%22snippet%22%3A%22%3Chtml%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22html_lang_exists%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "html_skipnav_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/iframe[1]/html[1]",
+                "aria": "/document[1]/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "Verify there is a way to bypass blocks of content that are repeated on multiple Web pages",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 8,
+                "width": 800
+            },
+            "snippet": "<html>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/html_skipnav_exists.html#%7B%22message%22%3A%22Verify%20there%20is%20a%20way%20to%20bypass%20blocks%20of%20content%20that%20are%20repeated%20on%20multiple%20Web%20pages%22%2C%22snippet%22%3A%22%3Chtml%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22html_skipnav_exists%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        }
+    ],
+    "numExecuted": 3222,
+    "ruleTime": 10082,
+    "nls": {
+        "html_lang_exists": {
+            "0": "Page must identify the default language of the document with a 'lang' attribute",
+            "Fail_3": "Page detected as HTML, but does not have a 'lang' attribute"
+        },
+        "html_skipnav_exists": {
+            "0": "Provide a way to bypass blocks of content that are repeated on multiple Web pages",
+            "Potential_1": "Verify there is a way to bypass blocks of content that are repeated on multiple Web pages"
+        },
+        "aria_content_in_landmark": {
+            "0": "All content must reside within an element with a landmark role",
+            "Fail_1": "Content is not within a landmark element"
+        },
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        },
+        "element_id_unique": {
+            "0": "Element 'id' attribute values must be unique within a document",
+            "Fail_2": "The <{0}> element has the id \"{1}\" that is already in use"
+        },
+        "element_tabbable_unobscured": {
+            "0": "When an element receives focus, it is not entirely covered by other content",
+            "potential_obscured": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus"
+        },
+        "style_focus_visible": {
+            "0": "The keyboard focus indicator should be visible when default border or outline is modified by CSS",
+            "potential_focus_not_visible": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'"
+        },
+        "aria_landmark_name_unique": {
+            "0": "Each landmark should have a unique 'aria-labelledby' or 'aria-label' or be nested in a different parent region",
+            "Fail_0": "Multiple elements with \"{0}\" landmarks within the same parent region are not distinguished from one another because they have the same \"{1}\" label"
+        },
+        "target_spacing_sufficient": {
+            "0": "The target must be sufficiently sized or spaced from other targets",
+            "violation_spacing": "Undersized target \"{0}\" does not have sufficient spacing of 12 CSS pixels from another target \"{1}\""
+        },
+        "aria_id_unique": {
+            "0": "The ARIA property must reference a non-empty unique id of an existing element that is visible",
+            "Fail_1": "The 'id' \"{0}\" specified for the ARIA property '{1}' value is not valid"
+        },
+        "aria_keyboard_handler_exists": {
+            "0": "Interactive WAI_ARIA UI components must provide keyboard access",
+            "potential_no_keyboard_access": "Verify the <{0}> element with \"{1}\" role has keyboard access"
+        },
+        "aria_attribute_valid": {
+            "0": "ARIA attributes should be valid for the element and ARIA role to which they are assigned",
+            "Fail_invalid_implicit_role_attr": "The ARIA attributes \"{0}\" are not valid for the element <{1}> with implicit ARIA role \"{2}\""
+        },
+        "aria_navigation_label_unique": {
+            "0": "Each element with \"navigation\" role must have a unique label that describes its purpose",
+            "Fail_1": "Multiple elements with \"navigation\" role do not have unique labels"
+        },
+        "text_contrast_sufficient": {
+            "0": "The contrast ratio of text with its background must meet WCAG AA requirements",
+            "potential_same_color": "The foreground text and its background color are both detected as {3}. Verify the text meets the WCAG AA requirements for minimum contrast",
+            "potential_graphic_background": "Verify the contrast ratio of the text against the lightest and the darkest colors of the background meets the WCAG AA minimum requirements for text of size {1}px and weight of {2}"
+        },
+        "label_ref_valid": {
+            "0": "The 'for' attribute for a label should reference a non-empty, unique 'id' attribute of a valid element",
+            "fail_invalid": "The value \"{0}\" of the 'for' attribute is not the 'id' of a valid element"
+        },
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_no_label": "The input element does not have an associated visible label"
+        },
+        "aria_child_tabbable": {
+            "0": "UI component must have at least one tabbable descendant for keyboard access",
+            "fail_missing_child": "None of the descendent elements with \"{1}\" role is tabbable"
+        },
+        "element_tabbable_role_valid": {
+            "0": "A tabbable element must have a valid widget role",
+            "fail_invalid_role": "The tabbable element's role '{0}' is not a widget role"
+        },
+        "text_block_heading": {
+            "0": "Heading text should use a heading element or role",
+            "potential_heading": "Confirm this text '{0}' is used as a heading and if so, modify to use a heading element or role"
+        },
+        "text_sensory_misuse": {
+            "0": "Instructions should be meaningful without relying solely on shape, size, or location words",
+            "potential_other": "Confirm the user instruction is still understandable without the word(s) '{0}'",
+            "potential_position": "Confirm the word(s) '{0}' of the user instruction is used to indicate a logical rather than visual position"
+        },
+        "frame_src_valid": {
+            "0": "A <frame> containing non-HTML content must be made accessible",
+            "Potential_1": "Verify <frame> content is accessible"
+        },
+        "frame_title_exists": {
+            "0": "Inline frames must have a unique, non-empty 'title' attribute",
+            "Fail_1": "Inline frame does not have a 'title' attribute"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 81,
+            "elementsViolation": 16,
+            "elementsViolationReview": 73,
+            "violation": 25,
+            "potentialviolation": 68,
+            "recommendation": 9,
+            "potentialrecommendation": 6,
+            "manual": 7,
+            "pass": 3107
+        },
+        "scanTime": 23972,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1734203947881,
+        "URL": "https://nfb.org/"
+    },
+    "scanID": "92fb78f9-4421-4ecc-8967-3c4de146f222",
+    "toolID": "accessibility-checker-v3.1.79",
+    "label": "nfb.org"
+}

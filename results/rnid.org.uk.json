@@ -1,0 +1,744 @@
+{
+    "results": [
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[5]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link color=\"#000000\" href=\"https://rnid.org.uk/wp-content/themes/rnid/dist/images/fav/favicon.svg\" rel=\"mask-icon\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Clink%20color%3D%5C%22%23000000%5C%22%20href%3D%5C%22https%3A%2F%2Frnid.org.uk%2Fwp-content%2Fthemes%2Frnid%2Fdist%2Fimages%2Ffav%2Ffavicon.svg%5C%22%20rel%3D%5C%22mask-icon%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+                "aria": "/document[1]/dialog[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Cookie Consent' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Cookie Consent"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 20,
+                "height": 29,
+                "width": 139
+            },
+            "snippet": "<div id=\"cmplz-header-1-optin\" class=\"cmplz-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'Cookie%20Consent'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20id%3D%5C%22cmplz-header-1-optin%5C%22%20class%3D%5C%22cmplz-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22Cookie%20Consent%22%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/div[6]/button[1]",
+                "aria": "/document[1]/dialog[1]/button[2]"
+            },
+            "ruleTime": 58,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 286,
+                "height": 45,
+                "width": 247
+            },
+            "snippet": "<button class=\"cmplz-btn cmplz-accept\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20class%3D%5C%22cmplz-btn%20cmplz-accept%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/div[6]/button[2]",
+                "aria": "/document[1]/dialog[1]/button[3]"
+            },
+            "ruleTime": 61,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 277,
+                "top": 286,
+                "height": 45,
+                "width": 247
+            },
+            "snippet": "<button class=\"cmplz-btn cmplz-deny\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20class%3D%5C%22cmplz-btn%20cmplz-deny%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/div[6]/button[3]",
+                "aria": "/document[1]/dialog[1]/button[4]"
+            },
+            "ruleTime": 79,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 534,
+                "top": 286,
+                "height": 45,
+                "width": 247
+            },
+            "snippet": "<button class=\"cmplz-btn cmplz-view-preferences\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20class%3D%5C%22cmplz-btn%20cmplz-view-preferences%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_background_decorative",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/style[2]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "Verify the CSS background image does not convey important information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<style id=\"wp-custom-css\" type=\"text/css\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_background_decorative.html#%7B%22message%22%3A%22Verify%20the%20CSS%20background%20image%20does%20not%20convey%20important%20information%22%2C%22snippet%22%3A%22%3Cstyle%20id%3D%5C%22wp-custom-css%5C%22%20type%3D%5C%22text%2Fcss%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_background_decorative%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_background_decorative",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/style[3]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "Verify the CSS background image does not convey important information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<style>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_background_decorative.html#%7B%22message%22%3A%22Verify%20the%20CSS%20background%20image%20does%20not%20convey%20important%20information%22%2C%22snippet%22%3A%22%3Cstyle%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_background_decorative%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/a[1]",
+                "aria": "/document[1]/banner[1]/link[1]"
+            },
+            "ruleTime": 7,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 395,
+                "height": 21,
+                "width": 31
+            },
+            "snippet": "<a class=\"govuk-skip-link\" href=\"#content\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22govuk-skip-link%5C%22%20href%3D%5C%22%23content%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "target_spacing_sufficient",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[1]/a[1]",
+                "aria": "/document[1]/banner[1]/link[1]"
+            },
+            "ruleTime": 108,
+            "reasonId": "potential_overlap",
+            "message": "Ensure the overlapped target \"a\" meets a minimum target size or has sufficient spacing from the overlapping target \"a\"",
+            "messageArgs": [
+                "a",
+                "a"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 395,
+                "height": 21,
+                "width": 31
+            },
+            "snippet": "<a class=\"govuk-skip-link\" href=\"#content\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/target_spacing_sufficient.html#%7B%22message%22%3A%22Ensure%20the%20overlapped%20target%20%5C%22a%5C%22%20meets%20a%20minimum%20target%20size%20or%20has%20sufficient%20spacing%20from%20the%20overlapping%20target%20%5C%22a%5C%22%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22govuk-skip-link%5C%22%20href%3D%5C%22%23content%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_overlap%22%2C%22ruleId%22%3A%22target_spacing_sufficient%22%2C%22msgArgs%22%3A%5B%22a%22%2C%22a%22%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[2]/div[1]/div[1]/a[1]/svg[1]",
+                "aria": "/document[1]/banner[1]/link[2]/graphics-document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 415,
+                "height": 80,
+                "width": 261
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 300 92\" height=\"92\" width=\"300\" class=\"logo-rnid\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20300%2092%5C%22%20height%3D%5C%2292%5C%22%20width%3D%5C%22300%5C%22%20class%3D%5C%22logo-rnid%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[2]/div[1]/div[2]/div[1]/form[1]/input[1]",
+                "aria": "/document[1]/banner[1]/search[1]/searchbox[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_placeholder_only",
+            "message": "The ‘placeholder’ is the only visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 414,
+                "top": 438,
+                "height": 40,
+                "width": 196
+            },
+            "snippet": "<input placeholder=\"Search\" aria-label=\"Search\" value=\"\" name=\"s\" type=\"search\" id=\"search\" class=\"govuk-input\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20%E2%80%98placeholder%E2%80%99%20is%20the%20only%20visible%20label%22%2C%22snippet%22%3A%22%3Cinput%20placeholder%3D%5C%22Search%5C%22%20aria-label%3D%5C%22Search%5C%22%20value%3D%5C%22%5C%22%20name%3D%5C%22s%5C%22%20type%3D%5C%22search%5C%22%20id%3D%5C%22search%5C%22%20class%3D%5C%22govuk-input%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_placeholder_only%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/header[1]/div[2]/div[1]/div[2]/div[1]/form[1]/button[1]/svg[1]",
+                "aria": "/document[1]/banner[1]/search[1]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 621,
+                "top": 441,
+                "height": 30,
+                "width": 20
+            },
+            "snippet": "<svg viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-search\" height=\"30\" width=\"20\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20viewBox%3D%5C%220%200%20512%20512%5C%22%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20class%3D%5C%22icon%20icon-search%5C%22%20height%3D%5C%2230%5C%22%20width%3D%5C%2220%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/p[1]/a[1]",
+                "aria": "/document[1]/main[1]/paragraph[1]/link[1]"
+            },
+            "ruleTime": 7,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 10,
+                "top": 629,
+                "height": 62,
+                "width": 108
+            },
+            "snippet": "<a href=\"https://rnid.org.uk/2020/10/old-name-new-purpose-action-on-hearing-loss-becomes-rnid-again/\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Frnid.org.uk%2F2020%2F10%2Fold-name-new-purpose-action-on-hearing-loss-becomes-rnid-again%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]",
+                "aria": "/document[1]/main[1]/heading[2]"
+            },
+            "ruleTime": 6,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 1.40 with its background is less than the WCAG AA minimum requirements for text of size 80px and weight of 700",
+            "messageArgs": [
+                "1.40",
+                80,
+                700,
+                "#ffffff",
+                "#c8e49a",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 59,
+                "top": 652,
+                "height": 216,
+                "width": 376
+            },
+            "snippet": "<h1 style=\"font-size:5rem\" id=\"h-support-our-christmas-appeal\" class=\"wp-block-heading barlow-condensed homepage-cover-heading has-white-color has-text-color has-link-color wp-elements-425c72fb1762f00eb19b9b0ea21f3f01\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%201.40%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2080px%20and%20weight%20of%20700%22%2C%22snippet%22%3A%22%3Ch1%20style%3D%5C%22font-size%3A5rem%5C%22%20id%3D%5C%22h-support-our-christmas-appeal%5C%22%20class%3D%5C%22wp-block-heading%20barlow-condensed%20homepage-cover-heading%20has-white-color%20has-text-color%20has-link-color%20wp-elements-425c72fb1762f00eb19b9b0ea21f3f01%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.40%22%2C80%2C700%2C%22%23ffffff%22%2C%22%23c8e49a%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/main[1]/paragraph[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 1.40 with its background is less than the WCAG AA minimum requirements for text of size 24px and weight of 400",
+            "messageArgs": [
+                "1.40",
+                24,
+                400,
+                "#ffffff",
+                "#c8e49a",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 59,
+                "top": 878,
+                "height": 115,
+                "width": 273
+            },
+            "snippet": "<p class=\"has-text-align-left homepage-cover-p has-white-color has-text-color has-link-color has-large-font-size wp-elements-d7429953273524427e8887e035014a70\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%201.40%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2024px%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22has-text-align-left%20homepage-cover-p%20has-white-color%20has-text-color%20has-link-color%20has-large-font-size%20wp-elements-d7429953273524427e8887e035014a70%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.40%22%2C24%2C400%2C%22%23ffffff%22%2C%22%23c8e49a%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[1]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 59,
+                "top": 1013,
+                "height": 48,
+                "width": 200
+            },
+            "snippet": "<a href=\"https://rnid.org.uk/2024/11/never-a-silent-night/\" class=\"wp-block-button__link has-white-color has-primary-background-color has-text-color has-background has-link-color wp-element-button\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Frnid.org.uk%2F2024%2F11%2Fnever-a-silent-night%2F%5C%22%20class%3D%5C%22wp-block-button__link%20has-white-color%20has-primary-background-color%20has-text-color%20has-background%20has-link-color%20wp-element-button%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[2]/div[5]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/h2[1]",
+                "aria": "/document[1]/main[1]/heading[15]"
+            },
+            "ruleTime": 19,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 1.65 with its background is less than the WCAG AA minimum requirements for text of size 80px and weight of 700",
+            "messageArgs": [
+                "1.65",
+                80,
+                700,
+                "#ffffff",
+                "#8fd5db",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 565,
+                "top": 2644,
+                "height": 89,
+                "width": 125
+            },
+            "snippet": "<h2 style=\"font-size:5rem\" id=\"h-5\" class=\"wp-block-heading\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%201.65%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2080px%20and%20weight%20of%20700%22%2C%22snippet%22%3A%22%3Ch2%20style%3D%5C%22font-size%3A5rem%5C%22%20id%3D%5C%22h-5%5C%22%20class%3D%5C%22wp-block-heading%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.65%22%2C80%2C700%2C%22%23ffffff%22%2C%22%238fd5db%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[2]/div[5]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/p[1]/strong[1]",
+                "aria": "/document[1]/main[1]/paragraph[11]/strong[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 1.65 with its background is less than the WCAG AA minimum requirements for text of size 22px and weight of 700",
+            "messageArgs": [
+                "1.65",
+                22,
+                700,
+                "#ffffff",
+                "#8fd5db",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 565,
+                "top": 2738,
+                "height": 158,
+                "width": 166
+            },
+            "snippet": "<strong>",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%201.65%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2022px%20and%20weight%20of%20700%22%2C%22snippet%22%3A%22%3Cstrong%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%221.65%22%2C22%2C700%2C%22%23ffffff%22%2C%22%238fd5db%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "input_checkboxes_grouped",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[1]/form[1]/div[1]/ul[1]/li[1]/div[1]/ul[1]/li[1]/input[1]",
+                "aria": "/document[1]/contentinfo[1]/form[1]/list[1]/listitem[1]/list[1]/listitem[1]/radio[1]"
+            },
+            "ruleTime": 5,
+            "reasonId": "fail_notgroupedothernotgrouped",
+            "message": "Radio input and others with the name \"input_4\" are not grouped together",
+            "messageArgs": [
+                "Radio",
+                "input_4"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 240,
+                "top": 5932,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<input id=\"choice_3_4_0\" value=\"Yes\" type=\"radio\" name=\"input_4\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_checkboxes_grouped.html#%7B%22message%22%3A%22Radio%20input%20and%20others%20with%20the%20name%20%5C%22input_4%5C%22%20are%20not%20grouped%20together%22%2C%22snippet%22%3A%22%3Cinput%20id%3D%5C%22choice_3_4_0%5C%22%20value%3D%5C%22Yes%5C%22%20type%3D%5C%22radio%5C%22%20name%3D%5C%22input_4%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_notgroupedothernotgrouped%22%2C%22ruleId%22%3A%22input_checkboxes_grouped%22%2C%22msgArgs%22%3A%5B%22Radio%22%2C%22input_4%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[1]/form[1]/div[1]/ul[1]/li[1]/div[1]/ul[1]/li[1]/input[1]",
+                "aria": "/document[1]/contentinfo[1]/form[1]/list[1]/listitem[1]/list[1]/listitem[1]/radio[1]"
+            },
+            "ruleTime": 16,
+            "reasonId": "potential_visible",
+            "message": "Confirm the element should be tabbable and if so, it becomes visible when it has keyboard focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 240,
+                "top": 5932,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<input id=\"choice_3_4_0\" value=\"Yes\" type=\"radio\" name=\"input_4\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_visible.html#%7B%22message%22%3A%22Confirm%20the%20element%20should%20be%20tabbable%20and%20if%20so%2C%20it%20becomes%20visible%20when%20it%20has%20keyboard%20focus%22%2C%22snippet%22%3A%22%3Cinput%20id%3D%5C%22choice_3_4_0%5C%22%20value%3D%5C%22Yes%5C%22%20type%3D%5C%22radio%5C%22%20name%3D%5C%22input_4%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_visible%22%2C%22ruleId%22%3A%22element_tabbable_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_checkboxes_grouped",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[1]/form[1]/div[1]/ul[1]/li[1]/div[1]/ul[1]/li[2]/input[1]",
+                "aria": "/document[1]/contentinfo[1]/form[1]/list[1]/listitem[1]/list[1]/listitem[2]/radio[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_notgroupedothernotgrouped",
+            "message": "Radio input and others with the name \"input_4\" are not grouped together",
+            "messageArgs": [
+                "Radio",
+                "input_4"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 329,
+                "top": 5932,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<input id=\"choice_3_4_1\" value=\"No\" type=\"radio\" name=\"input_4\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_checkboxes_grouped.html#%7B%22message%22%3A%22Radio%20input%20and%20others%20with%20the%20name%20%5C%22input_4%5C%22%20are%20not%20grouped%20together%22%2C%22snippet%22%3A%22%3Cinput%20id%3D%5C%22choice_3_4_1%5C%22%20value%3D%5C%22No%5C%22%20type%3D%5C%22radio%5C%22%20name%3D%5C%22input_4%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_notgroupedothernotgrouped%22%2C%22ruleId%22%3A%22input_checkboxes_grouped%22%2C%22msgArgs%22%3A%5B%22Radio%22%2C%22input_4%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/footer[1]/div[1]/form[1]/div[1]/ul[1]/li[1]/div[1]/ul[1]/li[2]/input[1]",
+                "aria": "/document[1]/contentinfo[1]/form[1]/list[1]/listitem[1]/list[1]/listitem[2]/radio[1]"
+            },
+            "ruleTime": 14,
+            "reasonId": "potential_visible",
+            "message": "Confirm the element should be tabbable and if so, it becomes visible when it has keyboard focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 329,
+                "top": 5932,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<input id=\"choice_3_4_1\" value=\"No\" type=\"radio\" name=\"input_4\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_visible.html#%7B%22message%22%3A%22Confirm%20the%20element%20should%20be%20tabbable%20and%20if%20so%2C%20it%20becomes%20visible%20when%20it%20has%20keyboard%20focus%22%2C%22snippet%22%3A%22%3Cinput%20id%3D%5C%22choice_3_4_1%5C%22%20value%3D%5C%22No%5C%22%20type%3D%5C%22radio%5C%22%20name%3D%5C%22input_4%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_visible%22%2C%22ruleId%22%3A%22element_tabbable_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": -800,
+                "top": 6442,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<svg class=\"defs-only\" height=\"0\" width=\"0\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22defs-only%5C%22%20height%3D%5C%220%5C%22%20width%3D%5C%220%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        }
+    ],
+    "numExecuted": 3286,
+    "ruleTime": 6489,
+    "nls": {
+        "style_background_decorative": {
+            "0": "Images included by using CSS alone must not convey important information",
+            "Potential_1": "Verify the CSS background image does not convey important information"
+        },
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        },
+        "text_block_heading": {
+            "0": "Heading text should use a heading element or role",
+            "potential_heading": "Confirm this text '{0}' is used as a heading and if so, modify to use a heading element or role"
+        },
+        "text_contrast_sufficient": {
+            "0": "The contrast ratio of text with its background must meet WCAG AA requirements",
+            "fail_contrast": "Text contrast of {0} with its background is less than the WCAG AA minimum requirements for text of size {1}px and weight of {2}"
+        },
+        "element_tabbable_unobscured": {
+            "0": "When an element receives focus, it is not entirely covered by other content",
+            "potential_obscured": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus"
+        },
+        "element_tabbable_visible": {
+            "0": "A tabbable element should be visible on the screen when it has keyboard focus",
+            "potential_visible": "Confirm the element should be tabbable and if so, it becomes visible when it has keyboard focus"
+        },
+        "style_focus_visible": {
+            "0": "The keyboard focus indicator should be visible when default border or outline is modified by CSS",
+            "potential_focus_not_visible": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'"
+        },
+        "target_spacing_sufficient": {
+            "0": "The target must be sufficiently sized or spaced from other targets",
+            "potential_overlap": "Ensure the overlapped target \"{0}\" meets a minimum target size or has sufficient spacing from the overlapping target \"{1}\""
+        },
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_placeholder_only": "The ‘placeholder’ is the only visible label"
+        },
+        "svg_graphics_labelled": {
+            "0": "A non-decorative SVG element must have an accessible name",
+            "fail_acc_name": "The SVG element has no accessible name"
+        },
+        "input_checkboxes_grouped": {
+            "0": "Related sets of radio buttons or checkboxes should be programmatically grouped",
+            "fail_notgroupedothernotgrouped": "{0} input and others with the name \"{1}\" are not grouped together"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 45,
+            "elementsViolation": 9,
+            "elementsViolationReview": 21,
+            "violation": 9,
+            "potentialviolation": 14,
+            "recommendation": 22,
+            "potentialrecommendation": 3,
+            "manual": 1,
+            "pass": 3237
+        },
+        "scanTime": 15023,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1734203916764,
+        "URL": "https://rnid.org.uk/"
+    },
+    "scanID": "da48fced-1ba7-4ef9-9843-565447aabdba",
+    "toolID": "accessibility-checker-v3.1.79",
+    "label": "rnid.org.uk"
+}

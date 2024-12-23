@@ -1,0 +1,583 @@
+{
+    "results": [
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[2]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 26,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link crossorigin=\"anonymous\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" rel=\"stylesheet\" href=\"/docs/5.0/dist/css/bootstrap.min.css\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Clink%20crossorigin%3D%5C%22anonymous%5C%22%20integrity%3D%5C%22sha384-EVSTQN3%2FazprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC%5C%22%20rel%3D%5C%22stylesheet%5C%22%20href%3D%5C%22%2Fdocs%2F5.0%2Fdist%2Fcss%2Fbootstrap.min.css%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_viewport_resizable",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[2]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Potential_1",
+            "message": "Verify that text sized using viewport units can be resized up to 200%",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link crossorigin=\"anonymous\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" rel=\"stylesheet\" href=\"/docs/5.0/dist/css/bootstrap.min.css\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_viewport_resizable.html#%7B%22message%22%3A%22Verify%20that%20text%20sized%20using%20viewport%20units%20can%20be%20resized%20up%20to%20200%25%22%2C%22snippet%22%3A%22%3Clink%20crossorigin%3D%5C%22anonymous%5C%22%20integrity%3D%5C%22sha384-EVSTQN3%2FazprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC%5C%22%20rel%3D%5C%22stylesheet%5C%22%20href%3D%5C%22%2Fdocs%2F5.0%2Fdist%2Fcss%2Fbootstrap.min.css%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_viewport_resizable%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_viewport_resizable",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[3]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Potential_1",
+            "message": "Verify that text sized using viewport units can be resized up to 200%",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link rel=\"stylesheet\" href=\"/docs/5.0/assets/css/docs.css\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_viewport_resizable.html#%7B%22message%22%3A%22Verify%20that%20text%20sized%20using%20viewport%20units%20can%20be%20resized%20up%20to%20200%25%22%2C%22snippet%22%3A%22%3Clink%20rel%3D%5C%22stylesheet%5C%22%20href%3D%5C%22%2Fdocs%2F5.0%2Fassets%2Fcss%2Fdocs.css%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_viewport_resizable%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 3,
+                "height": 40,
+                "width": 163
+            },
+            "snippet": "<a href=\"#content\" class=\"d-inline-flex p-2 m-1\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%23content%5C%22%20class%3D%5C%22d-inline-flex%20p-2%20m-1%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/a[1]",
+                "aria": "/document[1]/link[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 270,
+                "top": 9,
+                "height": 21,
+                "width": 262
+            },
+            "snippet": "<a class=\"text-white text-decoration-none\" href=\"https://getbootstrap.com/\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22text-white%20text-decoration-none%5C%22%20href%3D%5C%22https%3A%2F%2Fgetbootstrap.com%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "form_submit_button_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[1]/div[1]/form[1]",
+                "aria": "/document[1]/navigation[1]/form[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "Verify the <form> element has a submit button or an image button",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 12,
+                "top": 112,
+                "height": 38,
+                "width": 255
+            },
+            "snippet": "<form class=\"bd-search position-relative me-auto\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/form_submit_button_exists.html#%7B%22message%22%3A%22Verify%20the%20%3Cform%3E%20element%20has%20a%20submit%20button%20or%20an%20image%20button%22%2C%22snippet%22%3A%22%3Cform%20class%3D%5C%22bd-search%20position-relative%20me-auto%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22form_submit_button_exists%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_keyboard_handler_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[1]/div[1]/form[1]/span[1]/input[1]",
+                "aria": "/document[1]/navigation[1]/form[1]/combobox[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_no_keyboard_access",
+            "message": "Verify the <input> element with \"combobox\" role has keyboard access",
+            "messageArgs": [
+                "input",
+                "combobox"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 12,
+                "top": 112,
+                "height": 38,
+                "width": 255
+            },
+            "snippet": "<input style=\"position: relative; vertical-align: top;\" dir=\"auto\" aria-owns=\"algolia-autocomplete-listbox-0\" aria-expanded=\"false\" aria-autocomplete=\"list\" role=\"combobox\" spellcheck=\"false\" data-bd-docs-version=\"5.0\" autocomplete=\"off\" aria-label=\"Search docs for...\" placeholder=\"Search docs...\" id=\"search-input\" class=\"form-control ds-input\" type=\"search\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_keyboard_handler_exists.html#%7B%22message%22%3A%22Verify%20the%20%3Cinput%3E%20element%20with%20%5C%22combobox%5C%22%20role%20has%20keyboard%20access%22%2C%22snippet%22%3A%22%3Cinput%20style%3D%5C%22position%3A%20relative%3B%20vertical-align%3A%20top%3B%5C%22%20dir%3D%5C%22auto%5C%22%20aria-owns%3D%5C%22algolia-autocomplete-listbox-0%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-autocomplete%3D%5C%22list%5C%22%20role%3D%5C%22combobox%5C%22%20spellcheck%3D%5C%22false%5C%22%20data-bd-docs-version%3D%5C%225.0%5C%22%20autocomplete%3D%5C%22off%5C%22%20aria-label%3D%5C%22Search%20docs%20for...%5C%22%20placeholder%3D%5C%22Search%20docs...%5C%22%20id%3D%5C%22search-input%5C%22%20class%3D%5C%22form-control%20ds-input%5C%22%20type%3D%5C%22search%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_keyboard_access%22%2C%22ruleId%22%3A%22aria_keyboard_handler_exists%22%2C%22msgArgs%22%3A%5B%22input%22%2C%22combobox%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[1]/div[1]/form[1]/span[1]/input[1]",
+                "aria": "/document[1]/navigation[1]/form[1]/combobox[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "The ARIA role 'combobox' is not valid for the element <input>",
+            "messageArgs": [
+                "combobox",
+                "input"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 12,
+                "top": 112,
+                "height": 38,
+                "width": 255
+            },
+            "snippet": "<input style=\"position: relative; vertical-align: top;\" dir=\"auto\" aria-owns=\"algolia-autocomplete-listbox-0\" aria-expanded=\"false\" aria-autocomplete=\"list\" role=\"combobox\" spellcheck=\"false\" data-bd-docs-version=\"5.0\" autocomplete=\"off\" aria-label=\"Search docs for...\" placeholder=\"Search docs...\" id=\"search-input\" class=\"form-control ds-input\" type=\"search\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_role_valid.html#%7B%22message%22%3A%22The%20ARIA%20role%20'combobox'%20is%20not%20valid%20for%20the%20element%20%3Cinput%3E%22%2C%22snippet%22%3A%22%3Cinput%20style%3D%5C%22position%3A%20relative%3B%20vertical-align%3A%20top%3B%5C%22%20dir%3D%5C%22auto%5C%22%20aria-owns%3D%5C%22algolia-autocomplete-listbox-0%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-autocomplete%3D%5C%22list%5C%22%20role%3D%5C%22combobox%5C%22%20spellcheck%3D%5C%22false%5C%22%20data-bd-docs-version%3D%5C%225.0%5C%22%20autocomplete%3D%5C%22off%5C%22%20aria-label%3D%5C%22Search%20docs%20for...%5C%22%20placeholder%3D%5C%22Search%20docs...%5C%22%20id%3D%5C%22search-input%5C%22%20class%3D%5C%22form-control%20ds-input%5C%22%20type%3D%5C%22search%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_role_valid%22%2C%22msgArgs%22%3A%5B%22combobox%22%2C%22input%22%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nav[1]/div[1]/form[1]/span[1]/input[1]",
+                "aria": "/document[1]/navigation[1]/form[1]/combobox[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_placeholder_only",
+            "message": "The ‘placeholder’ is the only visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 12,
+                "top": 112,
+                "height": 38,
+                "width": 255
+            },
+            "snippet": "<input style=\"position: relative; vertical-align: top;\" dir=\"auto\" aria-owns=\"algolia-autocomplete-listbox-0\" aria-expanded=\"false\" aria-autocomplete=\"list\" role=\"combobox\" spellcheck=\"false\" data-bd-docs-version=\"5.0\" autocomplete=\"off\" aria-label=\"Search docs for...\" placeholder=\"Search docs...\" id=\"search-input\" class=\"form-control ds-input\" type=\"search\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20%E2%80%98placeholder%E2%80%99%20is%20the%20only%20visible%20label%22%2C%22snippet%22%3A%22%3Cinput%20style%3D%5C%22position%3A%20relative%3B%20vertical-align%3A%20top%3B%5C%22%20dir%3D%5C%22auto%5C%22%20aria-owns%3D%5C%22algolia-autocomplete-listbox-0%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-autocomplete%3D%5C%22list%5C%22%20role%3D%5C%22combobox%5C%22%20spellcheck%3D%5C%22false%5C%22%20data-bd-docs-version%3D%5C%225.0%5C%22%20autocomplete%3D%5C%22off%5C%22%20aria-label%3D%5C%22Search%20docs%20for...%5C%22%20placeholder%3D%5C%22Search%20docs...%5C%22%20id%3D%5C%22search-input%5C%22%20class%3D%5C%22form-control%20ds-input%5C%22%20type%3D%5C%22search%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_placeholder_only%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_complementary_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/aside[1]",
+                "aria": "/document[1]/complementary[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Element with \"complementary\" role does not have a label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 12,
+                "top": 182,
+                "height": 3699,
+                "width": 188
+            },
+            "snippet": "<aside class=\"bd-sidebar\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_complementary_labelled.html#%7B%22message%22%3A%22Element%20with%20%5C%22complementary%5C%22%20role%20does%20not%20have%20a%20label%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22bd-sidebar%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_navigation_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[2]/nav[1]",
+                "aria": "/document[1]/main[1]/navigation[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"navigation\" role do not have unique labels",
+            "messageArgs": [
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 224,
+                "top": 425,
+                "height": 246,
+                "width": 564
+            },
+            "snippet": "<nav id=\"TableOfContents\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20id%3D%5C%22TableOfContents%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
+        },
+        {
+            "ruleId": "element_scrollable_tabbable",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[3]/div[2]/pre[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_scrollable",
+            "message": "The scrollable element <pre> with non-interactive content is not tabbable",
+            "messageArgs": [
+                "pre"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 248,
+                "top": 1707,
+                "height": 42,
+                "width": 516
+            },
+            "snippet": "<pre class=\"chroma\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_scrollable_tabbable.html#%7B%22message%22%3A%22The%20scrollable%20element%20%3Cpre%3E%20with%20non-interactive%20content%20is%20not%20tabbable%22%2C%22snippet%22%3A%22%3Cpre%20class%3D%5C%22chroma%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_scrollable%22%2C%22ruleId%22%3A%22element_scrollable_tabbable%22%2C%22msgArgs%22%3A%5B%22pre%22%5D%7D"
+        },
+        {
+            "ruleId": "element_scrollable_tabbable",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[3]/main[1]/div[3]/div[4]/pre[1]",
+                "aria": "/document[1]/main[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_scrollable",
+            "message": "The scrollable element <pre> with non-interactive content is not tabbable",
+            "messageArgs": [
+                "pre"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 248,
+                "top": 1882,
+                "height": 42,
+                "width": 516
+            },
+            "snippet": "<pre class=\"chroma\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_scrollable_tabbable.html#%7B%22message%22%3A%22The%20scrollable%20element%20%3Cpre%3E%20with%20non-interactive%20content%20is%20not%20tabbable%22%2C%22snippet%22%3A%22%3Cpre%20class%3D%5C%22chroma%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_scrollable%22%2C%22ruleId%22%3A%22element_scrollable_tabbable%22%2C%22msgArgs%22%3A%5B%22pre%22%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/ul[1]/li[1]",
+                "aria": "/document[1]/contentinfo[1]/list[1]/listitem[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 4.45 with its background is less than the WCAG AA minimum requirements for text of size 14px and weight of 400",
+            "messageArgs": [
+                "4.45",
+                14,
+                400,
+                "#6c757d",
+                "#f8f9fa",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 52,
+                "top": 4065,
+                "height": 21,
+                "width": 696
+            },
+            "snippet": "<li class=\"mb-2\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%204.45%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2014px%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cli%20class%3D%5C%22mb-2%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%224.45%22%2C14%2C400%2C%22%236c757d%22%2C%22%23f8f9fa%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/ul[1]/li[2]",
+                "aria": "/document[1]/contentinfo[1]/list[1]/listitem[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 4.45 with its background is less than the WCAG AA minimum requirements for text of size 14px and weight of 400",
+            "messageArgs": [
+                "4.45",
+                14,
+                400,
+                "#6c757d",
+                "#f8f9fa",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 52,
+                "top": 4094,
+                "height": 21,
+                "width": 696
+            },
+            "snippet": "<li class=\"mb-2\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%204.45%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2014px%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cli%20class%3D%5C%22mb-2%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%224.45%22%2C14%2C400%2C%22%236c757d%22%2C%22%23f8f9fa%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/ul[1]/li[3]",
+                "aria": "/document[1]/contentinfo[1]/list[1]/listitem[3]"
+            },
+            "ruleTime": 2,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 4.45 with its background is less than the WCAG AA minimum requirements for text of size 14px and weight of 400",
+            "messageArgs": [
+                "4.45",
+                14,
+                400,
+                "#6c757d",
+                "#f8f9fa",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 52,
+                "top": 4123,
+                "height": 21,
+                "width": 696
+            },
+            "snippet": "<li class=\"mb-2\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%204.45%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2014px%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cli%20class%3D%5C%22mb-2%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%224.45%22%2C14%2C400%2C%22%236c757d%22%2C%22%23f8f9fa%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/ul[1]/li[4]",
+                "aria": "/document[1]/contentinfo[1]/list[1]/listitem[4]"
+            },
+            "ruleTime": 1,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 4.45 with its background is less than the WCAG AA minimum requirements for text of size 14px and weight of 400",
+            "messageArgs": [
+                "4.45",
+                14,
+                400,
+                "#6c757d",
+                "#f8f9fa",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 52,
+                "top": 4152,
+                "height": 21,
+                "width": 696
+            },
+            "snippet": "<li class=\"mb-2\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%204.45%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%2014px%20and%20weight%20of%20400%22%2C%22snippet%22%3A%22%3Cli%20class%3D%5C%22mb-2%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%224.45%22%2C14%2C400%2C%22%236c757d%22%2C%22%23f8f9fa%22%2Cfalse%2Cfalse%5D%7D"
+        }
+    ],
+    "numExecuted": 2885,
+    "ruleTime": 3698,
+    "nls": {
+        "aria_content_in_landmark": {
+            "0": "All content must reside within an element with a landmark role",
+            "Fail_1": "Content is not within a landmark element"
+        },
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        },
+        "style_viewport_resizable": {
+            "0": "Text must scale up to 200% without loss of content or functionality",
+            "Potential_1": "Verify that text sized using viewport units can be resized up to 200%"
+        },
+        "text_contrast_sufficient": {
+            "0": "The contrast ratio of text with its background must meet WCAG AA requirements",
+            "fail_contrast": "Text contrast of {0} with its background is less than the WCAG AA minimum requirements for text of size {1}px and weight of {2}"
+        },
+        "aria_navigation_label_unique": {
+            "0": "Each element with \"navigation\" role must have a unique label that describes its purpose",
+            "Fail_1": "Multiple elements with \"navigation\" role do not have unique labels"
+        },
+        "aria_keyboard_handler_exists": {
+            "0": "Interactive WAI_ARIA UI components must provide keyboard access",
+            "potential_no_keyboard_access": "Verify the <{0}> element with \"{1}\" role has keyboard access"
+        },
+        "aria_role_valid": {
+            "0": "ARIA roles must be valid for the element to which they are assigned",
+            "Fail_1": "The ARIA role '{0}' is not valid for the element <{1}>"
+        },
+        "form_submit_button_exists": {
+            "0": "A <form> element should have a submit button or an image button",
+            "Potential_1": "Verify the <form> element has a submit button or an image button"
+        },
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_placeholder_only": "The ‘placeholder’ is the only visible label"
+        },
+        "aria_complementary_labelled": {
+            "0": "Each element with \"complementary\" role must have a label that describes its purpose",
+            "Fail_1": "Element with \"complementary\" role does not have a label"
+        },
+        "element_scrollable_tabbable": {
+            "0": "Scrollable elements should be tabbable or contain tabbable content",
+            "fail_scrollable": "The scrollable element <{0}> with non-interactive content is not tabbable"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 26,
+            "elementsViolation": 11,
+            "elementsViolationReview": 15,
+            "violation": 11,
+            "potentialviolation": 6,
+            "recommendation": 2,
+            "potentialrecommendation": 10,
+            "manual": 1,
+            "pass": 2855
+        },
+        "scanTime": 6537,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1734199133395,
+        "URL": "https://getbootstrap.com/docs/5.0/getting-started/download/"
+    },
+    "scanID": "80ebb092-c622-4116-83c7-2b19e1375312",
+    "toolID": "accessibility-checker-v3.1.79",
+    "label": "getbootstrap.com"
+}

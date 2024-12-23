@@ -1,0 +1,92 @@
+html
+  head
+    title= title
+    style(type="text/css").
+      body {
+        font-family: sans-serif
+      }
+  body
+    p= message
+
+    form(action="/checker/"  method="post")
+      label(for="url") Url a escanear
+      input(name="url" id="url")
+
+    h1 Resultado de IMB Accessibility Checker
+
+    if results
+      p numExecuted: #{numExecuted}
+      p ruleTime: #{ruleTime}
+      p scanID: #{scanID}
+      p toolID: #{toolID}
+      p label: #{label}
+      h2 nls:
+      each value1, key1 in nls
+        ul
+          - for (const property in value1)
+            li
+              strong #{property}: 
+              span= value1[property]
+      h2 Summary:
+      ul
+        each value, key in summary.counts
+          li= key + ': ' + value
+      div
+        strong scanTime: 
+        span= summary.scanTime
+      div
+        strong ruleArchive: 
+        span= summary.ruleArchive
+      div
+        strong policies: 
+        ul
+          each value in summary.policies
+            li= value
+      div
+        strong reportLevels: 
+        ul
+          each value in summary.reportLevels
+            li= value
+      div
+        strong startScan: 
+        span= summary.startScan
+      div
+        strong URL: 
+        a(href=summary.URL target="_blank") #{summary.URL}
+
+      h2 Results:
+      ul
+        each result in results
+          li
+            div
+              strong ruleId: 
+              span #{result.ruleId}
+            div 
+              strong value: 
+              ul
+                each value in result.value
+                  li= value
+            div 
+              strong path: 
+              ul
+                each value, key in result.path
+                  li= key + ': ' + value
+            div 
+              strong ruleTime: 
+              span #{result.ruleTime}
+            div 
+              strong reasonId: 
+              span #{result.reasonId}
+            div 
+              strong message: 
+              span #{result.message}
+            div 
+              strong snippet: 
+              code #{result.snippet}
+            div 
+              strong category: 
+              span #{result.category}
+            div 
+              strong level:  
+              span #{result.level}
+            a(href=result.help target="_blank") help

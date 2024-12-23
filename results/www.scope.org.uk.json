@@ -1,0 +1,1624 @@
+{
+    "results": [
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[2]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 27,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link href=\"/css/main.css?v=YJqU0Vz9jekXlKilcWS6lwAOjlyLkV6xhU_qUtsYZ2U\n\" media=\"screen\" type=\"text/css\" rel=\"stylesheet\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Clink%20href%3D%5C%22%2Fcss%2Fmain.css%3Fv%3DYJqU0Vz9jekXlKilcWS6lwAOjlyLkV6xhU_qUtsYZ2U%5Cn%5C%22%20media%3D%5C%22screen%5C%22%20type%3D%5C%22text%2Fcss%5C%22%20rel%3D%5C%22stylesheet%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 55,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 62,
+                "height": 539,
+                "width": 800
+            },
+            "snippet": "<div tabindex=\"0\" class=\"cky-consent-container cky-banner-bottom\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cdiv%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22cky-consent-container%20cky-banner-bottom%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Cookies are useful for Scope' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Cookies are useful for Scope"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 45,
+                "top": 100,
+                "height": 24,
+                "width": 710
+            },
+            "snippet": "<p style=\"color: #212121;\" data-cky-tag=\"title\" aria-level=\"1\" role=\"heading\" class=\"cky-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'Cookies%20are%20useful%20for%20Scope'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cp%20style%3D%5C%22color%3A%20%23212121%3B%5C%22%20data-cky-tag%3D%5C%22title%5C%22%20aria-level%3D%5C%221%5C%22%20role%3D%5C%22heading%5C%22%20class%3D%5C%22cky-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22Cookies%20are%20useful%20for%20Scope%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 45,
+                "top": 100,
+                "height": 24,
+                "width": 710
+            },
+            "snippet": "<p style=\"color: #212121;\" data-cky-tag=\"title\" aria-level=\"1\" role=\"heading\" class=\"cky-title\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20style%3D%5C%22color%3A%20%23212121%3B%5C%22%20data-cky-tag%3D%5C%22title%5C%22%20aria-level%3D%5C%221%5C%22%20role%3D%5C%22heading%5C%22%20class%3D%5C%22cky-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/paragraph[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 45,
+                "top": 150,
+                "height": 47,
+                "width": 315
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/p[4]/a[1]",
+                "aria": "/document[1]/paragraph[4]/link[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 76,
+                "top": 527,
+                "height": 21,
+                "width": 86
+            },
+            "snippet": "<a data-cky-tag=\"readmore-button\" style=\"color: #1863dc; border-color: transparent; background-color: transparent;\" rel=\"noopener\" target=\"_blank\" aria-label=\"Cookie Policy\" class=\"cky-policy\" href=\"https://www.scope.org.uk/cookies/\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20data-cky-tag%3D%5C%22readmore-button%5C%22%20style%3D%5C%22color%3A%20%231863dc%3B%20border-color%3A%20transparent%3B%20background-color%3A%20transparent%3B%5C%22%20rel%3D%5C%22noopener%5C%22%20target%3D%5C%22_blank%5C%22%20aria-label%3D%5C%22Cookie%20Policy%5C%22%20class%3D%5C%22cky-policy%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fcookies%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/p[4]/a[1]",
+                "aria": "/document[1]/paragraph[4]/link[1]"
+            },
+            "ruleTime": 5,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 76,
+                "top": 527,
+                "height": 21,
+                "width": 86
+            },
+            "snippet": "<a data-cky-tag=\"readmore-button\" style=\"color: #1863dc; border-color: transparent; background-color: transparent;\" rel=\"noopener\" target=\"_blank\" aria-label=\"Cookie Policy\" class=\"cky-policy\" href=\"https://www.scope.org.uk/cookies/\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20data-cky-tag%3D%5C%22readmore-button%5C%22%20style%3D%5C%22color%3A%20%231863dc%3B%20border-color%3A%20transparent%3B%20background-color%3A%20transparent%3B%5C%22%20rel%3D%5C%22noopener%5C%22%20target%3D%5C%22_blank%5C%22%20aria-label%3D%5C%22Cookie%20Policy%5C%22%20class%3D%5C%22cky-policy%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fcookies%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/p[4]/a[1]",
+                "aria": "/document[1]/paragraph[4]/link[1]"
+            },
+            "ruleTime": 64,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 76,
+                "top": 527,
+                "height": 21,
+                "width": 86
+            },
+            "snippet": "<a data-cky-tag=\"readmore-button\" style=\"color: #1863dc; border-color: transparent; background-color: transparent;\" rel=\"noopener\" target=\"_blank\" aria-label=\"Cookie Policy\" class=\"cky-policy\" href=\"https://www.scope.org.uk/cookies/\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20data-cky-tag%3D%5C%22readmore-button%5C%22%20style%3D%5C%22color%3A%20%231863dc%3B%20border-color%3A%20transparent%3B%20background-color%3A%20transparent%3B%5C%22%20rel%3D%5C%22noopener%5C%22%20target%3D%5C%22_blank%5C%22%20aria-label%3D%5C%22Cookie%20Policy%5C%22%20class%3D%5C%22cky-policy%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fcookies%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[1]",
+                "aria": "/document[1]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 375,
+                "top": 327,
+                "height": 44,
+                "width": 124
+            },
+            "snippet": "<button style=\"color: rgb(52, 4, 88); border-color: rgb(52, 4, 88); background-color: transparent;\" data-cky-tag=\"settings-button\" aria-label=\"Customise\" class=\"cky-btn cky-btn-customize\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20rgb(52%2C%204%2C%2088)%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20transparent%3B%5C%22%20data-cky-tag%3D%5C%22settings-button%5C%22%20aria-label%3D%5C%22Customise%5C%22%20class%3D%5C%22cky-btn%20cky-btn-customize%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[1]",
+                "aria": "/document[1]/button[1]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 375,
+                "top": 327,
+                "height": 44,
+                "width": 124
+            },
+            "snippet": "<button style=\"color: rgb(52, 4, 88); border-color: rgb(52, 4, 88); background-color: transparent;\" data-cky-tag=\"settings-button\" aria-label=\"Customise\" class=\"cky-btn cky-btn-customize\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20rgb(52%2C%204%2C%2088)%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20transparent%3B%5C%22%20data-cky-tag%3D%5C%22settings-button%5C%22%20aria-label%3D%5C%22Customise%5C%22%20class%3D%5C%22cky-btn%20cky-btn-customize%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[1]",
+                "aria": "/document[1]/button[1]"
+            },
+            "ruleTime": 78,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 375,
+                "top": 327,
+                "height": 44,
+                "width": 124
+            },
+            "snippet": "<button style=\"color: rgb(52, 4, 88); border-color: rgb(52, 4, 88); background-color: transparent;\" data-cky-tag=\"settings-button\" aria-label=\"Customise\" class=\"cky-btn cky-btn-customize\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20rgb(52%2C%204%2C%2088)%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20transparent%3B%5C%22%20data-cky-tag%3D%5C%22settings-button%5C%22%20aria-label%3D%5C%22Customise%5C%22%20class%3D%5C%22cky-btn%20cky-btn-customize%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[1]",
+                "aria": "/document[1]/button[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 375,
+                "top": 327,
+                "height": 44,
+                "width": 124
+            },
+            "snippet": "<button style=\"color: rgb(52, 4, 88); border-color: rgb(52, 4, 88); background-color: transparent;\" data-cky-tag=\"settings-button\" aria-label=\"Customise\" class=\"cky-btn cky-btn-customize\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20rgb(52%2C%204%2C%2088)%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20transparent%3B%5C%22%20data-cky-tag%3D%5C%22settings-button%5C%22%20aria-label%3D%5C%22Customise%5C%22%20class%3D%5C%22cky-btn%20cky-btn-customize%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[2]",
+                "aria": "/document[1]/button[2]"
+            },
+            "ruleTime": 6,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 506,
+                "top": 327,
+                "height": 44,
+                "width": 119
+            },
+            "snippet": "<button style=\"color: rgb(52, 4, 88); border-color: rgb(52, 4, 88); background-color: transparent;\" data-cky-tag=\"reject-button\" aria-label=\"Reject All\" class=\"cky-btn cky-btn-reject\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20rgb(52%2C%204%2C%2088)%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20transparent%3B%5C%22%20data-cky-tag%3D%5C%22reject-button%5C%22%20aria-label%3D%5C%22Reject%20All%5C%22%20class%3D%5C%22cky-btn%20cky-btn-reject%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[2]",
+                "aria": "/document[1]/button[2]"
+            },
+            "ruleTime": 91,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 506,
+                "top": 327,
+                "height": 44,
+                "width": 119
+            },
+            "snippet": "<button style=\"color: rgb(52, 4, 88); border-color: rgb(52, 4, 88); background-color: transparent;\" data-cky-tag=\"reject-button\" aria-label=\"Reject All\" class=\"cky-btn cky-btn-reject\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20rgb(52%2C%204%2C%2088)%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20transparent%3B%5C%22%20data-cky-tag%3D%5C%22reject-button%5C%22%20aria-label%3D%5C%22Reject%20All%5C%22%20class%3D%5C%22cky-btn%20cky-btn-reject%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[2]",
+                "aria": "/document[1]/button[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 506,
+                "top": 327,
+                "height": 44,
+                "width": 119
+            },
+            "snippet": "<button style=\"color: rgb(52, 4, 88); border-color: rgb(52, 4, 88); background-color: transparent;\" data-cky-tag=\"reject-button\" aria-label=\"Reject All\" class=\"cky-btn cky-btn-reject\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20rgb(52%2C%204%2C%2088)%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20transparent%3B%5C%22%20data-cky-tag%3D%5C%22reject-button%5C%22%20aria-label%3D%5C%22Reject%20All%5C%22%20class%3D%5C%22cky-btn%20cky-btn-reject%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[3]",
+                "aria": "/document[1]/button[3]"
+            },
+            "ruleTime": 8,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 633,
+                "top": 327,
+                "height": 44,
+                "width": 123
+            },
+            "snippet": "<button style=\"color: #FFFFFF; border-color: rgb(52, 4, 88); background-color: rgb(52, 4, 88);\" data-cky-tag=\"accept-button\" aria-label=\"Accept All\" class=\"cky-btn cky-btn-accept\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20%23FFFFFF%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20rgb(52%2C%204%2C%2088)%3B%5C%22%20data-cky-tag%3D%5C%22accept-button%5C%22%20aria-label%3D%5C%22Accept%20All%5C%22%20class%3D%5C%22cky-btn%20cky-btn-accept%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[3]",
+                "aria": "/document[1]/button[3]"
+            },
+            "ruleTime": 94,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 633,
+                "top": 327,
+                "height": 44,
+                "width": 123
+            },
+            "snippet": "<button style=\"color: #FFFFFF; border-color: rgb(52, 4, 88); background-color: rgb(52, 4, 88);\" data-cky-tag=\"accept-button\" aria-label=\"Accept All\" class=\"cky-btn cky-btn-accept\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20%23FFFFFF%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20rgb(52%2C%204%2C%2088)%3B%5C%22%20data-cky-tag%3D%5C%22accept-button%5C%22%20aria-label%3D%5C%22Accept%20All%5C%22%20class%3D%5C%22cky-btn%20cky-btn-accept%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/button[3]",
+                "aria": "/document[1]/button[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 633,
+                "top": 327,
+                "height": 44,
+                "width": 123
+            },
+            "snippet": "<button style=\"color: #FFFFFF; border-color: rgb(52, 4, 88); background-color: rgb(52, 4, 88);\" data-cky-tag=\"accept-button\" aria-label=\"Accept All\" class=\"cky-btn cky-btn-accept\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22color%3A%20%23FFFFFF%3B%20border-color%3A%20rgb(52%2C%204%2C%2088)%3B%20background-color%3A%20rgb(52%2C%204%2C%2088)%3B%5C%22%20data-cky-tag%3D%5C%22accept-button%5C%22%20aria-label%3D%5C%22Accept%20All%5C%22%20class%3D%5C%22cky-btn%20cky-btn-accept%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/header[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/banner[1]/link[1]"
+            },
+            "ruleTime": 91,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 9,
+                "height": 48,
+                "width": 97
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/header[1]/div[1]/button[1]",
+                "aria": "/document[1]/banner[1]/button[1]"
+            },
+            "ruleTime": 60,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 680,
+                "top": 0,
+                "height": 60,
+                "width": 120
+            },
+            "snippet": "<button id=\"main-navigation\" aria-controls=\"main-navigation\" type=\"button\" class=\"Navbar__handle js-nav-handle\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20id%3D%5C%22main-navigation%5C%22%20aria-controls%3D%5C%22main-navigation%5C%22%20type%3D%5C%22button%5C%22%20class%3D%5C%22Navbar__handle%20js-nav-handle%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/header[1]/div[2]/div[1]/a[1]",
+                "aria": "/document[1]/banner[1]/link[2]"
+            },
+            "ruleTime": 6,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 80,
+                "height": 45,
+                "width": 240
+            },
+            "snippet": "<a data-gtm-vis-has-fired166076_508=\"1\" data-gtm-vis-total-visible-time166076_508=\"1500\" data-gtm-vis-first-on-screen166076_508=\"1122\" data-gtm-vis-recent-on-screen166076_508=\"1122\" data-enabled=\"true\" title=\"Get support today\" href=\"https://www.scope.org.uk/advice-and-support\" class=\"BrandBanner__cta btn purple\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20data-gtm-vis-has-fired166076_508%3D%5C%221%5C%22%20data-gtm-vis-total-visible-time166076_508%3D%5C%221500%5C%22%20data-gtm-vis-first-on-screen166076_508%3D%5C%221122%5C%22%20data-gtm-vis-recent-on-screen166076_508%3D%5C%221122%5C%22%20data-enabled%3D%5C%22true%5C%22%20title%3D%5C%22Get%20support%20today%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fadvice-and-support%5C%22%20class%3D%5C%22BrandBanner__cta%20btn%20purple%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_unobscured",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/header[1]/div[2]/div[2]/a[1]",
+                "aria": "/document[1]/banner[1]/link[3]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_obscured",
+            "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 280,
+                "top": 80,
+                "height": 45,
+                "width": 240
+            },
+            "snippet": "<a data-gtm-vis-has-fired166076_508=\"1\" data-gtm-vis-total-visible-time166076_508=\"1500\" data-gtm-vis-first-on-screen166076_508=\"1122\" data-gtm-vis-recent-on-screen166076_508=\"1122\" data-enabled=\"true\" title=\"Our shops\" href=\"https://www.scope.org.uk/charity-shops\" class=\"BrandBanner__cta btn purple\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/element_tabbable_unobscured.html#%7B%22message%22%3A%22Confirm%20that%20when%20the%20element%20receives%20focus%2C%20it%20is%20not%20covered%20or%2C%20if%20covered%20by%20user%20action%2C%20can%20be%20uncovered%20without%20moving%20focus%22%2C%22snippet%22%3A%22%3Ca%20data-gtm-vis-has-fired166076_508%3D%5C%221%5C%22%20data-gtm-vis-total-visible-time166076_508%3D%5C%221500%5C%22%20data-gtm-vis-first-on-screen166076_508%3D%5C%221122%5C%22%20data-gtm-vis-recent-on-screen166076_508%3D%5C%221122%5C%22%20data-enabled%3D%5C%22true%5C%22%20title%3D%5C%22Our%20shops%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fcharity-shops%5C%22%20class%3D%5C%22BrandBanner__cta%20btn%20purple%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_obscured%22%2C%22ruleId%22%3A%22element_tabbable_unobscured%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[1]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[2]"
+            },
+            "ruleTime": 71,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 1139,
+                "height": 519,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"Watch our Hidden Cost of Christmas appeal TV advert\" href=\"/giving/christmastvadvert\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22Watch%20our%20Hidden%20Cost%20of%20Christmas%20appeal%20TV%20advert%5C%22%20href%3D%5C%22%2Fgiving%2Fchristmastvadvert%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[1]/div[1]/a[2]",
+                "aria": "/document[1]/main[1]/link[3]"
+            },
+            "ruleTime": 52,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 1687,
+                "height": 519,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"Charity shops\" href=\"/charity-shops\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22Charity%20shops%5C%22%20href%3D%5C%22%2Fcharity-shops%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[3]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[5]"
+            },
+            "ruleTime": 86,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 3480,
+                "height": 519,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"An Equal Future\" href=\"/about-us/an-equal-future-strategy\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22An%20Equal%20Future%5C%22%20href%3D%5C%22%2Fabout-us%2Fan-equal-future-strategy%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[3]/div[1]/a[2]",
+                "aria": "/document[1]/main[1]/link[6]"
+            },
+            "ruleTime": 59,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 4028,
+                "height": 519,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"Our impact\" href=\"/about-us/our-impact\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22Our%20impact%5C%22%20href%3D%5C%22%2Fabout-us%2Four-impact%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[4]/div[1]/div[2]/form[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/textbox[1]"
+            },
+            "ruleTime": 113,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 5631,
+                "height": 45,
+                "width": 720
+            },
+            "snippet": "<input aria-label=\"Find an event search\" placeholder=\"e.g. running, trek, comedy\" name=\"keyword\" type=\"text\" class=\"Contribution__input\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20aria-label%3D%5C%22Find%20an%20event%20search%5C%22%20placeholder%3D%5C%22e.g.%20running%2C%20trek%2C%20comedy%5C%22%20name%3D%5C%22keyword%5C%22%20type%3D%5C%22text%5C%22%20class%3D%5C%22Contribution__input%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[4]/div[1]/div[2]/form[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/textbox[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_placeholder_only",
+            "message": "The ‘placeholder’ is the only visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 5631,
+                "height": 45,
+                "width": 720
+            },
+            "snippet": "<input aria-label=\"Find an event search\" placeholder=\"e.g. running, trek, comedy\" name=\"keyword\" type=\"text\" class=\"Contribution__input\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20%E2%80%98placeholder%E2%80%99%20is%20the%20only%20visible%20label%22%2C%22snippet%22%3A%22%3Cinput%20aria-label%3D%5C%22Find%20an%20event%20search%5C%22%20placeholder%3D%5C%22e.g.%20running%2C%20trek%2C%20comedy%5C%22%20name%3D%5C%22keyword%5C%22%20type%3D%5C%22text%5C%22%20class%3D%5C%22Contribution__input%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_placeholder_only%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[5]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[10]"
+            },
+            "ruleTime": 63,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 5862,
+                "height": 519,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"Vote for Scope's spirit film and help us win a Smiley Award! We're excited to tell you that Scope's spirit film, Don't Hold Back, has been nominated for a Smiley Charity Film Award 2025. We’re calling on all our colleagues to vote for the film, and to help us be in with a chance of winning.\" href=\"/news-and-stories/vote-scope-smiley-award-2025\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22Vote%20for%20Scope's%20spirit%20film%20and%20help%20us%20win%20a%20Smiley%20Award!%20We're%20excited%20to%20tell%20you%20that%20Scope's%20spirit%20film%2C%20Don't%20Hold%20Back%2C%20has%20been%20nominated%20for%20a%20Smiley%20Charity%20Film%20Award%202025.%20We%E2%80%99re%20calling%20on%20all%20our%20colleagues%20to%20vote%20for%20the%20film%2C%20and%20to%20help%20us%20be%20in%20with%20a%20chance%20of%20winning.%5C%22%20href%3D%5C%22%2Fnews-and-stories%2Fvote-scope-smiley-award-2025%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "label_name_visible",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[5]/div[1]/a[1]",
+                "aria": "/document[1]/main[1]/link[10]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_1",
+            "message": "Accessible name does not match or contain the visible label text",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 5862,
+                "height": 519,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"Vote for Scope's spirit film and help us win a Smiley Award! We're excited to tell you that Scope's spirit film, Don't Hold Back, has been nominated for a Smiley Charity Film Award 2025. We’re calling on all our colleagues to vote for the film, and to help us be in with a chance of winning.\" href=\"/news-and-stories/vote-scope-smiley-award-2025\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22Vote%20for%20Scope's%20spirit%20film%20and%20help%20us%20win%20a%20Smiley%20Award!%20We're%20excited%20to%20tell%20you%20that%20Scope's%20spirit%20film%2C%20Don't%20Hold%20Back%2C%20has%20been%20nominated%20for%20a%20Smiley%20Charity%20Film%20Award%202025.%20We%E2%80%99re%20calling%20on%20all%20our%20colleagues%20to%20vote%20for%20the%20film%2C%20and%20to%20help%20us%20be%20in%20with%20a%20chance%20of%20winning.%5C%22%20href%3D%5C%22%2Fnews-and-stories%2Fvote-scope-smiley-award-2025%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[5]/div[1]/a[2]",
+                "aria": "/document[1]/main[1]/link[11]"
+            },
+            "ruleTime": 85,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 6410,
+                "height": 519,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"\"For Black men, there are a lot of hurdles to overcome.\"  Black History Month is a time to acknowledge the history and experiences of Black people. To mark this, Nikoma talks from his perspective as a Black man. He discusses how society perceives him, his upbringing, and his disabled identity. \" href=\"/news-and-stories/nikoma-black-history-month\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22%5C%22For%20Black%20men%2C%20there%20are%20a%20lot%20of%20hurdles%20to%20overcome.%5C%22%20%20Black%20History%20Month%20is%20a%20time%20to%20acknowledge%20the%20history%20and%20experiences%20of%20Black%20people.%20To%20mark%20this%2C%20Nikoma%20talks%20from%20his%20perspective%20as%20a%20Black%20man.%20He%20discusses%20how%20society%20perceives%20him%2C%20his%20upbringing%2C%20and%20his%20disabled%20identity.%20%5C%22%20href%3D%5C%22%2Fnews-and-stories%2Fnikoma-black-history-month%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "label_name_visible",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[5]/div[1]/a[2]",
+                "aria": "/document[1]/main[1]/link[11]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Accessible name does not match or contain the visible label text",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 6410,
+                "height": 519,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"\"For Black men, there are a lot of hurdles to overcome.\"  Black History Month is a time to acknowledge the history and experiences of Black people. To mark this, Nikoma talks from his perspective as a Black man. He discusses how society perceives him, his upbringing, and his disabled identity. \" href=\"/news-and-stories/nikoma-black-history-month\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22%5C%22For%20Black%20men%2C%20there%20are%20a%20lot%20of%20hurdles%20to%20overcome.%5C%22%20%20Black%20History%20Month%20is%20a%20time%20to%20acknowledge%20the%20history%20and%20experiences%20of%20Black%20people.%20To%20mark%20this%2C%20Nikoma%20talks%20from%20his%20perspective%20as%20a%20Black%20man.%20He%20discusses%20how%20society%20perceives%20him%2C%20his%20upbringing%2C%20and%20his%20disabled%20identity.%20%5C%22%20href%3D%5C%22%2Fnews-and-stories%2Fnikoma-black-history-month%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_quoted_correctly",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[5]/div[1]/a[2]/div[2]/h3[1]",
+                "aria": "/document[1]/main[1]/link[11]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Potential_1",
+            "message": "If the following text is a quotation, mark it as a <q> or <blockquote> element: \"For Black men, there are a lot of hurdles to overcome.\"",
+            "messageArgs": [
+                "\"For Black men, there are a lot of hurdles to overcome.\""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 40,
+                "top": 6858,
+                "height": 31,
+                "width": 720
+            },
+            "snippet": "<h3 class=\"PageItem__title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_quoted_correctly.html#%7B%22message%22%3A%22If%20the%20following%20text%20is%20a%20quotation%2C%20mark%20it%20as%20a%20%3Cq%3E%20or%20%3Cblockquote%3E%20element%3A%20%5C%22For%20Black%20men%2C%20there%20are%20a%20lot%20of%20hurdles%20to%20overcome.%5C%22%22%2C%22snippet%22%3A%22%3Ch3%20class%3D%5C%22PageItem__title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22text_quoted_correctly%22%2C%22msgArgs%22%3A%5B%22%5C%22For%20Black%20men%2C%20there%20are%20a%20lot%20of%20hurdles%20to%20overcome.%5C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[5]/div[1]/a[3]",
+                "aria": "/document[1]/main[1]/link[12]"
+            },
+            "ruleTime": 111,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 6958,
+                "height": 549,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"“My identity as a queer woman and as a neurodivergent person go hand-in-hand.” Sophie (she/her) is a queer neurodivergent woman. To mark Bi Visibility Day, she reflects on her identity as a disabled bisexual woman.\" href=\"/news-and-stories/sophie-bi-visibility-day\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22%E2%80%9CMy%20identity%20as%20a%20queer%20woman%20and%20as%20a%20neurodivergent%20person%20go%20hand-in-hand.%E2%80%9D%20Sophie%20(she%2Fher)%20is%20a%20queer%20neurodivergent%20woman.%20To%20mark%20Bi%20Visibility%20Day%2C%20she%20reflects%20on%20her%20identity%20as%20a%20disabled%20bisexual%20woman.%5C%22%20href%3D%5C%22%2Fnews-and-stories%2Fsophie-bi-visibility-day%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "label_name_visible",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/main[1]/div[1]/section[5]/div[1]/a[3]",
+                "aria": "/document[1]/main[1]/link[12]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_1",
+            "message": "Accessible name does not match or contain the visible label text",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 20,
+                "top": 6958,
+                "height": 549,
+                "width": 760
+            },
+            "snippet": "<a aria-label=\"“My identity as a queer woman and as a neurodivergent person go hand-in-hand.” Sophie (she/her) is a queer neurodivergent woman. To mark Bi Visibility Day, she reflects on her identity as a disabled bisexual woman.\" href=\"/news-and-stories/sophie-bi-visibility-day\" class=\"PageItem__item\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20aria-label%3D%5C%22%E2%80%9CMy%20identity%20as%20a%20queer%20woman%20and%20as%20a%20neurodivergent%20person%20go%20hand-in-hand.%E2%80%9D%20Sophie%20(she%2Fher)%20is%20a%20queer%20neurodivergent%20woman.%20To%20mark%20Bi%20Visibility%20Day%2C%20she%20reflects%20on%20her%20identity%20as%20a%20disabled%20bisexual%20woman.%5C%22%20href%3D%5C%22%2Fnews-and-stories%2Fsophie-bi-visibility-day%5C%22%20class%3D%5C%22PageItem__item%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/section[1]/div[2]/div[1]/ul[1]/li[1]/div[1]/div[2]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[1]/listitem[1]/link[1]"
+            },
+            "ruleTime": 104,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 68,
+                "top": 7837,
+                "height": 28,
+                "width": 151
+            },
+            "snippet": "<a href=\"tel:08088003333\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22tel%3A08088003333%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/section[1]/div[2]/div[1]/ul[1]/li[2]/div[1]/div[2]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[1]/listitem[2]/link[1]"
+            },
+            "ruleTime": 129,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 68,
+                "top": 7949,
+                "height": 28,
+                "width": 210
+            },
+            "snippet": "<a href=\"mailto:helpline@scope.org.uk\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22mailto%3Ahelpline%40scope.org.uk%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/section[1]/div[2]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/link[1]"
+            },
+            "ruleTime": 64,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 8031,
+                "height": 24,
+                "width": 150
+            },
+            "snippet": "<a href=\"https://www.fundraisingregulator.org.uk\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.fundraisingregulator.org.uk%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[1]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[1]/link[1]"
+            },
+            "ruleTime": 61,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 8191,
+                "height": 24,
+                "width": 86
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/contact-us\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fcontact-us%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[2]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[2]/link[1]"
+            },
+            "ruleTime": 70,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 400,
+                "top": 8191,
+                "height": 24,
+                "width": 38
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/jobs-at-scope\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fjobs-at-scope%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[3]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[3]/link[1]"
+            },
+            "ruleTime": 117,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 8245,
+                "height": 24,
+                "width": 70
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/partnerships\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fpartnerships%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[4]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[4]/link[1]"
+            },
+            "ruleTime": 64,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 400,
+                "top": 8245,
+                "height": 24,
+                "width": 49
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/media\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fmedia%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[5]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[5]/link[1]"
+            },
+            "ruleTime": 79,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 8299,
+                "height": 24,
+                "width": 173
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/terms-conditions\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fterms-conditions%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[6]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[6]/link[1]"
+            },
+            "ruleTime": 73,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 400,
+                "top": 8299,
+                "height": 24,
+                "width": 60
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/privacy\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fprivacy%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[7]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[7]/link[1]"
+            },
+            "ruleTime": 64,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 8353,
+                "height": 24,
+                "width": 62
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/cookies\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fcookies%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[8]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[8]/link[1]"
+            },
+            "ruleTime": 67,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 400,
+                "top": 8353,
+                "height": 24,
+                "width": 126
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/modern-slavery\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fmodern-slavery%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[9]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[9]/link[1]"
+            },
+            "ruleTime": 55,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 8407,
+                "height": 24,
+                "width": 160
+            },
+            "snippet": "<a href=\"https://www.scope.org.uk/safeguarding-policy\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.scope.org.uk%2Fsafeguarding-policy%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[1]/ul[1]/li[10]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[2]/listitem[10]/link[1]"
+            },
+            "ruleTime": 72,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 400,
+                "top": 8407,
+                "height": 24,
+                "width": 130
+            },
+            "snippet": "<a href=\"#\" class=\"FLinks__link cky-banner-element\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%23%5C%22%20class%3D%5C%22FLinks__link%20cky-banner-element%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[2]/form[1]/div[2]/input[1]",
+                "aria": "/document[1]/contentinfo[1]/form[1]/textbox[1]"
+            },
+            "ruleTime": 86,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 8642,
+                "height": 45,
+                "width": 770
+            },
+            "snippet": "<input aria-label=\"To receive regular email updates about Scope enter your email address here\" placeholder=\"Your email address\" autocomplete=\"on\" name=\"email\" type=\"email\" class=\"FNewsletter__input\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20aria-label%3D%5C%22To%20receive%20regular%20email%20updates%20about%20Scope%20enter%20your%20email%20address%20here%5C%22%20placeholder%3D%5C%22Your%20email%20address%5C%22%20autocomplete%3D%5C%22on%5C%22%20name%3D%5C%22email%5C%22%20type%3D%5C%22email%5C%22%20class%3D%5C%22FNewsletter__input%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/div[1]/div[2]/section[2]/form[1]/div[2]/input[1]",
+                "aria": "/document[1]/contentinfo[1]/form[1]/textbox[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_placeholder_only",
+            "message": "The ‘placeholder’ is the only visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 15,
+                "top": 8642,
+                "height": 45,
+                "width": 770
+            },
+            "snippet": "<input aria-label=\"To receive regular email updates about Scope enter your email address here\" placeholder=\"Your email address\" autocomplete=\"on\" name=\"email\" type=\"email\" class=\"FNewsletter__input\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20%E2%80%98placeholder%E2%80%99%20is%20the%20only%20visible%20label%22%2C%22snippet%22%3A%22%3Cinput%20aria-label%3D%5C%22To%20receive%20regular%20email%20updates%20about%20Scope%20enter%20your%20email%20address%20here%5C%22%20placeholder%3D%5C%22Your%20email%20address%5C%22%20autocomplete%3D%5C%22on%5C%22%20name%3D%5C%22email%5C%22%20type%3D%5C%22email%5C%22%20class%3D%5C%22FNewsletter__input%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_placeholder_only%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_contrast_sufficient",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/section[1]/h2[1]",
+                "aria": "/document[1]/contentinfo[1]/heading[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_contrast",
+            "message": "Text contrast of 2.27 with its background is less than the WCAG AA minimum requirements for text of size undefinedpx and weight of 500",
+            "messageArgs": [
+                "2.27",
+                null,
+                500,
+                "#7b05e2",
+                "#340458",
+                false,
+                false
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 400,
+                "top": 8814,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<h2 class=\"FSocials__title\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/text_contrast_sufficient.html#%7B%22message%22%3A%22Text%20contrast%20of%202.27%20with%20its%20background%20is%20less%20than%20the%20WCAG%20AA%20minimum%20requirements%20for%20text%20of%20size%20undefinedpx%20and%20weight%20of%20500%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22FSocials__title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_contrast%22%2C%22ruleId%22%3A%22text_contrast_sufficient%22%2C%22msgArgs%22%3A%5B%222.27%22%2Cnull%2C500%2C%22%237b05e2%22%2C%22%23340458%22%2Cfalse%2Cfalse%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/section[1]/ul[1]/li[1]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[3]/listitem[1]/link[1]"
+            },
+            "ruleTime": 101,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 153,
+                "top": 8835,
+                "height": 24,
+                "width": 40
+            },
+            "snippet": "<a href=\"https://www.facebook.com/Scope/\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.facebook.com%2FScope%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/section[1]/ul[1]/li[2]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[3]/listitem[2]/link[1]"
+            },
+            "ruleTime": 73,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 244,
+                "top": 8835,
+                "height": 24,
+                "width": 40
+            },
+            "snippet": "<a href=\"https://www.instagram.com/scopecharity\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.instagram.com%2Fscopecharity%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/section[1]/ul[1]/li[3]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[3]/listitem[3]/link[1]"
+            },
+            "ruleTime": 94,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 335,
+                "top": 8835,
+                "height": 24,
+                "width": 40
+            },
+            "snippet": "<a href=\"https://twitter.com/scope\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Ftwitter.com%2Fscope%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/section[1]/ul[1]/li[4]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[3]/listitem[4]/link[1]"
+            },
+            "ruleTime": 59,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 426,
+                "top": 8835,
+                "height": 24,
+                "width": 40
+            },
+            "snippet": "<a href=\"https://uk.linkedin.com/company/scope\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fuk.linkedin.com%2Fcompany%2Fscope%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/section[1]/ul[1]/li[5]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[3]/listitem[5]/link[1]"
+            },
+            "ruleTime": 96,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 517,
+                "top": 8835,
+                "height": 24,
+                "width": 40
+            },
+            "snippet": "<a href=\"https://www.youtube.com/scopecharity\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.youtube.com%2Fscopecharity%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[5]/footer[1]/section[1]/ul[1]/li[6]/a[1]",
+                "aria": "/document[1]/contentinfo[1]/list[3]/listitem[6]/link[1]"
+            },
+            "ruleTime": 98,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 608,
+                "top": 8835,
+                "height": 24,
+                "width": 40
+            },
+            "snippet": "<a href=\"https://www.tiktok.com/@scope_charity\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fwww.tiktok.com%2F%40scope_charity%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        }
+    ],
+    "numExecuted": 1724,
+    "ruleTime": 7086,
+    "nls": {
+        "aria_content_in_landmark": {
+            "0": "All content must reside within an element with a landmark role",
+            "Fail_1": "Content is not within a landmark element"
+        },
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        },
+        "text_quoted_correctly": {
+            "0": "Quotations should be marked with <q> or <blockquote> elements",
+            "Potential_1": "If the following text is a quotation, mark it as a <q> or <blockquote> element: {0}"
+        },
+        "element_tabbable_unobscured": {
+            "0": "When an element receives focus, it is not entirely covered by other content",
+            "potential_obscured": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus"
+        },
+        "style_focus_visible": {
+            "0": "The keyboard focus indicator should be visible when default border or outline is modified by CSS",
+            "potential_focus_not_visible": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'"
+        },
+        "text_block_heading": {
+            "0": "Heading text should use a heading element or role",
+            "potential_heading": "Confirm this text '{0}' is used as a heading and if so, modify to use a heading element or role"
+        },
+        "text_contrast_sufficient": {
+            "0": "The contrast ratio of text with its background must meet WCAG AA requirements",
+            "fail_contrast": "Text contrast of {0} with its background is less than the WCAG AA minimum requirements for text of size {1}px and weight of {2}"
+        },
+        "label_name_visible": {
+            "0": "Accessible name must match or contain the visible label text",
+            "Fail_1": "Accessible name does not match or contain the visible label text"
+        },
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_no_label": "The input element does not have an associated visible label",
+            "potential_placeholder_only": "The ‘placeholder’ is the only visible label"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 48,
+            "elementsViolation": 8,
+            "elementsViolationReview": 43,
+            "violation": 8,
+            "potentialviolation": 49,
+            "recommendation": 3,
+            "potentialrecommendation": 4,
+            "manual": 1,
+            "pass": 1659
+        },
+        "scanTime": 15082,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1734122737693,
+        "URL": "https://www.scope.org.uk/"
+    },
+    "scanID": "c40a1f6e-76f5-45d1-a7d6-4b75c4287aa8",
+    "toolID": "accessibility-checker-v3.1.78",
+    "label": "www.scope.org.uk"
+}
