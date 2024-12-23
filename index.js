@@ -71,6 +71,43 @@ app.get('/screenshot', async (req, res) => {
   await browser.close()
 })
 
+app.get('/screen', async (req, res) => {  
+  res.render('screen', { title: 'Screenshot', message: 'Screenshot' })
+})
+
+app.post('/screen', async (req, res) => {
+  const url = req.body.url
+  let domain
+  if (!url) {
+    return res.status(400).send('url no enviada')
+  }
+  console.log(url)
+  if (url) {
+    const url2 = new URL(url)
+    domain = url2.hostname
+
+    const browser = await puppeteer.launch()
+
+    const page = await browser.newPage()
+    //await page.goto(req.query.url) // URL is given by the "user" (your client-side application)
+    await page.goto(url2) // URL is given by the "user" (your client-side application)
+    const screenshotBuffer = await page.screenshot()
+
+    // Respond with the image
+    res.writeHead(200, {
+      'Content-Type': 'image/png',
+      'Content-Length': screenshotBuffer.length
+    })
+    res.end(screenshotBuffer)
+
+    await browser.close()
+  } else {
+    console.log("Invalid URL")
+    res.render('screen', { title: 'Screenshot', message: domain })
+  }
+  
+})
+
 app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening on port ${port}`)
 })
