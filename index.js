@@ -91,16 +91,18 @@ app.post('/screen', async (req, res) => {
     const page = await browser.newPage()
     //await page.goto(req.query.url) // URL is given by the "user" (your client-side application)
     await page.goto(url2) // URL is given by the "user" (your client-side application)
-    const screenshotBuffer = await page.screenshot()
-
-    // Respond with the image
-    res.writeHead(200, {
-      'Content-Type': 'image/png',
-      'Content-Length': screenshotBuffer.length
-    })
-    res.end(screenshotBuffer)
-
-    await browser.close()
+    setTimeout(async () => {
+      const screenshotBuffer = await page.screenshot()
+  
+      // Respond with the image
+      res.writeHead(200, {
+        'Content-Type': 'image/png',
+        'Content-Length': screenshotBuffer.length
+      })
+      res.end(screenshotBuffer)
+  
+      await browser.close()
+    }, 1000);
   } else {
     console.log("Invalid URL")
     res.render('screen', { title: 'Screenshot', message: domain })
