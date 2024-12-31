@@ -7,11 +7,9 @@ app.set('view engine', 'pug')
 app.set("views", __dirname + "/views")
 const port = 3000
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
-  console.log(2222222222);
-  
   res.render('index', { title: 'IBM - Equal Access Checker for Node', message: 'IBM - Equal Access Checker for Node' })
 })
 
@@ -28,20 +26,16 @@ app.post('/', async (req, res) => {
   } else {
     console.log("Invalid URL")
   }
-  
-  //res.render('report', { title: 'Checker', message: 'Checker',  url })
 
   try {
     aChecker.getCompliance(url, domain).then((results) => {
       const report = results.report
 
-      // Call the aChecker.assertCompliance API which is used to compare the results with the baseline object if we can find one that
-      // matches the same label which was provided.
       const returnCode = aChecker.assertCompliance(report)
 
-      // In the case that the violationData is not defined then trigger an error right away.
-      // expect(returnCode).toBe(0, "Scanning " + 'testLabel' + " failed.")
       console.log("returnCode:", returnCode)
+
+      aChecker.close()
       res.render('index', report)
     })
   } catch (err) {
@@ -60,6 +54,7 @@ app.get('/screenshot', async (req, res) => {
   //await page.goto(req.query.url) // URL is given by the "user" (your client-side application)
   await page.goto('http://localhost:3000') // URL is given by the "user" (your client-side application)
   const screenshotBuffer = await page.screenshot()
+  await browser.close()
 
   // Respond with the image
   res.writeHead(200, {
@@ -68,7 +63,6 @@ app.get('/screenshot', async (req, res) => {
   })
   res.end(screenshotBuffer)
 
-  await browser.close()
 })
 
 app.get('/screen', async (req, res) => {  
@@ -102,7 +96,7 @@ app.post('/screen', async (req, res) => {
       res.end(screenshotBuffer)
   
       await browser.close()
-    }, 1000);
+    }, 1000)
   } else {
     console.log("Invalid URL")
     res.render('screen', { title: 'Screenshot', message: domain })
