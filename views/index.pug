@@ -5,7 +5,7 @@ html(lang="es")
 
   link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous")
   script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer)
-    title= title
+  title= title
 
   body
     .container-fluid
@@ -13,90 +13,94 @@ html(lang="es")
 
       form(action="/"  method="post")
         .mb-3
-          label(for="url" class="form-label") Url a escanear
-          input(name="url" id="url" class="form-control" type="url" placeholder="URL to scan")
+          label(for="url" class="form-label") Urls separated by commas
+          input(name="url" id="url" class="form-control" type="text" placeholder="https://")
         .mb-3
           button(type="submit" class="btn btn-primary") Enviar
 
-      if results
-        h2 Resultado de IMB Accessibility Checker
-        p numExecuted: #{numExecuted}
-        p ruleTime: #{ruleTime}
-        p scanID: #{scanID}
-        p toolID: #{toolID}
-        p label: #{label}
-        h3 nls:
-        each value1, key1 in nls
-          ul
-            - for (const property in value1)
-              li
-                strong #{property}: 
-                span= value1[property]
-        h3 Summary:
-        ul
-          each value, key in summary.counts
-            li= key + ': ' + value
-        div
-          strong scanTime: 
-          span= summary.scanTime
-        div
-          strong ruleArchive: 
-          span= summary.ruleArchive
-        div
-          strong policies: 
-          ul
-            each value in summary.policies
-              li= value
-        div
-          strong reportLevels: 
-          ul
-            each value in summary.reportLevels
-              li= value
-        div
-          strong startScan: 
-          span= summary.startScan
-        div
-          strong URL: 
-          a(href=summary.URL target="_blank") #{summary.URL}
 
-        h3 Results:
-        .accordion
-          each result, key in results
-            .accordion-item
-              h4(id=`heading-${key}` class="accordion-header")
-                button(data-bs-target=`#collapse-${key}` aria-controls=`collapse-${key}` type='button' data-bs-toggle='collapse' aria-expanded='false' class="accordion-button collapsed")
-                  span= result.message
-              div(id=`collapse-${key}` aria-labelledby=`heading-${key}` class="accordion-collapse collapse")
-                .accordion-body
-                  div
-                    strong ruleId: 
-                    span #{result.ruleId}
-                  div 
-                    strong value: 
-                    ul
-                      each value in result.value
-                        li= value
-                  div 
-                    strong path: 
-                    ul
-                      each value, key in result.path
-                        li= key + ': ' + value
-                  div 
-                    strong ruleTime: 
-                    span #{result.ruleTime}
-                  div 
-                    strong reasonId: 
-                    span #{result.reasonId}
-                  div 
-                    strong message: 
-                    span #{result.message}
-                  div 
-                    strong snippet: 
-                    code #{result.snippet}
-                  div 
-                    strong category: 
-                    span #{result.category}
-                  div 
-                    strong level:  
-                    span #{result.level}
-                  a(href=result.help target="_blank") help
+      if report
+        h2 Resultado de IMB Accessibility Checker
+        each value in report
+          div 2
+          - for (const result in value)
+            if result == 'nls'
+              p #{result}
+              each value1, key1 in value[result]
+                ul
+                  - for (const property in value1)
+                    li
+                      strong #{property}: 
+                      span= value1[property]
+            else if result == 'summary'
+              p #{result}
+              ul
+                each value1, key1 in value[result].counts
+                  li= key1 + ': ' + value1
+              div
+                strong scanTime: 
+                span= value[result].scanTime
+              div
+                strong ruleArchive: 
+                span= value[result].ruleArchive
+              div
+                strong policies: 
+                ul
+                  each value2 in value[result].policies
+                    li= value2
+              div
+                strong reportLevels: 
+                ul
+                  each value2 in value[result].reportLevels
+                    li= value2
+              div
+                strong startScan: 
+                span= value[result].startScan
+              div
+                strong URL: 
+                a(href=value[result].URL target="_blank") #{value[result].URL}
+            else if result == 'results'
+              div Results:
+              .accordion
+                each result2, key2 in value[result]
+                  .accordion-item
+                    h4(id=`heading-${key2}` class="accordion-header")
+                      button(data-bs-target=`#collapse-${key2}` aria-controls=`collapse-${key2}` type='button' data-bs-toggle='collapse' aria-expanded='false' class="accordion-button collapsed")
+                        span= result2.message
+                    div(id=`collapse-${key2}` aria-labelledby=`heading-${key2}` class="accordion-collapse collapse")
+                      .accordion-body
+                        div
+                          strong ruleId: 
+                          span #{result2.ruleId}
+                        div 
+                          strong value: 
+                          ul
+                            each value in result2.value
+                              li= value
+                        div 
+                          strong path: 
+                          ul
+                            each value, key in result2.path
+                              li= key + ': ' + value
+                        div 
+                          strong ruleTime: 
+                          span #{result2.ruleTime}
+                        div 
+                          strong reasonId: 
+                          span #{result2.reasonId}
+                        div 
+                          strong message: 
+                          span #{result2.message}
+                        div 
+                          strong snippet: 
+                          code #{result2.snippet}
+                        div 
+                          strong category: 
+                          span #{result2.category}
+                        div 
+                          strong level:  
+                          span #{result2.level}
+                        a(href=result2.help target="_blank") help
+            else
+              p #{result}: #{value[result]}
+
