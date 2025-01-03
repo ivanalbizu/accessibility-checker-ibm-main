@@ -22,7 +22,6 @@ html(lang="es")
       if report
         h2 Resultado de IMB Accessibility Checker
         each value in report
-          div 2
           - for (const result in value)
             if result == 'nls'
               p #{result}
@@ -103,4 +102,3 @@ html(lang="es")
                         a(href=result2.help target="_blank") help
             else
               p #{result}: #{value[result]}
-
