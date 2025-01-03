@@ -37,7 +37,7 @@
                 "dom": "/html[1]/head[1]/style[1]",
                 "aria": "/document[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "Manual_1",
             "message": "Confirm Windows high contrast mode is supported when using CSS to include, position or alter non-decorative content",
             "messageArgs": [],
@@ -121,7 +121,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/nav[1]/a[1]",
                 "aria": "/document[1]/navigation[1]/link[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 2,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -148,7 +148,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/a[1]",
                 "aria": "/document[1]/navigation[1]/link[2]"
             },
-            "ruleTime": 1,
+            "ruleTime": 5,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -175,7 +175,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/a[2]",
                 "aria": "/document[1]/navigation[1]/link[3]"
             },
-            "ruleTime": 1,
+            "ruleTime": 2,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -202,7 +202,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/button[1]",
                 "aria": "/document[1]/navigation[1]/button[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 2,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -256,7 +256,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/section[1]/header[1]/h1[1]",
                 "aria": "/document[1]/heading[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "Fail_1",
             "message": "Content is not within a landmark element",
             "messageArgs": [],
@@ -339,7 +339,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/section[1]/article[1]/h2[1]/a[1]",
                 "aria": "/document[1]/main[1]/article[1]/heading[1]/link[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 2,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -366,7 +366,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/section[1]/article[1]/figure[1]",
                 "aria": "/document[1]/main[1]/article[1]/figure[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "Fail_1",
             "message": "The <figure> element does not have an associated label",
             "messageArgs": [],
@@ -393,7 +393,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/section[1]/article[1]/div[1]/ul[1]/li[1]/a[1]",
                 "aria": "/document[1]/main[1]/article[1]/list[1]/listitem[1]/link[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 3,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -447,7 +447,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/section[1]/article[2]/h2[1]/a[1]",
                 "aria": "/document[1]/main[1]/article[2]/heading[1]/link[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -501,7 +501,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/section[1]/article[2]/div[1]/ul[1]/li[1]/a[1]",
                 "aria": "/document[1]/main[1]/article[2]/list[1]/listitem[1]/link[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 2,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -555,7 +555,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/section[1]/article[2]/a[1]",
                 "aria": "/document[1]/main[1]/article[2]/link[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -582,7 +582,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/section[1]/article[3]/h2[1]/a[1]",
                 "aria": "/document[1]/main[1]/article[3]/heading[1]/link[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -771,7 +771,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/aside[1]/div[1]/ul[1]/li[3]/a[1]",
                 "aria": "/document[1]/main[1]/complementary[1]/list[1]/listitem[3]/link[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -798,7 +798,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/aside[1]/div[1]/ul[1]/li[4]/a[1]",
                 "aria": "/document[1]/main[1]/complementary[1]/list[1]/listitem[4]/link[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -906,7 +906,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/aside[1]/div[1]/ul[1]/li[8]/a[1]",
                 "aria": "/document[1]/main[1]/complementary[1]/list[1]/listitem[8]/link[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -1014,7 +1014,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/aside[1]/div[1]/ul[1]/li[12]/a[1]",
                 "aria": "/document[1]/main[1]/complementary[1]/list[1]/listitem[12]/link[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -1070,7 +1070,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/a[1]",
                 "aria": "/document[1]/contentinfo[1]/link[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "potential_warn",
             "message": "Inform the user when their input action will open a new window",
             "messageArgs": [],
@@ -1097,7 +1097,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/a[1]",
                 "aria": "/document[1]/contentinfo[1]/link[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -1259,7 +1259,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[3]/a[1]",
                 "aria": "/document[1]/contentinfo[1]/link[3]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -1340,7 +1340,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[4]/a[1]",
                 "aria": "/document[1]/contentinfo[1]/link[4]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -1475,7 +1475,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[2]/a[2]",
                 "aria": "/document[1]/contentinfo[1]/link[6]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -1494,7 +1494,7 @@
         }
     ],
     "numExecuted": 1030,
-    "ruleTime": 165,
+    "ruleTime": 294,
     "nls": {
         "aria_content_in_landmark": {
             "0": "All content must reside within an element with a landmark role",
@@ -1562,7 +1562,7 @@
             "manual": 1,
             "pass": 975
         },
-        "scanTime": 492,
+        "scanTime": 775,
         "ruleArchive": "Latest Deployment (latest)",
         "policies": [
             "IBM_Accessibility"
@@ -1574,7 +1574,7 @@
             "potentialrecommendation",
             "manual"
         ],
-        "startScan": 1735910816387,
+        "startScan": 1735912932539,
         "URL": "https://ivanalbizu.eu/"
     },
     "scanID": "7ea10241-72d2-4651-b978-c08411a088d7",

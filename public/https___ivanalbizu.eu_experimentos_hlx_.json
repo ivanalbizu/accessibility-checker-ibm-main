@@ -10,7 +10,7 @@
                 "dom": "/html[1]",
                 "aria": "/document[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "Potential_1",
             "message": "Verify there is a way to bypass blocks of content that are repeated on multiple Web pages",
             "messageArgs": [],
@@ -37,7 +37,7 @@
                 "dom": "/html[1]/body[1]",
                 "aria": "/document[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "Fail_1",
             "message": "The page does not provide a way to quickly navigate to the main content (ARIA \"main\" landmark or a skip link)",
             "messageArgs": [],
@@ -64,7 +64,7 @@
                 "dom": "/html[1]/body[1]/ul[1]",
                 "aria": "/document[1]/list[1]"
             },
-            "ruleTime": 1,
+            "ruleTime": 0,
             "reasonId": "Fail_1",
             "message": "Content is not within a landmark element",
             "messageArgs": [],
@@ -83,7 +83,7 @@
         }
     ],
     "numExecuted": 80,
-    "ruleTime": 14,
+    "ruleTime": 9,
     "nls": {
         "html_skipnav_exists": {
             "0": "Provide a way to bypass blocks of content that are repeated on multiple Web pages",
@@ -111,7 +111,7 @@
             "manual": 0,
             "pass": 77
         },
-        "scanTime": 91,
+        "scanTime": 48,
         "ruleArchive": "Latest Deployment (latest)",
         "policies": [
             "IBM_Accessibility"
@@ -123,7 +123,7 @@
             "potentialrecommendation",
             "manual"
         ],
-        "startScan": 1735912174173,
+        "startScan": 1735912931739,
         "URL": "https://ivanalbizu.eu/experimentos/hlx/"
     },
     "scanID": "7ea10241-72d2-4651-b978-c08411a088d7",
