@@ -27,55 +27,68 @@ function invertObj(obj) {
   return invert_obj;
 }
 
+const isSameOrigin = (origin, destination) => origin.protocol === destination.protocol && origin.host === destination.host && origin.port === destination.port;
+
 app.post('/', async (req, res) => {
+  const depths = req.body.depths
   let urls = req.body.url
+  let report = []
+  let urlArr
 
   if (!urls.length) {
     return res.render('index', {message: 'URLs no válida'})
   }
 
-  let urlArr = urls.split(',').map(item => item.trim())
-  let report = []
+  if (depths == 'on') {
+    const browser = await puppeteer.launch()
+    const page = await browser.newPage()
 
-  if (!urlArr.length) {
-    urls = req.body.url
+    await page.goto(urls)
+    urlArr = await page.evaluate(() => {
+      const anchors = document.querySelectorAll('a')
+      return [].map.call(anchors, a => a.href)
+    })
+
+    urlArr = [...new Set(urlArr)].filter(item => {
+      if (isSameOrigin(new URL(item), new URL(urls))) {
+        return item
+      }
+    })
+
+    await browser.close()
+  } else {
     urlArr = urls.split(',').map(item => item.trim())
-    return res.render('index', {message: 'URLs no válida'})
-  }
-
-  for (const element of urlArr) {
-    try {
-      new URL(element)
-    } catch (error) {
-      console.log(error, '\n', element)
-      delete urlArr[element]
+  
+    if (!urlArr.length) {
+      urls = req.body.url
+      urlArr = urls.split(',').map(item => item.trim())
+      return res.render('index', {message: 'URLs no válida'})
     }
   }
 
   for await (const item of urlArr) {
-    console.log(item)
     const resultados = await aChecker.getCompliance(item, item.replaceAll('/', '_')).then((results) => {
       const report = results.report
-      //const returnCode = aChecker.assertCompliance(report)
-      //console.log("returnCode:", returnCode)
       return report
     })
     report.push(invertObj(resultados))
   }
 
   await aChecker.close()
-  console.log({report});
-
   res.render('index', {report})
 })
 
 app.get('/screenshot', async (req, res) => {
   const browser = await puppeteer.launch()
-  console.log('browser::::', browser)
-
   const page = await browser.newPage()
-  //await page.goto(req.query.url) // URL is given by the "user" (your client-side application)
-  await page.goto('http://localhost:3000') // URL is given by the "user" (your client-side application)
+
+  await page.goto('https://ivanalbizu.eu/experimentos/hlx/')
+  const hrefs = await page.evaluate(() => {
+    const anchors = document.querySelectorAll('a');
+    return [].map.call(anchors, a => a.href);
+  });
+  console.log('hrefs:',hrefs);
+
   const screenshotBuffer = await page.screenshot()
   await browser.close()
 

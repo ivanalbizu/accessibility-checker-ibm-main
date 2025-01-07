@@ -15,6 +15,9 @@ html(lang="es")
         .mb-3
           label(for="url" class="form-label") Urls separated by commas
           input(name="url" id="url" class="form-control" type="text" placeholder="https://")
+        .form-check.form-switch.mb-3
+          input#depths.form-check-input(name="depths" type='checkbox' role='switch')
+          label.form-check-label(for='depths') Analyze URLs links
         .mb-3
           button(type="submit" class="btn btn-primary") Enviar
 
@@ -25,7 +28,7 @@ html(lang="es")
           .accordion-item
             h3(id=`heading-${value.scanID}` class="accordion-header")
               button(data-bs-target=`#collapse-${value.scanID}---${key}` aria-controls=`collapse-${value.scanID}---${key}` type='button' data-bs-toggle='collapse' aria-expanded='false' class="accordion-button collapsed")
-                span #{value.label}
+                span #{value.label.replaceAll('_', '/')}
             div(id=`collapse-${value.scanID}---${key}` aria-labelledby=`heading-${value.scanID}---${key}` class="accordion-collapse collapse")
               .accordion-body
                 - for (const result in value)
@@ -64,7 +67,7 @@ html(lang="es")
                     div
                       strong URL: 
                       a(href=value[result].URL target="_blank") #{value[result].URL}
-                  else if result == 'results'
+                  else if result == 'results-forced-error'
                     div Results:
                     .accordion
                       each result2, key2 in value[result]
