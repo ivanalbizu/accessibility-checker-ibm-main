@@ -43,7 +43,9 @@ app.post('/', async (req, res) => {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
 
-    await page.goto(urls)
+    await page.goto(urls, {
+      waitUntil: 'networkidle2',
+    })
     urlArr = await page.evaluate(() => {
       const anchors = document.querySelectorAll('a')
       return [].map.call(anchors, a => a.href)
@@ -82,7 +84,9 @@ app.get('/screenshot', async (req, res) => {
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
 
-  await page.goto('https://ivanalbizu.eu/experimentos/hlx/')
+  await page.goto('https://ivanalbizu.eu/experimentos/hlx/', {
+    waitUntil: 'networkidle2',
+  })
   const hrefs = await page.evaluate(() => {
     const anchors = document.querySelectorAll('a');
     return [].map.call(anchors, a => a.href);
@@ -120,7 +124,9 @@ app.post('/screen', async (req, res) => {
 
     const page = await browser.newPage()
     //await page.goto(req.query.url) // URL is given by the "user" (your client-side application)
-    await page.goto(url2) // URL is given by the "user" (your client-side application)
+    await page.goto(url2, {
+      waitUntil: 'networkidle2',
+    }) // URL is given by the "user" (your client-side application)
     setTimeout(async () => {
       const screenshotBuffer = await page.screenshot()
   
